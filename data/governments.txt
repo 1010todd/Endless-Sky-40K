@@ -1,0 +1,13 @@
+government "Imperium of Man"
+	color 0.92156863 0.84025377 0
+	"crew attack" 18
+	"crew defense" 24
+	"attitude toward"
+		Drak -0.1
+		Korath -0.1
+		"Kor Mereti" -0.1
+		"Kor Sestor" -0.1
+		"Pug (Hostile)" -0.1
+		"Pug (Wanderer)" -0.1
+		"Pug" -0.1
+

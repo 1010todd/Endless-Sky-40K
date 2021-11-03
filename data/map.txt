@@ -1,0 +1,52 @@
+system Pyherrus
+	pos -235.33333 372.05556
+	government "Imperium of Man"
+	asteroids "small rock" 4 3.99
+	asteroids "medium rock" 6 2.6125
+	asteroids "large rock" 40 4.6075
+	asteroids "small metal" 27 2.945
+	asteroids "medium metal" 35 3.1825
+	asteroids "large metal" 6 4.7025
+	minables lead 8 4.7339611
+	minables copper 9 5.2353775
+	habitable 2560
+	belt 1833
+	object
+		sprite star/a-giant
+		distance 203
+		period 144.61524
+		offset 180
+	object
+		sprite planet/browndwarf-y
+		distance 203
+		period 144.61524
+	object
+		sprite planet/browndwarf-y-rouge
+		distance 1066
+		period 615.26303
+		object
+			sprite planet/oberon
+			distance 481
+			period 649.69865
+	object Pifitus
+		sprite planet/rock10-fw
+		distance 2383.7711
+		period 1530.4222
+	object
+		sprite planet/gas2
+		distance 2798.1309
+		period 2181.9249
+	object
+		sprite planet/gas3
+		distance 4171.1091
+		period 3396.9673
+
+planet Pifitus
+	shipyard "Forge World Advanced"
+	shipyard "Imperium Basic"
+	outfitter "Forge World Advanced"
+	landscape land/loc2
+	description "Pifitus is a massive forge world with half of its surface covered in metal. It is home to one of the largest shipyard known to man and equipped with the very best and latest technologies avaliable to the mechanicus."
+	spaceport "The spaceport is built atop of a massive building that also serves as one of the shipyard of the planet, crowded with tech-priests, servitors, and slaves working day and night. "
+	"required reputation" 1
+
