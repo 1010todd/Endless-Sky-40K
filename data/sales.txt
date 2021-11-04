@@ -82,6 +82,7 @@ shipyard developer
 	Lunar-Class
 	Retribution-Class
 	Storm-Class
+	"Victory-Class"
 
 shipyard "Imperium Basic"
 	Dauntless-Class
