@@ -1,179 +1,174 @@
 outfit "Tau Burst Cannon"
-	category "Turrets"
+	category Turrets
 	cost 990000
+	mass 23
 	thumbnail "outfit/pulse turret"
-	"mass" 23
 	"outfit space" -23
-	"weapon capacity" -23
 	"turret mounts" -1
+	"weapon capacity" -23
 	weapon
-		sprite "projectile/pulse"
+		sprite projectile/pulse
 		"hardpoint sprite" "hardpoint/pulse turret"
-		"hardpoint offset" 7.
-		sound "pulse"
+		sound pulse
 		"hit effect" "pulse impact"
-		"inaccuracy" 1
-		"turret turn" 2.3
-		"velocity" 300
-		"lifetime" 1
-		"reload" 5
-		"burst count" 5
+		lifetime 1
+		reload 5
 		"burst reload" 3
+		"burst count" 5
+		anti-missile 18
+		velocity 300
+		"hardpoint offset" 7
+		inaccuracy 1
+		"turret turn" 2.3
 		"firing energy" 8
 		"firing heat" 12
-		"anti-missile" 18
 	description "Tau anti missile"
 
 outfit "Tau Railgun Battery"
-	category "Turrets"
+	category Turrets
 	cost 1500000
+	mass 44
 	thumbnail "outfit/tau railgun turret"
-	"mass" 44
 	"outfit space" -54
-	"weapon capacity" -54
 	"turret mounts" -1
+	"weapon capacity" -54
 	weapon
 		sprite "projectile/rail slug"
 			"frame rate" 30
-		sound "ion impact"
 		"hardpoint sprite" "hardpoint/tau railgun turret hp"
-		"hardpoint offset" 12.
+		sound "ion impact"
 		"fire effect" "rail sparks"
 		"hit effect" "small explosion"
+		lifetime 56
+		reload 18
+		velocity 44
+		"hardpoint offset" 12
+		inaccuracy 3
 		"turret turn" 2.6
-		"inaccuracy" 3
-		"velocity" 44
-		"lifetime" 56
-		"range override" 2100
-		"reload" 18
 		"firing energy" 230
+		"firing force" 10
 		"firing heat" 72
-		"firing force" 70
 		"shield damage" 86.8
 		"hull damage" 146
 		"hit force" 100
-		"stream"
-	description ""
-	
+		"range override" 2100
+
 outfit "Tau Railgun"
-	category "Guns"
+	category Guns
 	cost 730000
-	thumbnail "outfit/railgun"
-	"mass" 32
+	mass 32
+	thumbnail outfit/railgun
+	"gun ports" -1
 	"outfit space" -36
 	"weapon capacity" -36
-	"gun ports" -1
 	weapon
 		sprite "projectile/rail slug"
 			"frame rate" 30
 		sound "ion impact"
 		"fire effect" "rail sparks"
 		"hit effect" "small explosion"
-		"inaccuracy" 3
-		"velocity" 44
-		"lifetime" 56
-		"range override" 2100
-		"reload" 36
+		lifetime 56
+		reload 36
+		velocity 44
+		inaccuracy 3
 		"firing energy" 230
+		"firing force" 10
 		"firing heat" 72
-		"firing force" 70
 		"shield damage" 86.8
 		"hull damage" 146
 		"hit force" 100
-		"stream"
-	description ""
-	
+		"range override" 2100
+
 outfit "Tau Gravetic Launcher"
-	category "Guns"
+	category Guns
 	cost 2800000
-	thumbnail "outfit/railgun"
-	"mass" 45
+	mass 45
+	thumbnail outfit/railgun
+	"gun ports" -1
 	"outfit space" -56
 	"weapon capacity" -56
-	"gun ports" -1
 	weapon
 		sprite "projectile/rail slug"
 			"frame rate" 30
 		sound "ion impact"
 		"fire effect" "rail sparks"
 		"hit effect" "medium explosion"
-		"inaccuracy" 1
-		"velocity" 44
-		"lifetime" 50
-		"range override" 2100
-		"reload" 32
+		lifetime 50
+		reload 32
+		homing 1
+		velocity 44
+		acceleration 2.8
+		drag 0.05
+		turn 0.6
+		inaccuracy 1
+		"optical tracking" 0.9
 		"firing energy" 350
+		"firing force" 20
 		"firing heat" 92
-		"firing force" 170
-		"acceleration" 2.8
-		"drag" .05
-		"turn" .6
-		"homing" 1
-		"optical tracking" .9
 		"shield damage" 128
 		"hull damage" 180
 		"hit force" 155
-		"stream"
-	description ""
-	
+		"range override" 2100
+
 outfit "Tau Ion Battery"
-	category "Turrets"
+	category Turrets
 	cost 890000
+	mass 68
 	thumbnail "outfit/ion cannon"
-	"mass" 68
 	"outfit space" -68
-	"weapon capacity" -68
 	"turret mounts" -1
+	"weapon capacity" -68
 	weapon
 		sprite "projectile/tau ion cannon beam"
-			"frame rate" 5
-		sound "electron"
+			"frame rate" 5.0000001
 		"hardpoint sprite" "hardpoint/tau railgun turret hp"
-		"hardpoint offset" 12.
-		"turret turn" 2.8
-		"hit effect" "ion impact" 2
+		sound ""
 		"fire effect" "ion impact"
-		"inaccuracy" 1
-		"velocity" 700
-		"lifetime" 1
-		"reload" 2
+		"hit effect" "ion impact" 2
+		lifetime 1
+		reload 2
 		"burst count" 180
-		"burst reload" 1
+		velocity 700
+		"hardpoint offset" 12
+		inaccuracy 1
+		"turret turn" 2.8
 		"firing energy" 6
 		"firing heat" 1.5
 		"shield damage" 35.3
 		"hull damage" 22
-		"ion damage" .05
+		"ion damage" 0.05
+		"cluster"
 	description "This is a beam weapon."
-	
+
 outfit "Tau Small Deflector Shield"
-	category "Systems"
+	category Systems
 	cost 920000
+	mass 25
 	thumbnail "outfit/small regenerator hai"
-	"mass" 25
 	"outfit space" -25
-	"shield generation" 3
 	"shield energy" 3
+	"shield generation" 3
 	"shield heat" 6
-	
+
 outfit "Tau Medium Deflector Shield"
-	category "Systems"
+	category Systems
 	cost 1850000
+	mass 51
 	thumbnail "outfit/large regenerator hai"
-	"mass" 51
 	"outfit space" -51
-	"shield generation" 7
 	"shield energy" 7
+	"shield generation" 7
 	"shield heat" 9
-	
+
 outfit "Gravitic Drive"
-	category "Systems"
+	category Systems
 	cost 2000000
+	mass 30
 	thumbnail "outfit/jump drive"
-	"mass" 30
-	"outfit space" -30
-	"jump speed" 1
-	"jump fuel" 200
 	"jump drive" 1
+	"jump fuel" 200
 	"jump range" 100
+	"jump speed" 1
+	"outfit space" -30
 	description "Requires 1 navigator to operate."
+
