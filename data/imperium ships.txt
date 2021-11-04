@@ -901,15 +901,15 @@ ship "Retribution-Class"
 	bay "Fighter" -147 532
 	bay "Fighter" 147 532
 	engine 2.5 1647.5
-		zoom 2
+		zoom 3
 		angle 0
 		under
 	engine 119 1600.5
-		zoom 1
+		zoom 2
 		angle 0
 		under
 	engine -119 1600.5
-		zoom 1
+		zoom 2
 		angle 0
 		under
 	explode "tiny explosion" 18
