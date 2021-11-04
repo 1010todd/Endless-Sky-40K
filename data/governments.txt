@@ -10,4 +10,4 @@ government "Imperium of Man"
 		"Pug (Hostile)" -0.1
 		"Pug (Wanderer)" -0.1
 		"Pug" -0.1
-
+		"Pirate" -0.01
