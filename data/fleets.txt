@@ -24,6 +24,10 @@ fleet "Imperium Heavy Patrol"
 	variant 50
 		"Lunar-Class" 2
 		"Storm-Class" 2
+	variant 50
+		"Dominator-Class"
+		"Gothic-Class"
+		"Storm-Class" 2
 	variant 35
 		"Dictator-Class"
 		"Lunar-Class"
@@ -32,3 +36,18 @@ fleet "Imperium Heavy Patrol"
 		"Retribution-Class"
 		"Storm-Class" 2
 		"Imperium Fury" 12
+	variant 20
+		"Victory-Class"
+		"Storm-Class" 2
+		"Imperium Fury" 12
+	variant 10
+		"Retribution-Class"
+		"Victory-Class"
+		"Storm-Class" 2
+		"Imperium Fury" 12
+	variant 1
+		"Retribution-Class"
+		"Victory-Class"
+		"Storm-Class" 4
+		"Imperium Fury" 12
+		"Lunar-Class" 4

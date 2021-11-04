@@ -94,6 +94,7 @@ shipyard "Imperium Basic"
 
 shipyard "Forge World Advanced"
 	Retribution-Class
+	"Victory-Class"
 
 outfitter "Imperium Basic"
 	"Fighter Plasma Core"

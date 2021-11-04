@@ -919,3 +919,100 @@ ship "Retribution-Class"
 	"final explode" "final explosion large" 2
 	description "Retribution-Class Battleship. The Retribution-class battleship is notable for its array of broadside cannons."
 	description "Note: due to game engine limitation ships are unable to have more than 32 weapon hardpoint, hacky workaround was used to give it the proper amount of armaments and thus the macro cannon arrays cannot be replaced with other weapons, that'll also be heretical."
+	
+ship "Victory-Class"
+	sprite "ship/imperium victory class"
+	thumbnail "thumbnail/imperium victory class thumb"
+	"swizzle" 0
+	attributes
+		category "Heavy Warship"
+		"cost" 8200000
+		"shields" 1579000
+		"hull" 2196600
+		"required crew" 1890
+		"bunks" 2400
+		"mass" 45800
+		"drag" 18.1
+		"heat dissipation" .5
+		"fuel capacity" 2800
+		"cargo space" 800
+		"outfit space" 9876
+		"weapon capacity" 6850
+		"engine capacity" 880
+		"force protection" 12
+		"imperium ram" -4
+		"spinal mount" 1
+		"energy capacity" 20000
+		weapon
+			"blast radius" 1520
+			"shield damage" 94000
+			"hull damage" 42000
+			"hit force" 1260
+	outfits
+		"Imperium Ram" 4
+		"Ryza-Pattern Nova Cannon"
+		"Graviton Pulsar Turret" 1
+		"Heavy Lance Cannon" 4
+		"Imperium CIWS Turret" 2
+		"Imperium Flak Turret" 2
+		"Triple Med Lance Turret" 12
+		"Quad Med Lance Turret" 3
+
+		"Large Plasma Core" 4
+		"Small Plasma Storage" 4
+		"Heavy Void Shield" 4
+		"Heavy Field Braces"
+		"Las Rifle" 1800
+		"Imperium Plasma Gun" 80
+		"Plasma Cooler"
+
+		"Large Plasma Drive"
+		"Warp-Drive"
+		
+	gun 2.5 -1661.5 "Ryza-Pattern Nova Cannon"
+	gun -114.5 -1162 "Imperium Ram"
+	gun 114.5 -1162 "Imperium Ram"
+	gun -193.5 -1012.5 "Imperium Ram"
+	gun 193.5 -1012.5 "Imperium Ram"
+	turret -2.5 -882 "Graviton Pulsar Turret"
+	turret -2.5 -266 "Quad Med Lance Turret"
+	turret -2.5 247.5 "Quad Med Lance Turret"
+	turret -2.5 471.5 "Quad Med Lance Turret"
+	gun -329 9.5
+	gun 329 9.5
+	gun -450.5 4.5
+	gun 450.5 4.5
+	turret -212.5 -644
+	turret 212.5 -644
+	turret -217 -541.5
+	turret 217 -541.5
+	turret -212.5 -238
+	turret 212.5 -238
+	turret -212.5 -121.5
+	turret 212.5 -121.5
+	turret -207.5 149.5
+	turret 207.5 149.5
+	turret -217 270.5
+	turret 217 270.5
+	turret -221.5 700
+	turret 221.5 700
+	turret -226.5 788.5
+	turret 226.5 788.5
+	engine 2.5 1647.5
+		zoom 3
+		angle 0
+		under
+	engine 119 1600.5
+		zoom 2
+		angle 0
+		under
+	engine -119 1600.5
+		zoom 2
+		angle 0
+		under
+	explode "tiny explosion" 18
+	explode "small explosion" 46
+	explode "medium explosion" 64
+	explode "large explosion" 60
+	"final explode" "final explosion large" 2
+	description "Victory-Class Battleship. Victory-class is suspected to be a modified Retribution-class with lances in place of macro batteries to replicate the successful Apocalypse-class Battleship."
