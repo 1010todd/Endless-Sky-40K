@@ -1065,49 +1065,49 @@ ship "Apocalypse-Class"
 		"Large Plasma Drive"
 		"Warp-Drive"
 		
-	gun 0 -1818.5 "Ryza-Pattern Nova Cannon"
-	turret 0 -816 "Quad Med Lance Turret"
-	turret 0 -453.5 "Quad Med Lance Turret"
-	turret 0 -16 "Quad Med Lance Turret"
-	turret 0 336 "Quad Med Lance Turret"
-	gun -378.5 -154.5
-	gun 378.5 -154.5
-	gun -528 -186.5
-	gun 528 -186.5
-	turret -213.5 -741.5
-	turret 213.5 -741.5
-	turret -213.5 -618.5
-	turret 213.5 -618.5
-	turret -218.5 -282.5
-	turret 218.5 -282.5
-	turret -218.5 -165.5
-	turret 218.5 -165.5
-	turret -218.5 176
-	turret 218.5 176
-	turret -218.5 304
-	turret 218.5 304
-	gun -96 -1530.5 "Imperium Ram"
-	gun 96 -1530.5 "Imperium Ram"
-	gun -165.5 -1386.5 "Imperium Ram"
-	gun 165.5 -1386.5 "Imperium Ram"
-	turret -101.5 -1194.5 "Imperium CIWS Turret"
-	turret 101.5 -1194.5 "Imperium CIWS Turret"
-	turret -106.5 -1088 "Imperium Flak Turret"
-	turret 106.5 -1088 "Imperium Flak Turret"
-	turret -256 794.5 "Imperium Flak Turret"
-	turret 256 794.5 "Imperium Flak Turret"
-	turret -256 874.5 "Imperium CIWS Turret"
-	turret 256 874.5 "Imperium CIWS Turret"
-	engine -117.5 1888
-		zoom 1
+	gun 0 -1914.5 "Ryza-Pattern Nova Cannon"
+	turret 0 -901.5
+	turret 0 -544
+	turret 0 -90.5
+	turret 0 266.5
+	gun -101.5 -1605.5 "Imperium Ram"
+	gun 101.5 -1605.5 "Imperium Ram"
+	gun -170.5 -1456 "Imperium Ram"
+	gun 170.5 -1456 "Imperium Ram"
+	turret -213.5 -826.5
+	turret 213.5 -826.5
+	turret -213.5 -677.5
+	turret 213.5 -677.5
+	turret -218.5 -373.5
+	turret 218.5 -373.5
+	turret -224 -208
+	turret 224 -208
+	turret -224 112
+	turret 224 112
+	turret -224 256
+	turret 224 256
+	gun -389.5 -218.5
+	gun 389.5 -218.5
+	gun -528 -266.5
+	gun 528 -266.5
+	turret -106.5 -1301.5 "Imperium CIWS Turret"
+	turret 106.5 -1301.5 "Imperium CIWS Turret"
+	turret -122.5 -1184 "Imperium Flak Turret"
+	turret 122.5 -1184 "Imperium Flak Turret"
+	turret -272 736 "Imperium Flak Turret"
+	turret 272 736 "Imperium Flak Turret"
+	turret -261.5 821.5 "Imperium CIWS Turret"
+	turret 261.5 821.5 "Imperium CIWS Turret"
+	engine 0 1834.5
+		zoom 3
 		angle 0
 		under
-	engine 117.5 1888
-		zoom 1
+	engine 106.5 1818.5
+		zoom 2
 		angle 0
 		under
-	engine 0 1898.5
-		zoom 1
+	engine -106.5 1818.5
+		zoom 2
 		angle 0
 		under
 	explode "tiny explosion" 18
