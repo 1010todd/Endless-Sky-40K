@@ -1016,3 +1016,1060 @@ ship "Victory-Class"
 	explode "large explosion" 60
 	"final explode" "final explosion large" 2
 	description "Victory-Class Battleship. Victory-class is suspected to be a modified Retribution-class with lances in place of macro batteries to replicate the successful Apocalypse-class Battleship."
+	
+ship "Apocalypse-Class"
+	sprite "ship/imperium apocalypse class"
+	thumbnail "thumbnail/imperium apocalypse class thumb"
+	"swizzle" 0
+	attributes
+		category "Heavy Warship"
+		"cost" 8800000
+		"shields" 1558000
+		"hull" 2228000
+		"required crew" 1890
+		"bunks" 2400
+		"mass" 45000
+		"drag" 18.1
+		"heat dissipation" .5
+		"fuel capacity" 2800
+		"cargo space" 400
+		"outfit space" 9876
+		"weapon capacity" 8850
+		"engine capacity" 880
+		"force protection" 12
+		"imperium ram" -4
+		"spinal mount" 1
+		"energy capacity" 28000
+		weapon
+			"blast radius" 1520
+			"shield damage" 94000
+			"hull damage" 42000
+			"hit force" 1260
+	outfits
+		"Imperium Ram" 4
+		"Ryza-Pattern Nova Cannon"
+		"Heavy Lance Cannon" 4
+		"Imperium CIWS Turret" 4
+		"Imperium Flak Turret" 4
+		#"Triple Med Lance Turret" 12
+		"Quad Med Lance Turret" 16
+
+		"Large Plasma Core" 5
+		"Small Plasma Storage" 4
+		"Heavy Void Shield" 4
+		"Heavy Field Braces"
+		"Las Rifle" 1800
+		"Imperium Plasma Gun" 80
+		"Plasma Cooler"
+
+		"Large Plasma Drive"
+		"Warp-Drive"
+		
+	gun 0 -1818.5 "Ryza-Pattern Nova Cannon"
+	turret 0 -816 "Quad Med Lance Turret"
+	turret 0 -453.5 "Quad Med Lance Turret"
+	turret 0 -16 "Quad Med Lance Turret"
+	turret 0 336 "Quad Med Lance Turret"
+	gun -378.5 -154.5
+	gun 378.5 -154.5
+	gun -528 -186.5
+	gun 528 -186.5
+	turret -213.5 -741.5
+	turret 213.5 -741.5
+	turret -213.5 -618.5
+	turret 213.5 -618.5
+	turret -218.5 -282.5
+	turret 218.5 -282.5
+	turret -218.5 -165.5
+	turret 218.5 -165.5
+	turret -218.5 176
+	turret 218.5 176
+	turret -218.5 304
+	turret 218.5 304
+	gun -96 -1530.5 "Imperium Ram"
+	gun 96 -1530.5 "Imperium Ram"
+	gun -165.5 -1386.5 "Imperium Ram"
+	gun 165.5 -1386.5 "Imperium Ram"
+	turret -101.5 -1194.5 "Imperium CIWS Turret"
+	turret 101.5 -1194.5 "Imperium CIWS Turret"
+	turret -106.5 -1088 "Imperium Flak Turret"
+	turret 106.5 -1088 "Imperium Flak Turret"
+	turret -256 794.5 "Imperium Flak Turret"
+	turret 256 794.5 "Imperium Flak Turret"
+	turret -256 874.5 "Imperium CIWS Turret"
+	turret 256 874.5 "Imperium CIWS Turret"
+	engine -117.5 1888
+		zoom 1
+		angle 0
+		under
+	engine 117.5 1888
+		zoom 1
+		angle 0
+		under
+	engine 0 1898.5
+		zoom 1
+		angle 0
+		under
+	explode "tiny explosion" 18
+	explode "small explosion" 46
+	explode "medium explosion" 64
+	explode "large explosion" 60
+	"final explode" "final explosion large" 2
+	description "Apocalypse-Class is a lance-armed battleship of the Imperial navy, its believed to be the precursor of the Retribution-Class."
+
+ship "Emperor-Class"
+	sprite "ship/imperium emperor class"
+	thumbnail "thumbnail/imperium emperor class thumb"
+	"swizzle" 0
+	attributes
+		category "Heavy Warship"
+		"cost" 8200000
+		"shields" 1568000
+		"hull" 1988400
+		"required crew" 2280
+		"bunks" 2890
+		"mass" 40800
+		"drag" 17.5
+		"heat dissipation" .65
+		"fuel capacity" 2800
+		"cargo space" 500
+		"outfit space" 9876
+		"weapon capacity" 6850
+		"engine capacity" 880
+		"force protection" 12
+		"imperium ram" -4
+		"spinal mount" 1
+		"outfit scan power" 500
+		"outfit scan speed" 2
+		"cargo scan power" 500
+		"cargo scan speed" 2
+		"atmosphere scan" 100
+		"tactical scan power" 500
+		"asteroid scan power" 700
+		weapon
+			"blast radius" 1520
+			"shield damage" 94000
+			"hull damage" 42000
+			"hit force" 1260
+	outfits
+		"Imperium Ram" 4
+		"Ryza-Pattern Nova Cannon"
+		"Graviton Pulsar Turret" 1
+		"Heavy Lance Cannon" 2
+		"Heavy Mac Cannon" 8
+		"Imperium CIWS Turret" 4
+		"Imperium Flak Turret" 4
+		"Quad Med Lance Turret" 3
+
+		"Large Plasma Core" 4
+		"Small Plasma Storage" 4
+		"Heavy Void Shield" 4
+		"Heavy Field Braces"
+		"Las Rifle" 1800
+		"Imperium Plasma Gun" 80
+		"Plasma Cooler"
+
+		"Large Plasma Drive"
+		"Warp-Drive"
+		
+	gun -2.5 -1666 "Ryza-Pattern Nova Cannon"
+	turret -2.5 -877.5 "Graviton Pulsar Turret"
+	turret -2.5 -261.5 "Quad Med Lance Turret"
+	turret -2.5 270.5 "Quad Med Lance Turret"
+	turret -2.5 476 "Quad Med Lance Turret"
+	gun -221.5 -714 "Heavy Mac Cannon"
+		"angle" -90
+	gun 221.5 -714 "Heavy Mac Cannon"
+		"angle" 90
+	gun -221.5 -630 "Heavy Mac Cannon"
+		"angle" -90
+	gun 221.5 -630 "Heavy Mac Cannon"
+		"angle" 90
+	gun -221.5 -541.5 "Heavy Mac Cannon"
+		"angle" -90
+	gun 221.5 -541.5 "Heavy Mac Cannon"
+		"angle" 90
+	gun -217 -457.5 "Heavy Mac Cannon"
+		"angle" -90
+	gun 217 -457.5 "Heavy Mac Cannon"
+		"angle" 90
+	gun -455 112 "Heavy Lance Cannon"
+	gun 455 112 "Heavy Lance Cannon"
+	turret -53.5 -980
+	turret 53.5 -980
+	turret -114.5 -919.5
+	turret 114.5 -919.5
+	turret -221.5 700
+	turret 221.5 700
+	turret -221.5 779.5 "Imperium CIWS Turret"
+	turret 221.5 779.5 "Imperium CIWS Turret"
+	gun -86.5 -1297.5 "Imperium Ram"
+	gun 86.5 -1297.5 "Imperium Ram"
+	gun -151.5 -1143.5 "Imperium Ram"
+	gun 151.5 -1143.5 "Imperium Ram"
+	bay "Fighter" -226.5 -312.5
+		"left"
+	bay "Fighter" 226.5 -312.5
+		"right
+	bay "Fighter" -231 -224
+		"left"
+	bay "Fighter" 231 -224
+		"right
+	bay "Fighter" -235.5 -144.5
+		"left"
+	bay "Fighter" 235.5 -144.5
+		"right
+	bay "Fighter" -235.5 -60.5
+		"left"
+	bay "Fighter" 235.5 -60.5
+		"right
+	bay "Fighter" -226.5 74.5
+		"left"
+	bay "Fighter" 226.5 74.5
+		"right
+	bay "Fighter" -235.5 163.5
+		"left"
+	bay "Fighter" 235.5 163.5
+		"right
+	bay "Fighter" -235.5 242.5
+		"left"
+	bay "Fighter" 235.5 242.5
+		"right
+	bay "Fighter" -235.5 322
+		"left"
+	bay "Fighter" 235.5 322
+		"right
+	bay "Fighter" -226.5 -312.5
+		"left"
+	bay "Fighter" 226.5 -312.5
+		"right
+	bay "Fighter" -231 -224
+		"left"
+	bay "Fighter" 231 -224
+		"right
+	bay "Fighter" -235.5 -144.5
+		"left"
+	bay "Fighter" 235.5 -144.5
+		"right
+	bay "Fighter" -235.5 -60.5
+		"left"
+	bay "Fighter" 235.5 -60.5
+		"right
+	bay "Fighter" -226.5 74.5
+		"left"
+	bay "Fighter" 226.5 74.5
+		"right
+	bay "Fighter" -235.5 163.5
+		"left"
+	bay "Fighter" 235.5 163.5
+		"right
+	bay "Fighter" -235.5 242.5
+		"left"
+	bay "Fighter" 235.5 242.5
+		"right
+	bay "Fighter" -235.5 322
+		"left"
+	bay "Fighter" 235.5 322
+		"right
+	bay "Fighter" -226.5 -312.5
+		"left"
+	bay "Fighter" 226.5 -312.5
+		"right
+	bay "Fighter" -231 -224
+		"left"
+	bay "Fighter" 231 -224
+		"right
+	bay "Fighter" -235.5 -144.5
+		"left"
+	bay "Fighter" 235.5 -144.5
+		"right
+	bay "Fighter" -235.5 -60.5
+		"left"
+	bay "Fighter" 235.5 -60.5
+		"right
+	bay "Fighter" -226.5 74.5
+		"left"
+	bay "Fighter" 226.5 74.5
+		"right
+	bay "Fighter" -235.5 163.5
+		"left"
+	bay "Fighter" 235.5 163.5
+		"right
+	bay "Fighter" -235.5 242.5
+		"left"
+	bay "Fighter" 235.5 242.5
+		"right
+	bay "Fighter" -235.5 322
+		"left"
+	bay "Fighter" 235.5 322
+		"right
+	bay "Fighter" -226.5 -312.5
+		"left"
+	bay "Fighter" 226.5 -312.5
+		"right
+	bay "Fighter" -231 -224
+		"left"
+	bay "Fighter" 231 -224
+		"right
+	bay "Fighter" -235.5 -144.5
+		"left"
+	bay "Fighter" 235.5 -144.5
+		"right
+	bay "Fighter" -235.5 -60.5
+		"left"
+	bay "Fighter" 235.5 -60.5
+		"right
+	bay "Fighter" -226.5 74.5
+		"left"
+	bay "Fighter" 226.5 74.5
+		"right
+	bay "Fighter" -235.5 163.5
+		"left"
+	bay "Fighter" 235.5 163.5
+		"right
+	bay "Fighter" -235.5 242.5
+		"left"
+	bay "Fighter" 235.5 242.5
+		"right
+	bay "Fighter" -235.5 322
+		"left"
+	bay "Fighter" 235.5 322
+		"right
+	bay "Fighter" -226.5 -312.5
+		"left"
+	bay "Fighter" 226.5 -312.5
+		"right
+	bay "Fighter" -231 -224
+		"left"
+	bay "Fighter" 231 -224
+		"right
+	bay "Fighter" -235.5 -144.5
+		"left"
+	bay "Fighter" 235.5 -144.5
+		"right
+	bay "Fighter" -235.5 -60.5
+		"left"
+	bay "Fighter" 235.5 -60.5
+		"right
+	bay "Fighter" -226.5 74.5
+		"left"
+	bay "Fighter" 226.5 74.5
+		"right
+	bay "Fighter" -235.5 163.5
+		"left"
+	bay "Fighter" 235.5 163.5
+		"right
+	bay "Fighter" -235.5 242.5
+		"left"
+	bay "Fighter" 235.5 242.5
+		"right
+	bay "Fighter" -235.5 322
+		"left"
+	bay "Fighter" 235.5 322
+		"right
+	engine 2.5 1647.5
+		zoom 3
+		angle 0
+		under
+	engine 119 1600.5
+		zoom 2
+		angle 0
+		under
+	engine -119 1600.5
+		zoom 2
+		angle 0
+		under
+	explode "tiny explosion" 18
+	explode "small explosion" 46
+	explode "medium explosion" 64
+	explode "large explosion" 60
+	"final explode" "final explosion large" 2
+	description "Emperor-Class is the preferred flagship for a fleet with its array of advanced sensors."
+	
+ship "Nemesis-Class"
+	sprite "ship/imperium nemesis class"
+	thumbnail "thumbnail/imperium nemesis class thumb"
+	"swizzle" 0
+	attributes
+		category "Heavy Warship"
+		"cost" 8200000
+		"shields" 1568000
+		"hull" 1867800
+		"required crew" 2690
+		"bunks" 2980
+		"mass" 38800
+		"drag" 16.7
+		"heat dissipation" .69
+		"fuel capacity" 2800
+		"cargo space" 600
+		"outfit space" 9876
+		"weapon capacity" 5450
+		"engine capacity" 880
+		"force protection" 12
+		"imperium ram" -4
+		"spinal mount" 1
+		"outfit scan power" 500
+		"outfit scan speed" 2
+		"cargo scan power" 500
+		"cargo scan speed" 2
+		"atmosphere scan" 100
+		"tactical scan power" 500
+		"asteroid scan power" 700
+		weapon
+			"blast radius" 1520
+			"shield damage" 94000
+			"hull damage" 42000
+			"hit force" 1260
+	outfits
+		"Imperium Ram" 4
+		"Ryza-Pattern Nova Cannon"
+		"Graviton Pulsar Turret" 1
+		"Heavy Lance Cannon" 2
+		"Imperium CIWS Turret" 4
+		"Imperium Flak Turret" 4
+		"Quad Med Lance Turret" 3
+
+		"Large Plasma Core" 4
+		"Small Plasma Storage" 4
+		"Heavy Void Shield" 4
+		"Heavy Field Braces"
+		"Las Rifle" 1800
+		"Imperium Plasma Gun" 80
+		"Plasma Cooler"
+
+		"Large Plasma Drive"
+		"Warp-Drive"
+		
+	gun -2.5 -1666 "Ryza-Pattern Nova Cannon"
+	turret -2.5 -877.5 "Graviton Pulsar Turret"
+	turret -2.5 -261.5 "Quad Med Lance Turret"
+	turret -2.5 270.5 "Quad Med Lance Turret"
+	turret -2.5 476 "Quad Med Lance Turret"
+	gun -455 112 "Heavy Lance Cannon"
+	gun 455 112 "Heavy Lance Cannon"
+	turret -53.5 -980
+	turret 53.5 -980
+	turret -114.5 -919.5
+	turret 114.5 -919.5
+	turret -221.5 700
+	turret 221.5 700
+	turret -221.5 779.5 "Imperium CIWS Turret"
+	turret 221.5 779.5 "Imperium CIWS Turret"
+	gun -86.5 -1297.5 "Imperium Ram"
+	gun 86.5 -1297.5 "Imperium Ram"
+	gun -151.5 -1143.5 "Imperium Ram"
+	gun 151.5 -1143.5 "Imperium Ram"
+	bay "Fighter" -240.5 -700
+		left
+	bay "Fighter" 240.5 -700
+		right
+	bay "Fighter" -235.5 -616
+		left
+	bay "Fighter" 235.5 -616
+		right
+	bay "Fighter" -235.5 -536.5
+		left
+	bay "Fighter" 235.5 -536.5
+		right
+	bay "Fighter" -245 -452.5
+		left
+	bay "Fighter" 245 -452.5
+		right
+	bay "Fighter" -240.5 -700
+		left
+	bay "Fighter" 240.5 -700
+		right
+	bay "Fighter" -235.5 -616
+		left
+	bay "Fighter" 235.5 -616
+		right
+	bay "Fighter" -235.5 -536.5
+		left
+	bay "Fighter" 235.5 -536.5
+		right
+	bay "Fighter" -245 -452.5
+		left
+	bay "Fighter" 245 -452.5
+		right
+	bay "Fighter" -240.5 -700
+		left
+	bay "Fighter" 240.5 -700
+		right
+	bay "Fighter" -235.5 -616
+		left
+	bay "Fighter" 235.5 -616
+		right
+	bay "Fighter" -235.5 -536.5
+		left
+	bay "Fighter" 235.5 -536.5
+		right
+	bay "Fighter" -245 -452.5
+		left
+	bay "Fighter" 245 -452.5
+		right
+	bay "Fighter" -240.5 -700
+		left
+	bay "Fighter" 240.5 -700
+		right
+	bay "Fighter" -235.5 -616
+		left
+	bay "Fighter" 235.5 -616
+		right
+	bay "Fighter" -235.5 -536.5
+		left
+	bay "Fighter" 235.5 -536.5
+		right
+	bay "Fighter" -245 -452.5
+		left
+	bay "Fighter" 245 -452.5
+		right
+	bay "Fighter" -240.5 -700
+		left
+	bay "Fighter" 240.5 -700
+		right
+	bay "Fighter" -235.5 -616
+		left
+	bay "Fighter" 235.5 -616
+		right
+	bay "Fighter" -235.5 -536.5
+		left
+	bay "Fighter" 235.5 -536.5
+		right
+	bay "Fighter" -245 -452.5
+		left
+	bay "Fighter" 245 -452.5
+		right
+	bay "Fighter" -226.5 -312.5
+		"left"
+	bay "Fighter" 226.5 -312.5
+		"right
+	bay "Fighter" -231 -224
+		"left"
+	bay "Fighter" 231 -224
+		"right
+	bay "Fighter" -235.5 -144.5
+		"left"
+	bay "Fighter" 235.5 -144.5
+		"right
+	bay "Fighter" -235.5 -60.5
+		"left"
+	bay "Fighter" 235.5 -60.5
+		"right
+	bay "Fighter" -226.5 74.5
+		"left"
+	bay "Fighter" 226.5 74.5
+		"right
+	bay "Fighter" -235.5 163.5
+		"left"
+	bay "Fighter" 235.5 163.5
+		"right
+	bay "Fighter" -235.5 242.5
+		"left"
+	bay "Fighter" 235.5 242.5
+		"right
+	bay "Fighter" -235.5 322
+		"left"
+	bay "Fighter" 235.5 322
+		"right
+	bay "Fighter" -226.5 -312.5
+		"left"
+	bay "Fighter" 226.5 -312.5
+		"right
+	bay "Fighter" -231 -224
+		"left"
+	bay "Fighter" 231 -224
+		"right
+	bay "Fighter" -235.5 -144.5
+		"left"
+	bay "Fighter" 235.5 -144.5
+		"right
+	bay "Fighter" -235.5 -60.5
+		"left"
+	bay "Fighter" 235.5 -60.5
+		"right
+	bay "Fighter" -226.5 74.5
+		"left"
+	bay "Fighter" 226.5 74.5
+		"right
+	bay "Fighter" -235.5 163.5
+		"left"
+	bay "Fighter" 235.5 163.5
+		"right
+	bay "Fighter" -235.5 242.5
+		"left"
+	bay "Fighter" 235.5 242.5
+		"right
+	bay "Fighter" -235.5 322
+		"left"
+	bay "Fighter" 235.5 322
+		"right
+	bay "Fighter" -226.5 -312.5
+		"left"
+	bay "Fighter" 226.5 -312.5
+		"right
+	bay "Fighter" -231 -224
+		"left"
+	bay "Fighter" 231 -224
+		"right
+	bay "Fighter" -235.5 -144.5
+		"left"
+	bay "Fighter" 235.5 -144.5
+		"right
+	bay "Fighter" -235.5 -60.5
+		"left"
+	bay "Fighter" 235.5 -60.5
+		"right
+	bay "Fighter" -226.5 74.5
+		"left"
+	bay "Fighter" 226.5 74.5
+		"right
+	bay "Fighter" -235.5 163.5
+		"left"
+	bay "Fighter" 235.5 163.5
+		"right
+	bay "Fighter" -235.5 242.5
+		"left"
+	bay "Fighter" 235.5 242.5
+		"right
+	bay "Fighter" -235.5 322
+		"left"
+	bay "Fighter" 235.5 322
+		"right
+	bay "Fighter" -226.5 -312.5
+		"left"
+	bay "Fighter" 226.5 -312.5
+		"right
+	bay "Fighter" -231 -224
+		"left"
+	bay "Fighter" 231 -224
+		"right
+	bay "Fighter" -235.5 -144.5
+		"left"
+	bay "Fighter" 235.5 -144.5
+		"right
+	bay "Fighter" -235.5 -60.5
+		"left"
+	bay "Fighter" 235.5 -60.5
+		"right
+	bay "Fighter" -226.5 74.5
+		"left"
+	bay "Fighter" 226.5 74.5
+		"right
+	bay "Fighter" -235.5 163.5
+		"left"
+	bay "Fighter" 235.5 163.5
+		"right
+	bay "Fighter" -235.5 242.5
+		"left"
+	bay "Fighter" 235.5 242.5
+		"right
+	bay "Fighter" -235.5 322
+		"left"
+	bay "Fighter" 235.5 322
+		"right
+	bay "Fighter" -226.5 -312.5
+		"left"
+	bay "Fighter" 226.5 -312.5
+		"right
+	bay "Fighter" -231 -224
+		"left"
+	bay "Fighter" 231 -224
+		"right
+	bay "Fighter" -235.5 -144.5
+		"left"
+	bay "Fighter" 235.5 -144.5
+		"right
+	bay "Fighter" -235.5 -60.5
+		"left"
+	bay "Fighter" 235.5 -60.5
+		"right
+	bay "Fighter" -226.5 74.5
+		"left"
+	bay "Fighter" 226.5 74.5
+		"right
+	bay "Fighter" -235.5 163.5
+		"left"
+	bay "Fighter" 235.5 163.5
+		"right
+	bay "Fighter" -235.5 242.5
+		"left"
+	bay "Fighter" 235.5 242.5
+		"right
+	bay "Fighter" -235.5 322
+		"left"
+	bay "Fighter" 235.5 322
+		"right
+	engine 2.5 1647.5
+		zoom 3
+		angle 0
+		under
+	engine 119 1600.5
+		zoom 2
+		angle 0
+		under
+	engine -119 1600.5
+		zoom 2
+		angle 0
+		under
+	explode "tiny explosion" 18
+	explode "small explosion" 46
+	explode "medium explosion" 64
+	explode "large explosion" 60
+	"final explode" "final explosion large" 2
+	description "Nemesis-class Fleet Carrier is a variant of the Emperor-class with its macro battery removed and replaced with more fighter bays. While this reduces the ship's ability to defend itself it is still valued for the amount of fighter it can quickly deploy. While it is rare, these ships can still be found at the core of a large fleet protected by escorts and other battleships."
+	
+ship "Judicator-Class"
+	sprite "ship/imperium judicator class"
+	thumbnail "thumbnail/imperium judicator class thumb"
+	"swizzle" 0
+	attributes
+		category "Heavy Warship"
+		"cost" 8600000
+		"shields" 1558000
+		"hull" 1984800
+		"required crew" 3450
+		"bunks" 3280
+		"mass" 54800
+		"drag" 16.7
+		"heat dissipation" .69
+		"fuel capacity" 2800
+		"cargo space" 600
+		"outfit space" 9876
+		"weapon capacity" 5450
+		"engine capacity" 940
+		"force protection" 11
+		"imperium ram" -4
+		"spinal mount" 1
+		"outfit scan power" 300
+		"outfit scan speed" 2
+		"cargo scan power" 300
+		"cargo scan speed" 2
+		"atmosphere scan" 50
+		"tactical scan power" 300
+		"asteroid scan power" 500
+		weapon
+			"blast radius" 1520
+			"shield damage" 94000
+			"hull damage" 42000
+			"hit force" 1260
+	outfits
+		"Imperium Ram" 4
+		"Ryza-Pattern Nova Cannon"
+		"Graviton Pulsar Turret" 1
+		"Heavy Lance Cannon" 2
+		"Imperium CIWS Turret" 4
+		"Imperium Flak Turret" 4
+		"Triple Med Lance Turret" 4
+		"Quad Med Lance Turret" 3
+
+		"Large Plasma Core" 4
+		"Small Plasma Storage" 4
+		"Heavy Void Shield" 4
+		"Heavy Field Braces"
+		"Las Rifle" 1800
+		"Imperium Plasma Gun" 80
+		"Plasma Cooler"
+
+		"Large Plasma Drive"
+		"Warp-Drive"
+	
+	gun -2.5 -1666 "Ryza-Pattern Nova Cannon"
+	gun -105 -1274
+	gun 105 -1274
+	gun -175 -1120
+	gun 175 -1120
+	turret -2.5 -905.5
+	turret -2.5 -317.5
+	turret -2.5 191.5
+	turret -2.5 387.5
+	gun -441 -14 "Heavy Lance Cannon"
+	gun 441 -14 "Heavy Lance Cannon"
+	turret -198.5 93.5 "Triple Med Lance Turret"
+	turret 198.5 93.5 "Triple Med Lance Turret"
+	turret -203 200.5 "Triple Med Lance Turret"
+	turret 203 200.5 "Triple Med Lance Turret"
+	
+	turret -91 -1008
+	turret 91 -1008
+	turret -189 -882
+	turret 189 -882
+	turret -221.5 611.5
+	turret 221.5 611.5
+	turret -221.5 690.5
+	turret 221.5 690.5
+	engine 133 1549.5
+		zoom 1
+		angle 0
+		under
+	engine -133 1549.5
+		zoom 1
+		angle 0
+		under
+	engine 2.5 1521.5
+		zoom 1
+		angle 0
+		under
+	#Upper deck
+	bay "Fighter" -226.5 -732.5
+		left
+	bay "Fighter" 226.5 -732.5
+		right
+	bay "Fighter" -221.5 -653.5
+		left
+	bay "Fighter" 221.5 -653.5
+		right
+	bay "Fighter" -226.5 -578.5
+		left
+	bay "Fighter" 226.5 -578.5
+		right
+	bay "Fighter" -226.5 -499.5
+		left
+	bay "Fighter" 226.5 -499.5
+		right
+	bay "Fighter" -221.5 -368.5
+		left
+	bay "Fighter" 221.5 -368.5
+		right
+	bay "Fighter" -221.5 -289.5
+		left
+	bay "Fighter" 221.5 -289.5
+		right
+	bay "Fighter" -221.5 -205.5
+		left
+	bay "Fighter" 221.5 -205.5
+		right
+	bay "Fighter" -221.5 -126
+		left
+	bay "Fighter" 221.5 -126
+		right
+	bay "Fighter" -226.5 -732.5
+		left
+	bay "Fighter" 226.5 -732.5
+		right
+	bay "Fighter" -221.5 -653.5
+		left
+	bay "Fighter" 221.5 -653.5
+		right
+	bay "Fighter" -226.5 -578.5
+		left
+	bay "Fighter" 226.5 -578.5
+		right
+	bay "Fighter" -226.5 -499.5
+		left
+	bay "Fighter" 226.5 -499.5
+		right
+	bay "Fighter" -221.5 -368.5
+		left
+	bay "Fighter" 221.5 -368.5
+		right
+	bay "Fighter" -221.5 -289.5
+		left
+	bay "Fighter" 221.5 -289.5
+		right
+	bay "Fighter" -221.5 -205.5
+		left
+	bay "Fighter" 221.5 -205.5
+		right
+	bay "Fighter" -221.5 -126
+		left
+	bay "Fighter" 221.5 -126
+		right
+	bay "Fighter" -226.5 -732.5
+		left
+	bay "Fighter" 226.5 -732.5
+		right
+	bay "Fighter" -221.5 -653.5
+		left
+	bay "Fighter" 221.5 -653.5
+		right
+	bay "Fighter" -226.5 -578.5
+		left
+	bay "Fighter" 226.5 -578.5
+		right
+	bay "Fighter" -226.5 -499.5
+		left
+	bay "Fighter" 226.5 -499.5
+		right
+	bay "Fighter" -221.5 -368.5
+		left
+	bay "Fighter" 221.5 -368.5
+		right
+	bay "Fighter" -221.5 -289.5
+		left
+	bay "Fighter" 221.5 -289.5
+		right
+	bay "Fighter" -221.5 -205.5
+		left
+	bay "Fighter" 221.5 -205.5
+		right
+	bay "Fighter" -221.5 -126
+		left
+	bay "Fighter" 221.5 -126
+		right
+	bay "Fighter" -226.5 -732.5
+		left
+	bay "Fighter" 226.5 -732.5
+		right
+	bay "Fighter" -221.5 -653.5
+		left
+	bay "Fighter" 221.5 -653.5
+		right
+	bay "Fighter" -226.5 -578.5
+		left
+	bay "Fighter" 226.5 -578.5
+		right
+	bay "Fighter" -226.5 -499.5
+		left
+	bay "Fighter" 226.5 -499.5
+		right
+	bay "Fighter" -221.5 -368.5
+		left
+	bay "Fighter" 221.5 -368.5
+		right
+	bay "Fighter" -221.5 -289.5
+		left
+	bay "Fighter" 221.5 -289.5
+		right
+	bay "Fighter" -221.5 -205.5
+		left
+	bay "Fighter" 221.5 -205.5
+		right
+	bay "Fighter" -221.5 -126
+		left
+	bay "Fighter" 221.5 -126
+		right
+	bay "Fighter" -226.5 -732.5
+		left
+	bay "Fighter" 226.5 -732.5
+		right
+	bay "Fighter" -221.5 -653.5
+		left
+	bay "Fighter" 221.5 -653.5
+		right
+	bay "Fighter" -226.5 -578.5
+		left
+	bay "Fighter" 226.5 -578.5
+		right
+	bay "Fighter" -226.5 -499.5
+		left
+	bay "Fighter" 226.5 -499.5
+		right
+	bay "Fighter" -221.5 -368.5
+		left
+	bay "Fighter" 221.5 -368.5
+		right
+	bay "Fighter" -221.5 -289.5
+		left
+	bay "Fighter" 221.5 -289.5
+		right
+	bay "Fighter" -221.5 -205.5
+		left
+	bay "Fighter" 221.5 -205.5
+		right
+	bay "Fighter" -221.5 -126
+		left
+	bay "Fighter" 221.5 -126
+		right
+	#Lower deck
+	bay "Fighter" -226.5 -732.5
+		left
+	bay "Fighter" 226.5 -732.5
+		right
+	bay "Fighter" -221.5 -653.5
+		left
+	bay "Fighter" 221.5 -653.5
+		right
+	bay "Fighter" -226.5 -578.5
+		left
+	bay "Fighter" 226.5 -578.5
+		right
+	bay "Fighter" -226.5 -499.5
+		left
+	bay "Fighter" 226.5 -499.5
+		right
+	bay "Fighter" -221.5 -368.5
+		left
+	bay "Fighter" 221.5 -368.5
+		right
+	bay "Fighter" -221.5 -289.5
+		left
+	bay "Fighter" 221.5 -289.5
+		right
+	bay "Fighter" -221.5 -205.5
+		left
+	bay "Fighter" 221.5 -205.5
+		right
+	bay "Fighter" -221.5 -126
+		left
+	bay "Fighter" 221.5 -126
+		right
+	bay "Fighter" -226.5 -732.5
+		left
+	bay "Fighter" 226.5 -732.5
+		right
+	bay "Fighter" -221.5 -653.5
+		left
+	bay "Fighter" 221.5 -653.5
+		right
+	bay "Fighter" -226.5 -578.5
+		left
+	bay "Fighter" 226.5 -578.5
+		right
+	bay "Fighter" -226.5 -499.5
+		left
+	bay "Fighter" 226.5 -499.5
+		right
+	bay "Fighter" -221.5 -368.5
+		left
+	bay "Fighter" 221.5 -368.5
+		right
+	bay "Fighter" -221.5 -289.5
+		left
+	bay "Fighter" 221.5 -289.5
+		right
+	bay "Fighter" -221.5 -205.5
+		left
+	bay "Fighter" 221.5 -205.5
+		right
+	bay "Fighter" -221.5 -126
+		left
+	bay "Fighter" 221.5 -126
+		right
+	bay "Fighter" -226.5 -732.5
+		left
+	bay "Fighter" 226.5 -732.5
+		right
+	bay "Fighter" -221.5 -653.5
+		left
+	bay "Fighter" 221.5 -653.5
+		right
+	bay "Fighter" -226.5 -578.5
+		left
+	bay "Fighter" 226.5 -578.5
+		right
+	bay "Fighter" -226.5 -499.5
+		left
+	bay "Fighter" 226.5 -499.5
+		right
+	bay "Fighter" -221.5 -368.5
+		left
+	bay "Fighter" 221.5 -368.5
+		right
+	bay "Fighter" -221.5 -289.5
+		left
+	bay "Fighter" 221.5 -289.5
+		right
+	bay "Fighter" -221.5 -205.5
+		left
+	bay "Fighter" 221.5 -205.5
+		right
+	bay "Fighter" -221.5 -126
+		left
+	bay "Fighter" 221.5 -126
+		right
+	explode "tiny explosion" 18
+	explode "small explosion" 46
+	explode "medium explosion" 64
+	explode "large explosion" 60
+	"final explode" "final explosion large" 2
+	description "Experimental Judicator-class Battlecarrier is heavily modified Emperor-class that delivers both raw firepower and swarm of fighters. It is armed with a pair of lance batteries for long ranged support and double-decked fighter bays to deliver large number of fighters. This however results in a very heavy ship making it less manoeuvrable than most other battleships."

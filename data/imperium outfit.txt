@@ -30,9 +30,9 @@ outfit "Pyros Melta Cannon"
 	category "Guns"
 	cost 2190000
 	thumbnail "outfit/mac cannon"
-	"mass" 67
-	"outfit space" -59
-	"weapon capacity" -59
+	"mass" 80
+	"outfit space" -75
+	"weapon capacity" -75
 	"gun ports" -1
 	"required crew" 3
 	weapon
@@ -993,6 +993,38 @@ outfit "Heavy Lance Cannon"
 		cluster
 	description "Long ranged heavy lance."
 	
+outfit "Triple Hev Lance Turret"
+	category "Turrets"
+	cost 28700000
+	thumbnail "outfit/triple lance turret"
+	"mass" 480
+	"outfit space" -480
+	"weapon capacity" -480
+	"turret mounts" -1
+	"required crew" 22
+	weapon
+		sprite "projectile/triple hev lance"
+			#"start frame" 0
+			"frame rate" 1
+		sound "fire-lance"
+		"hardpoint sprite" "hardpoint/triple lance turret hp"
+		"hardpoint offset" 22.
+		"turret turn" 1.2
+		"fire effect" "lance fire"
+		"hit effect" "lance impact"
+		"inaccuracy" .1
+		"velocity" 1000
+		"lifetime" 2
+		"reload" 2
+		"burst count" 120
+		"burst reload" 1
+		"firing energy" 36
+		"firing heat" 54
+		"shield damage" 792
+		"hull damage" 576
+		cluster
+	description "3 Heavy lances on a turret."
+	
 outfit "Lascannon"
 	category "Guns"
 	cost 210000
@@ -1936,9 +1968,12 @@ outfit "Ultramarines"
 	category "Special"
 	thumbnail "outfit/unknown"
 	"bunk" -30
+	"plot armor" 1
+	"ion resistance" 5
+	"slowing resistance" 5
 	"capture attack" 99999
 	"capture defense" 99999
-	description "A squad of Ultramarines, the strongest of space marines and will achieve their goal not matter what."
+	description "A squad of Ultramarines, the strongest of space marines loyal to the Codex Astartes. They will achieve their goal not matter what."
 
 outfit "Warrant of Trade"
 	category "Special"

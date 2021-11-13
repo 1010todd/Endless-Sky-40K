@@ -83,6 +83,10 @@ shipyard developer
 	Retribution-Class
 	Storm-Class
 	"Victory-Class"
+	"Emperor-Class"
+	"Nemesis-Class"
+	"Apocalypse-Class"
+	"Judicator-Class"
 
 shipyard "Imperium Basic"
 	Dauntless-Class
@@ -96,6 +100,10 @@ shipyard "Imperium Basic"
 shipyard "Forge World Advanced"
 	Retribution-Class
 	"Victory-Class"
+	"Emperor-Class"
+	"Nemesis-Class"
+	"Apocalypse-Class"
+	"Judicator-Class"
 
 outfitter "Imperium Basic"
 	"Fighter Plasma Core"
