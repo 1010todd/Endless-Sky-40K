@@ -11,6 +11,8 @@ fleet "Imperium Light Patrol"
 		"Imperium Fury" 4
 	variant 50
 		"Dauntless-Class" 2
+	variant 40
+		"Lunar-Class"
 
 fleet "Imperium Heavy Patrol"
 	government "Imperium of Man"
@@ -37,9 +39,13 @@ fleet "Imperium Heavy Patrol"
 		"Storm-Class" 2
 		"Imperium Fury" 12
 	variant 20
+		"Emperor-Class"
+		"Storm-Class" 2
+		"Imperium Fury" 80
+	variant 20
 		"Victory-Class"
 		"Storm-Class" 2
-		"Imperium Fury" 12
+		"Imperium Fury" 2
 	variant 10
 		"Retribution-Class"
 		"Victory-Class"
@@ -50,4 +56,10 @@ fleet "Imperium Heavy Patrol"
 		"Victory-Class"
 		"Storm-Class" 4
 		"Imperium Fury" 12
+		"Lunar-Class" 4
+	variant 1
+		"Retribution-Class"
+		"Emperor-Class-Class"
+		"Storm-Class" 4
+		"Imperium Fury" 92
 		"Lunar-Class" 4
