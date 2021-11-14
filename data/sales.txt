@@ -70,6 +70,9 @@ outfitter developer
 	Ultramarines
 	"Vortex Torpedo Tube"
 	Warp-Drive
+	"Apocalypse-Class Lance Turret"
+	"Apocalypse-Class-B Lance Turret"
+	"Victory-Class Lance Turret"
 
 shipyard developer
 	Dauntless-Class

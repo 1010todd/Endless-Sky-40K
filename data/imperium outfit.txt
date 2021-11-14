@@ -933,6 +933,38 @@ outfit "Triple Med Lance Turret"
 		cluster
 	description "Triple the lances, triple the damage. Now on a spinny base!"
 	
+outfit "Victory-Class Lance Turret"
+	category "Turrets"
+	cost 28700000
+	thumbnail "outfit/triple lance turret"
+	"mass" 245
+	"outfit space" -245
+	"weapon capacity" -245
+	"turret mounts" -1
+	"required crew" 8
+	weapon
+		sprite "projectile/triple med lance"
+			#"start frame" 0
+			"frame rate" 1
+		sound "fire-lance"
+		"hardpoint sprite" "hardpoint/triple lance turret hp"
+		"hardpoint offset" 22.
+		"turret turn" 1.8
+		"fire effect" "lance fire"
+		"hit effect" "lance impact"
+		"inaccuracy" .1
+		"velocity" 1000
+		"lifetime" 2
+		"reload" 1.5
+		"burst count" 60
+		"burst reload" 1
+		"firing energy" 89
+		"firing heat" 248
+		"shield damage" 352
+		"hull damage" 252
+		cluster
+	description "Long ranged lance battery found on Victory-Class battleships. Suspected to be an attempt by the Mechanicus to replicate success of the Apocalypse-Class."
+	
 outfit "Quad Med Lance Turret"
 	category "Turrets"
 	cost 35800000
@@ -965,6 +997,74 @@ outfit "Quad Med Lance Turret"
 		cluster
 	description "In rare case where triple lances is insufficient."
 	
+outfit "Apocalypse-Class Lance Turret"
+	category "Turrets"
+	cost 35800000
+	thumbnail "outfit/triple lance turret"
+	"mass" 312
+	"outfit space" -312
+	"weapon capacity" -312
+	"turret mounts" -1
+	"required crew" 12
+	"high-power conduit" -1
+	weapon
+		sprite "projectile/triple med lance"
+			#"start frame" 0
+			"frame rate" 1
+		sound "fire-lance"
+		"hardpoint sprite" "hardpoint/triple lance turret hp"
+		"hardpoint offset" 22.
+		"turret turn" 1.2
+		"fire effect" "lance fire"
+		"hit effect" "lance impact"
+		"inaccuracy" .1
+		"velocity" 1000
+		"lifetime" 1
+		"reload" 1.5
+		"burst count" 60
+		"burst reload" 1
+		"firing energy" 94
+		"firing heat" 146
+		"shield damage" 620
+		"hull damage" 468
+		cluster
+	description "Powerful Lance battery found on Apocalypse-Class."
+	
+outfit "Apocalypse-Class-B Lance Turret"
+	category "Turrets"
+	cost 35800000
+	thumbnail "outfit/triple lance turret"
+	"mass" 312
+	"outfit space" -312
+	"weapon capacity" -312
+	"turret mounts" -1
+	"required crew" 12
+	"high-power conduit" -1
+	weapon
+		sprite "projectile/triple med lance"
+			#"start frame" 0
+			"frame rate" 1
+		sound "fire-lance"
+		"hardpoint sprite" "hardpoint/triple lance turret hp"
+		"hardpoint offset" 22.
+		"turret turn" 1.2
+		"fire effect" "lance fire"
+		"hit effect" "lance impact"
+		"inaccuracy" .1
+		"velocity" 1000
+		"lifetime" 2
+		"reload" 1.5
+		"burst count" 60
+		"burst reload" 1
+		"firing energy" 94
+		"firing heat" 146
+		"shield damage" 620
+		"hull damage" 468
+		"firing hull" 98
+		"firing slowing" .15
+		cluster
+	description "Powerful Lance battery found on Apocalypse-Class. Overloaded allowing longer range at cost of damage to the ship."
+	
 outfit "Heavy Lance Cannon"
 	category "Guns"
 	cost 6700000
@@ -975,7 +1075,7 @@ outfit "Heavy Lance Cannon"
 	"gun ports" -1
 	"required crew" 6
 	weapon
-		sprite "projectile/hev lance"
+		sprite "projectile/med lance"
 			"frame rate" 2
 		sound "fire-lance"
 		"fire effect" "lance fire"

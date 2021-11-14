@@ -942,7 +942,7 @@ ship "Victory-Class"
 		"force protection" 12
 		"imperium ram" -4
 		"spinal mount" 1
-		"energy capacity" 20000
+		#"energy capacity" 20000
 		weapon
 			"blast radius" 1520
 			"shield damage" 94000
@@ -955,7 +955,7 @@ ship "Victory-Class"
 		"Heavy Lance Cannon" 4
 		"Imperium CIWS Turret" 2
 		"Imperium Flak Turret" 2
-		"Triple Med Lance Turret" 12
+		"Victory-Class Lance Turret" 12
 		"Quad Med Lance Turret" 3
 
 		"Large Plasma Core" 4
@@ -1039,7 +1039,8 @@ ship "Apocalypse-Class"
 		"force protection" 12
 		"imperium ram" -4
 		"spinal mount" 1
-		"energy capacity" 28000
+		#"energy capacity" 28000
+		"high-power conduit" 12
 		weapon
 			"blast radius" 1520
 			"shield damage" 94000
@@ -1052,7 +1053,8 @@ ship "Apocalypse-Class"
 		"Imperium CIWS Turret" 4
 		"Imperium Flak Turret" 4
 		#"Triple Med Lance Turret" 12
-		"Quad Med Lance Turret" 16
+		"Triple Med Lance Turret" 4
+		"Apocalypse-Class Lance Turret" 12
 
 		"Large Plasma Core" 5
 		"Small Plasma Storage" 4
@@ -1066,10 +1068,10 @@ ship "Apocalypse-Class"
 		"Warp-Drive"
 		
 	gun 0 -1914.5 "Ryza-Pattern Nova Cannon"
-	turret 0 -901.5
-	turret 0 -544
-	turret 0 -90.5
-	turret 0 266.5
+	turret 0 -901.5 "Triple Med Lance Turret"
+	turret 0 -544 "Triple Med Lance Turret"
+	turret 0 -90.5 "Triple Med Lance Turret"
+	turret 0 266.5 "Triple Med Lance Turret"
 	gun -101.5 -1605.5 "Imperium Ram"
 	gun 101.5 -1605.5 "Imperium Ram"
 	gun -170.5 -1456 "Imperium Ram"
@@ -1115,7 +1117,7 @@ ship "Apocalypse-Class"
 	explode "medium explosion" 64
 	explode "large explosion" 60
 	"final explode" "final explosion large" 2
-	description "Apocalypse-Class is a lance-armed battleship of the Imperial navy, its believed to be the precursor of the Retribution-Class."
+	description "Apocalypse-Class is a lance-armed battleship of the Imperial navy, its believed to be the precursor of the Retribution-Class. The Apocalypse-Class have special conduit technology lost to the Mechanicus, thus only it can install and use specialized high-power lance battery. However, due to age and decay these conduits got damaged and risk of damaging the ship itself if fired at full range, full power, for that reason lance batteries installed comes with safety feature to prevent overload by default. Captains can choose to remove these safety at a capable forge world and permits the lance to fire at longer range at the cost of damage to the ship and slower speed as the lance draws power from other systems."
 
 ship "Emperor-Class"
 	sprite "ship/imperium emperor class"
