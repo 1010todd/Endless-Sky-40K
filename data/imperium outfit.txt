@@ -1771,6 +1771,7 @@ outfit "Fighter Void Shield"
 	"shield generation" 5.2
 	"shield energy" 9.8
 	"required crew" 1
+	"depleted shield delay" 120
 	description ""
 
 outfit "Light Void Shield"
@@ -1782,42 +1783,46 @@ outfit "Light Void Shield"
 	"shield generation" 12.6
 	"shield energy" 21.0
 	"required crew" 1
+	"depleted shield delay" 200
 	description ""
 	
 outfit "Medium Void Shield"
 	category "Systems"
-	cost 1200000
+	cost 4400000
 	thumbnail "outfit/unknown"
 	"mass" 89
 	"outfit space" -89
 	"shield generation" 26.6
 	"shield energy" 43.2
 	"required crew" 3
-	description ""
+	"depleted shield delay" 380
+	description "Void Shield is one of the standard protection for Imperium ships, generating a bubble that absorbs everything travelling above certain speed into the warp."
 	
 outfit "Heavy Void Shield"
 	category "Systems"
-	cost 1200000
+	cost 9800000
 	thumbnail "outfit/unknown"
 	"mass" 172
 	"outfit space" -172
 	"shield generation" 57.8
 	"shield energy" 84.5
 	"shield protection" .1
+	"depleted shield delay" 740
 	"required crew" 8
-	description ""
+	description "A larger void shield generator for larger ships."
 	
 outfit "Super Heavy Void Shield"
 	category "Systems"
-	cost 1200000
+	cost 22800000
 	thumbnail "outfit/unknown"
 	"mass" 346
 	"outfit space" -346
 	"shield generation" 128.2
 	"shield energy" 162.7
 	"shield protection" .4
+	"depleted shield delay" 1480
 	"required crew" 18
-	description ""
+	description "Massive void shield generator only found on the largest Imperium ship."
 	
 outfit "Fighter Plasma Core"
 	category "Power"
