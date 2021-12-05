@@ -1730,7 +1730,7 @@ ship "Judicator-Class"
 		"shields" 1558000
 		"hull" 1984800
 		"required crew" 3450
-		"bunks" 3280
+		"bunks" 3480
 		"mass" 54800
 		"drag" 16.7
 		"heat dissipation" .69
