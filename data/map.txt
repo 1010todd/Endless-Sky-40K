@@ -7,6 +7,16 @@ system Pyherrus
 	asteroids "small metal" 27 2.945
 	asteroids "medium metal" 35 3.1825
 	asteroids "large metal" 6 4.7025
+	trade Clothing 372
+	trade Electronics 737
+	trade Equipment 876
+	trade Food 591
+	trade "Heavy Metals" 1200
+	trade Industrial 679
+	trade "Luxury Goods" 950
+	trade Medical 704
+	trade Metal 568
+	trade Plastic 467
 	minables lead 8 4.7339611
 	minables copper 9 5.2353775
 	fleet "Imperium Light Patrol" 1200
