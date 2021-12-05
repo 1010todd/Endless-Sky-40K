@@ -1,0 +1,16 @@
+mission "Imperium: Kill Archons guarding Korath space"
+	job
+	name "Kill space bugs"
+	description "A mechanicus explorator fleet have discovered space bugs wandering in xenos Korath space, it would be preferred if they're to be exterminated as soon as possible."
+	source "Pifitus"
+	waypoint Fasitopfar
+	waypoint Kasikfar
+	waypoint Peresedersi
+	payment 8000000
+	to complete
+		"Drak guarding Korath space: done"
+	on complete
+		"reputation: Imperium of Man" += 2
+		"reputation: Emperor's Inquisition" += 2
+		dialog
+			`The Imperium of Man is grateful for your service and pays you <payment> credits as reward.`
