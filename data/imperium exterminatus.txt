@@ -56,6 +56,9 @@ mission "Imperium: Exterminatus (Vara Pug, Atmo Inc)"
 		dialog
 			`The same inquisitor thank you for your service to the Imperium and hands you your payment of <payment>.`
 			
+"landing message" "Your ship cannot land on a planet burning with heat of a star."
+	"planet/ocean4-atmoinc"
+			
 event "Exterminatus: Vara Pug(Atmo Inc)"
 	government "Pug (Wanderer)"
 		"player reputation" <?= -1000

@@ -9,6 +9,8 @@ system Pyherrus
 	asteroids "large metal" 6 4.7025
 	minables lead 8 4.7339611
 	minables copper 9 5.2353775
+	fleet "Imperium Light Patrol" 1200
+	fleet "Imperium Heavy Patrol" 4200
 	habitable 2560
 	belt 1833
 	object
