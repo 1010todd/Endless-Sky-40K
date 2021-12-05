@@ -1264,7 +1264,7 @@ outfit "Plasma Torpedo Tube"
 		"die effect" "missile death"
 		"inaccuracy" 1
 		"velocity" 12
-		"lifetime" 200
+		"lifetime" 600
 		"reload" 240
 		"firing energy" 20
 		"firing heat" 400
@@ -1308,7 +1308,7 @@ outfit "Melta Torpedo Tube"
 		"die effect" "missile death"
 		"inaccuracy" 1
 		"velocity" 12
-		"lifetime" 200
+		"lifetime" 480
 		"reload" 240
 		"firing energy" 30
 		"firing heat" 400
@@ -1353,7 +1353,7 @@ outfit "Shortburn Torpedo Tube"
 		"inaccuracy" 1
 		"velocity" 24
 		"lifetime" 100
-		"reload" 260
+		"reload" 420
 		"firing energy" 20
 		"firing heat" 400
 		"acceleration" 2.4
@@ -1398,7 +1398,7 @@ outfit "Guided Torpedo Tube"
 		"inaccuracy" 1
 		"velocity" 12
 		"lifetime" 200
-		"reload" 320
+		"reload" 560
 		"firing energy" 20
 		"firing heat" 400
 		"acceleration" 1
@@ -1445,7 +1445,7 @@ outfit "Seeking Torpedo Tube"
 		"die effect" "missile death"
 		"inaccuracy" 1
 		"velocity" 12
-		"lifetime" 300
+		"lifetime" 500
 		"random lifetime" 50
 		"reload" 140
 		"firing energy" 20
@@ -1494,7 +1494,7 @@ outfit "Vortex Torpedo Tube"
 		submunition "vortex torp warp rift 1 "
 		"inaccuracy" 1
 		"velocity" 14
-		"lifetime" 300
+		"lifetime" 500
 		"reload" 160
 		"firing energy" 40
 		"firing heat" 400
@@ -1507,8 +1507,8 @@ outfit "Vortex Torpedo Tube"
 		"blast radius" 300
 		"split range" 50
 		"trigger radius" 50
-		"hit force" -300
-		"missile strength" 450
+		"hit force" -600
+		"missile strength" 550
 		"stream"
 	description `Imperial navy vortex torpedo creates a short-living "hole" into the immaterium when hit sucking in everything within it vicinity causing massive damage to ships hit by it and anything else that comes close.`
 
@@ -1564,7 +1564,7 @@ outfit "Boarding Torpedo Launcher"
 		"submunition" "boarding torpedo energy" 2
 		"inaccuracy" 1
 		"velocity" 6
-		"lifetime" 80
+		"lifetime" 200
 		"reload" 40
 		"firing energy" 10
 		"firing heat" 400
@@ -1667,7 +1667,91 @@ outfit "boarding torpedo energy"
 		"tracking" .5
 		"lifetime" 500
 		"phasing"
+		
+outfit "Atmospheric Incinerator Torpedo"
+	category "Ammunition"
+	cost 100000
+	thumbnail "outfit/imperium plasma torpedo"
+	license
+		"Exterminatus Authority"
+	"mass" 12
+	"imperium atmInc torpedo capacity" -1
+	description "A type of cyclonic torpedo which lights the entire planet atmosphere on fire killing everything on the surface."
 
+outfit "Atmospheric Incinerator Tube"
+	category "Secondary Weapons"
+	cost 1000000
+	thumbnail "outfit/imperium plasma torpedo"
+	"mass" 20
+	"outfit space" -65
+	"weapon capacity" -65
+	"gun ports" -1
+	"imperium atmInc torpedo capacity" 8
+	weapon
+		sprite "projectile/imperium plasma torpedo projectile"
+			"no repeat"
+			"frame rate" .25
+		sound "nuke"
+		ammo "Atmospheric Incinerator Torpedo"
+		icon "icon/imp plasma"
+		"hit effect" "large explosion"
+		"live effect" "afterburner" 100
+		"die effect" "missile death"
+		"hit effect" "atmoinc die"
+		"hit effect" "atmoinc hit"
+		"hit effect" "atmoinc hit2"
+		"inaccuracy" 1
+		"velocity" 12
+		"lifetime" 2000
+		"reload" 360
+		"firing energy" 20
+		"firing heat" 400
+		"acceleration" 1.2
+		"drag" .1
+		"blast radius" 190
+		"shield damage" 8000
+		"hull damage" 500000
+		"heat damage" 999999999
+		"piecing" .2
+		"missile strength" 1200
+		"stream"
+	description "Atmospheric Incinerator Torpedo launcher. Only to be used in extreme case with approval from an Inquisitor or a Chapter Master."
+
+effect "atmoinc die"
+	sprite "effect/explosion/small"
+		"no repeat"
+		"frame rate" 15
+		"random start frame"
+	"lifetime" 24
+	"random angle" 360
+	"random frame rate" 5
+	"random spin" 2
+	"random velocity" .4
+	"velocity scale" .4
+
+effect "atmoinc hit"
+	sprite "effect/explosion/medium"
+		"no repeat"
+		"frame rate" 15
+		"random start frame"
+	"lifetime" 28
+	"random angle" 360
+	"random frame rate" 5
+	"random spin" 3
+	"random velocity" .6
+	"velocity scale" .4
+	
+effect "atmoinc hit2"
+	sprite "projectile/flamethrower"
+		"frame rate" 17
+		"random start frame"
+	"lifetime" 22
+	"random angle" 360
+	"random frame rate" 5
+	"random spin" 3
+	"random velocity" .6
+	"velocity scale" .4
+	
 outfit "Imperium CIWS Turret"
 	category "Turrets"
 	cost 150000
