@@ -1693,7 +1693,7 @@ outfit "Atmospheric Incinerator Tube"
 			"frame rate" .25
 		sound "nuke"
 		ammo "Atmospheric Incinerator Torpedo"
-		icon "icon/imp plasma"
+		icon "icon/exterminatus"
 		"hit effect" "large explosion"
 		"live effect" "afterburner" 100
 		"die effect" "missile death"
@@ -1716,6 +1716,8 @@ outfit "Atmospheric Incinerator Tube"
 		"missile strength" 1200
 		"stream"
 	description "Atmospheric Incinerator Torpedo launcher. Only to be used in extreme case with approval from an Inquisitor or a Chapter Master."
+	description "Buying this outfit will allow you to get Exterminatus missions from Inquisitors, be careful."
+	description "[Warning: blowing up planets will certainly make a mess with vanilla storylines and lock you out of it permanently.]
 
 effect "atmoinc die"
 	sprite "effect/explosion/small"

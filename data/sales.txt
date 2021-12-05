@@ -73,6 +73,8 @@ outfitter developer
 	"Apocalypse-Class Lance Turret"
 	"Apocalypse-Class-B Lance Turret"
 	"Victory-Class Lance Turret"
+	"Atmospheric Incinerator Tube"
+	"Atmospheric Incinerator Torpedo"
 
 shipyard developer
 	Dauntless-Class
@@ -251,4 +253,6 @@ outfitter "Forge World Advanced"
 	"Triple Med Lance Turret"
 	"Vortex Torpedo Tube"
 	Warp-Drive
+	"Atmospheric Incinerator Tube"
+	"Atmospheric Incinerator Torpedo"
 
