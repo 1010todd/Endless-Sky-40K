@@ -8,7 +8,7 @@ mission "Imperium: Kill Archons guarding Korath space"
 	waypoint Peresedersi
 	payment 8000000
 	to complete
-		"Drak guarding Korath space: done"
+		has "Drak guarding Korath space: done"
 	on complete
 		"reputation: Imperium of Man" += 2
 		"reputation: Emperor's Inquisition" += 2

@@ -28,6 +28,8 @@ phrase "imperium adjectives"
 		"Divine"
 		"Enduring"
 		"Swift"
+		"Iron"
+		"Steel"
 
 phrase "imperium noun"
 	word
@@ -53,12 +55,17 @@ phrase "imperium noun"
 		"Knight"
 		"Squire"
 		"Warrior"
+		"Castle"
+		"Crusader"
+		"Fortress"
 		
 phrase "imperium noun alt"
 	word
 		"Legate"
 		"Sanctum"
 		"Liberis"
+		"Excelsior"
+		"Infidus"
 		
 phrase "imperium standalone"
 	word
@@ -90,6 +97,10 @@ phrase "imperium small"
 		"imperium standalone"
 		"imperium name 1"
 		"imperium name 2"
+
+pharse "imperium large"
+	pharse
+		"imperium name 3"
 		
 phrase "imperium pname"
 	word
@@ -112,6 +123,11 @@ phrase "imperium pname"
 		Caughran
 		Tsux
 		Macarus
+		Altarerus
+		Cazzus
+		Varion
+		Spire
+		Azkeal
 		
 phrase "imperium weapon"
 	word
@@ -162,3 +178,4 @@ phrase "imperium name 3" #Radiant Guardian
 		" "
 	pharse
 		"imperium noun"
+		
