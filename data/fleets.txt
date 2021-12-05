@@ -12,7 +12,10 @@ fleet "Imperium Light Patrol"
 	variant 50
 		"Dauntless-Class" 2
 	variant 40
-		"Lunar-Class"
+		"Lunar-Class" 2
+	variant 50
+		"Storm-Class" 3
+		"Imperium Fury" 6
 
 fleet "Imperium Heavy Patrol"
 	government "Imperium of Man"
@@ -23,6 +26,9 @@ fleet "Imperium Heavy Patrol"
 		frugal heroic unconstrained
 	variant 50
 		"Lunar-Class" 2
+	variant 50
+		"Lunar-Class" 2
+		"Dominator-Class"
 	variant 50
 		"Lunar-Class" 2
 		"Storm-Class" 2
