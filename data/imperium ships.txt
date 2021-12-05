@@ -994,10 +994,10 @@ ship "Victory-Class"
 	turret 207.5 149.5
 	turret -217 270.5
 	turret 217 270.5
-	turret -221.5 700
-	turret 221.5 700
-	turret -226.5 788.5
-	turret 226.5 788.5
+	turret -221.5 700 "Imperium CIWS Turret"
+	turret 221.5 700 "Imperium Flak Turret"
+	turret -226.5 788.5 "Imperium Flak Turret"
+	turret 226.5 788.5 "Imperium CIWS Turret"
 	engine 2.5 1647.5
 		zoom 3
 		angle 0
