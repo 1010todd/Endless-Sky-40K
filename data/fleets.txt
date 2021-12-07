@@ -5,13 +5,13 @@ fleet "Imperium Light Patrol"
 	personality
 		confusion 30
 		frugal
-	variant 50
+	variant 30
 		"Dauntless-Class"
 		"Storm-Class" 2
 		"Imperium Fury" 4
 	variant 50
 		"Dauntless-Class" 2
-	variant 40
+	variant 20
 		"Lunar-Class" 2
 	variant 50
 		"Storm-Class" 3
