@@ -45,7 +45,7 @@ mission "Imperium: Conquer Covert(land)"
 	source "Covert"
 	destination "Pifitus"
 	to offer
-		has "Imperium: Conquer Covert: active"
+		has "Imperium: Conquer Covert: done"
 		has "tribute: Covert"
 	on offer
 		event "IoM conquer Covert"
@@ -53,8 +53,9 @@ mission "Imperium: Conquer Covert(land)"
 		conversation
 			`You watches as the swarms of numerous landers and fighters are deployed from Dictator-Class Cruiser, Lex Imperialis. They easily overwhelm the little resistance left on the ground, quickly securing the spaceport and the surrounding area. With threats of orbital bombardment other settlements either submit or pummelled and swarmed by the imperial guards.`
 			`	Now that you've done your job you can return to <destination> to report back to the high command and receive your rewards.`
+				accept
 	to complete
-		has "tribute: Covert"
+		#has "tribute: Covert"
 		#has "event: IoM conquer Covert"
 	on complete
 		"reputation: Imperium of Man" += 0.2
@@ -174,7 +175,7 @@ mission "Imperium: Conquer Buccaneer Bay(land)"
 	source "Buccaneer Bay"
 	destination "Pifitus"
 	to offer
-		has "Imperium: Conquer Buccaneer Bay: active"
+		has "Imperium: Conquer Buccaneer Bay: done"
 		has "tribute: Buccaneer Bay"
 	on offer
 		event "IoM conquer Buccaneer Bay"
@@ -182,8 +183,9 @@ mission "Imperium: Conquer Buccaneer Bay(land)"
 		conversation
 			`You watches as the swarms of numerous landers and fighters are deployed from Dictator-Class Cruiser, Lex Imperialis. They easily overwhelm the little resistance left on the ground, quickly securing the spaceport and the surrounding area. With threats of orbital bombardment other settlements either submit or pummelled and swarmed by the imperial guards.`
 			`	Now that you've done your job you can return to <destination> to report back to the high command and receive your rewards.`
+				accept
 	to complete
-		has "tribute: Buccaneer Bay"
+		#has "tribute: Buccaneer Bay"
 		#has "event: IoM conquer Buccaneer Bay"
 	on complete
 		"reputation: Imperium of Man" += 0.2
