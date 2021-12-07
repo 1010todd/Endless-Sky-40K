@@ -130,7 +130,7 @@ mission "Land on Hostile Imperium world"
 	source
 		government "Imperium of Man"
 	to offer
-		"reputation: Imperium of Man" <= -0.1
+		"reputation: Imperium of Man" <= -1
 	on offer
 		conversation
 			`Landing on a hostile world is never a good idea, it is especially a bad idea for worlds full of religious fanatics ready to kill you as soon as you're considered a heretic, traitor, or other negative title they might give you.`
