@@ -16,7 +16,68 @@ fleet "Imperium Light Patrol"
 	variant 50
 		"Storm-Class" 3
 		"Imperium Fury" 6
-
+		
+fleet "Imperium Escorts"
+	government "Imperium of Man"
+	names "imperium small"
+	fighters "republic fighter"
+	personality
+		confusion 30
+		frugal
+	variant 50
+		"Storm-Class" 2
+		"Imperium Fury" 4
+		
+fleet "Imperium Cruisers"
+	government "Imperium of Man"
+	names "imperium small"
+	fighters "republic fighter"
+	personality
+		confusion 30
+		frugal
+	variant 50
+		"Lunar-Class" 2
+	variant 50
+		"Lunar-Class"
+		"Dominator-Class"
+	variant 50
+		"Dictator-Class"
+		"Lunar-Class"
+		"Imperium Fury" 48
+	variant 50
+		"Gothic-Class"
+		"Lunar-Class"
+	variant 50
+		"Gothic-Class"
+		"Dominator-Class"
+		
+fleet "Imperium Battleships"
+	government "Imperium of Man"
+	names "imperium large"
+	fighters "republic fighter"
+	personality
+		confusion 30
+		frugal
+	variant 50
+		"Retribution-Class" 2
+	variant 50
+		"Retribution-Class"
+		"Emperor-Class"
+		"Imperium Fury" 80
+	variant 50
+		"Victory-Class" 2
+	variant 50
+		"Victory-Class"
+		"Retribution-Class"
+	variant 50
+		"Victory-Class"
+		"Emperor-Class"
+		"Imperium Fury" 80
+	variant 20
+		"Nemesis-Class"
+		"Retribution-Class"
+		"Imperium Fury" 120
+		
 fleet "Imperium Heavy Patrol"
 	government "Imperium of Man"
 	names "imperium large"

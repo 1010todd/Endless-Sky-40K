@@ -13,4 +13,4 @@ mission "Imperium: Kill Archons guarding Korath space"
 		"reputation: Imperium of Man" += 2
 		"reputation: Emperor's Inquisition" += 2
 		dialog
-			`The Imperium of Man is grateful for your service and pays you <payment> credits as reward.`
+			`The Imperium of Man is grateful for your service and reward you <payment> credits.`
