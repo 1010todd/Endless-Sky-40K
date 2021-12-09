@@ -26,6 +26,37 @@ outfit "Mac Cannon"
 		"hit force" 200
 	description "Imperial Navy's Macro cannon to be installed on the broadside of the ship for engaging at medium to close range providing superior armour penetration."
 	
+outfit "Mac Cannon Turret"
+	category "Turrets"
+	cost 2890000
+	thumbnail "outfit/single lance turret"
+	"mass" 81
+	"outfit space" -78
+	"weapon capacity" -78
+	"turret mounts" -1
+	"required crew" 4
+	weapon
+		sprite "projectile/mac shot"
+		sound "heavy rocket hit"
+		"hardpoint sprite" "hardpoint/single lance turret hp"
+		"hardpoint offset" 22.
+		"turret turn" 2.5
+		"hit effect" "huge explosion"
+		"hit effect" "nuke explosion"
+		"fire effect" "medium explosion"
+		"inaccuracy" 1.2
+		"velocity" 20
+		"lifetime" 66
+		"reload" 60
+		"firing energy" 20
+		"firing heat" 36
+		"firing force" 10
+		"blast radius" 50
+		"shield damage" 3000
+		"hull damage" 4500
+		"hit force" 200
+	description "Small single macro cannon turret."
+	
 outfit "Pyros Melta Cannon"
 	category "Guns"
 	cost 2190000
@@ -634,8 +665,8 @@ outfit "Mars-Pattern Nova Cannon"
 		"firing heat" 660
 		"firing force" 1400
 		"blast radius" 2350
-		"shield damage" 245000
-		"hull damage" 198000
+		"shield damage" 545000
+		"hull damage" 498000
 		"piercing" .1
 		"hit force" 3200
 	description "A massive Mars pattern Nova Cannon is the most common of its kind. It fires an enormous shell at near-relativistic velocity causing explosions that can cripple a group of smaller ships in a single shot."
@@ -856,7 +887,7 @@ outfit "Las-burner Turret"
 		sound "fire-lance"
 		"hardpoint sprite" "hardpoint/single lance turret hp"
 		"hardpoint offset" 22.
-		"turret turn" 1.8
+		"turret turn" 3.4
 		"fire effect" "lance fire"
 		"hit effect" "lance impact"
 		"inaccuracy" .1
@@ -1337,7 +1368,7 @@ outfit "Plasma Torpedo Tube"
 		"blast radius" 120
 		"shield damage" 12000
 		"hull damage" 16000
-		"piecing" .1
+		"piecing" .5
 		"missile strength" 400
 		"cluster"
 	description "Imperial navy standard plasma torpedo."
@@ -1378,6 +1409,7 @@ outfit "Melta Torpedo Tube"
 		"firing heat" 400
 		"acceleration" 1
 		"drag" .1
+		"piecing" .5
 		"shield damage" 6800
 		"hull damage" 22000
 		"heat damage" 2000
@@ -1425,7 +1457,7 @@ outfit "Shortburn Torpedo Tube"
 		"blast radius" 120
 		"shield damage" 11500
 		"hull damage" 15000
-		"piecing" .1
+		"piecing" .45
 		"missile strength" 300
 		"cluster"
 	description "Imperial navy shortburn torpedo, these torpedoes are faster than regular torpedo but don't last as long."
@@ -1473,7 +1505,7 @@ outfit "Guided Torpedo Tube"
 		"blast radius" 100
 		"shield damage" 11000
 		"hull damage" 15000
-		"piecing" .1
+		"piecing" .5
 		"missile strength" 400
 		"cluster"
 	description "Imperial navy guided torpedo."
@@ -1522,7 +1554,7 @@ outfit "Seeking Torpedo Tube"
 		"blast radius" 100
 		"shield damage" 10000
 		"hull damage" 14000
-		"piecing" .1
+		"piecing" .5
 		"missile strength" 350
 		"cluster"
 	description "Imperial navy seeking torpedo."
