@@ -1427,7 +1427,7 @@ outfit "Imperium Shortburn Torpedo"
 
 outfit "Shortburn Torpedo Tube"
 	category "Secondary Weapons"
-	cost 1000000
+	cost 1200000
 	thumbnail "outfit/imperium shortburn torpedo"
 	"mass" 20
 	"outfit space" -65
@@ -1464,7 +1464,7 @@ outfit "Shortburn Torpedo Tube"
 	
 outfit "Imperium Guided Torpedo"
 	category "Ammunition"
-	cost 150000
+	cost 250000
 	thumbnail "outfit/imperium guided torpedo"
 	"mass" 6
 	"imperium guided torpedo capacity" -1
@@ -1472,12 +1472,13 @@ outfit "Imperium Guided Torpedo"
 
 outfit "Guided Torpedo Tube"
 	category "Secondary Weapons"
-	cost 1000000
+	cost 1800000
 	thumbnail "outfit/imperium guided torpedo"
 	"mass" 20
 	"outfit space" -65
 	"weapon capacity" -65
 	"gun ports" -1
+	"required crew" 2
 	"imperium guided torpedo capacity" 8
 	weapon
 		sprite "projectile/imperium guided torpedo projectile"
@@ -1501,6 +1502,7 @@ outfit "Guided Torpedo Tube"
 		"drag" .1
 		"turn" 5
 		"homing" 4
+		"phasing"
 		"tracking" 1
 		"blast radius" 100
 		"shield damage" 11000
@@ -1508,7 +1510,7 @@ outfit "Guided Torpedo Tube"
 		"piecing" .5
 		"missile strength" 400
 		"cluster"
-	description "Imperial navy guided torpedo."
+	description "These torpedoes are telepathically guided allowing it to track and hit enemy with great precision."
 	
 outfit "Imperium Seeking Torpedo"
 	category "Ammunition"
