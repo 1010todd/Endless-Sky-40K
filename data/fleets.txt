@@ -16,6 +16,8 @@ fleet "Imperium Light Patrol"
 	variant 50
 		"Storm-Class" 3
 		"Imperium Fury" 6
+	variant 50
+		"Cobra-Class" 5
 		
 fleet "Imperium Escorts"
 	government "Imperium of Man"
@@ -27,6 +29,8 @@ fleet "Imperium Escorts"
 	variant 50
 		"Storm-Class" 2
 		"Imperium Fury" 4
+	variant 40
+		"Cobra-Class" 3
 		
 fleet "Imperium Cruisers"
 	government "Imperium of Man"
@@ -128,5 +132,12 @@ fleet "Imperium Heavy Patrol"
 		"Retribution-Class"
 		"Emperor-Class"
 		"Storm-Class" 4
+		"Imperium Fury" 92
+		"Lunar-Class" 4
+	variant 1
+		"Retribution-Class"
+		"Emperor-Class"
+		"Storm-Class" 2
+		"Cobra-Class" 4
 		"Imperium Fury" 92
 		"Lunar-Class" 4

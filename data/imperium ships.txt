@@ -149,7 +149,7 @@ ship "Cobra-Class"
 	"swizzle" 0
 	attributes
 		category "Light Warship"
-		"cost" 8200000
+		"cost" 6900000
 		"shields" 134000
 		"hull" 135900
 		"required crew" 150

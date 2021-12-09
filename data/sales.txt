@@ -92,6 +92,7 @@ shipyard developer
 	"Nemesis-Class"
 	"Apocalypse-Class"
 	"Judicator-Class"
+	"Cobra-Class"
 
 shipyard "Imperium Basic"
 	Dauntless-Class
@@ -101,6 +102,7 @@ shipyard "Imperium Basic"
 	"Imperium Fury"
 	Lunar-Class
 	Storm-Class
+	"Cobra-Class"
 
 shipyard "Forge World Advanced"
 	Retribution-Class
