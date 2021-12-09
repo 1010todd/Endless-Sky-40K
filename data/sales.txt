@@ -75,6 +75,13 @@ outfitter developer
 	"Victory-Class Lance Turret"
 	"Atmospheric Incinerator Tube"
 	"Atmospheric Incinerator Torpedo"
+	"Necron Lighting Arc"
+	"Necron Particle Whip"
+	"Star Pulse Generator"
+	"Sepulchre"
+	"Necron Gauss PD Turret"
+	"Dolmen Gate"
+	"Large Necron Inertialess Drive"
 
 shipyard developer
 	Dauntless-Class
@@ -93,6 +100,7 @@ shipyard developer
 	"Apocalypse-Class"
 	"Judicator-Class"
 	"Cobra-Class"
+	"Cairn-Class"
 
 shipyard "Imperium Basic"
 	Dauntless-Class
