@@ -137,6 +137,7 @@ outfitter "Imperium Basic"
 	"Small Plasma Storage"
 	"Triple Las-burner Turret"
 	Warp-Drive
+	"Las-burner Turret"
 
 outfitter "Forge World Basic"
 	"Boarding Torpedo"
@@ -189,6 +190,7 @@ outfitter "Forge World Basic"
 	"Triple Las-burner Turret"
 	"Triple Med Lance Turret"
 	Warp-Drive
+	"Las-burner Turret"
 
 outfitter "Forge World Advanced"
 	"Boarding Torpedo"
@@ -255,4 +257,6 @@ outfitter "Forge World Advanced"
 	Warp-Drive
 	"Atmospheric Incinerator Tube"
 	"Atmospheric Incinerator Torpedo"
+	"Hex Med Lance Turret"
+	"Las-burner Turret"
 

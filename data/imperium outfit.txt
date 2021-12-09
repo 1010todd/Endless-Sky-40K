@@ -840,6 +840,38 @@ outfit "Lance Cannon"
 		cluster
 	description "Imperium Lance Cannon."
 	
+outfit "Las-burner Turret"
+	category "Turrets"
+	cost 9700000
+	thumbnail "outfit/single lance turret"
+	"mass" 28
+	"outfit space" -28
+	"weapon capacity" -28
+	"turret mounts" -1
+	"required crew" 2
+	weapon
+		sprite "projectile/single lasburner"
+			#"start frame" 0
+			"frame rate" .5
+		sound "fire-lance"
+		"hardpoint sprite" "hardpoint/single lance turret hp"
+		"hardpoint offset" 22.
+		"turret turn" 1.8
+		"fire effect" "lance fire"
+		"hit effect" "lance impact"
+		"inaccuracy" .1
+		"velocity" 700
+		"lifetime" 1
+		"reload" 1.2
+		"burst count" 30
+		"burst reload" 1
+		"firing energy" 8
+		"firing heat" 11
+		"shield damage" 23
+		"hull damage" 16
+		cluster
+	description "Smaller lance turrets for smaller ships."
+	
 outfit "Triple Las-burner Turret"
 	category "Turrets"
 	cost 28700000
@@ -1056,7 +1088,7 @@ outfit "Apocalypse-Class-B Lance Turret"
 		"reload" 1.5
 		"burst count" 60
 		"burst reload" 1
-		"firing energy" 94
+		"firing energy" 112
 		"firing heat" 146
 		"shield damage" 620
 		"hull damage" 468
@@ -1064,6 +1096,38 @@ outfit "Apocalypse-Class-B Lance Turret"
 		"firing slowing" .15
 		cluster
 	description "Powerful Lance battery found on Apocalypse-Class. Overloaded allowing longer range at cost of damage to the ship."
+	
+outfit "Hex Med Lance Turret"
+	category "Turrets"
+	cost 89700000
+	thumbnail "outfit/hex lance turret"
+	"mass" 560
+	"outfit space" -560
+	"weapon capacity" -560
+	"turret mounts" -1
+	"required crew" 8
+	weapon
+		sprite "projectile/triple med lance"
+			#"start frame" 0
+			"frame rate" 1.5
+		sound "fire-lance"
+		"hardpoint sprite" "hardpoint/hex lance turret hp"
+		"hardpoint offset" 12.
+		"turret turn" 1.8
+		"fire effect" "lance fire"
+		"hit effect" "lance impact"
+		"inaccuracy" .1
+		"velocity" 1000
+		"lifetime" 1
+		"reload" 1.5
+		"burst count" 30
+		"burst reload" 1
+		"firing energy" 180
+		"firing heat" 280
+		"shield damage" 698
+		"hull damage" 498
+		cluster
+	description "6 Powerful lance packed into a single lance turret, these turrets are significantly much more powerful than regular triple lance or Quad lance but are due to heat constrains each burst is also mush shorter."
 	
 outfit "Heavy Lance Cannon"
 	category "Guns"
