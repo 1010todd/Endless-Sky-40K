@@ -32,9 +32,9 @@ outfit "Necron Lighting Arc"
 	description "Fires projectiles that can guide themselves toward enemy ships."
 
 effect "nec lighting arc trail"
-	sprite "effect/pwavecannon"
+	sprite "projectile/pwavecannon"
 	"lifetime" 9
-	"velocity scale" 0.8
+	"velocity scale" 0.1
 
 outfit "nec lighting arc turn1"
 	weapon
