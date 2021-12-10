@@ -765,6 +765,100 @@ ship "Gothic-Class"
 	"final explode" "final explosion large" 2
 	description "Gothic-Class Cruiser."
 	
+ship "Gothic-Class" "Gothic-Class (Admech)"
+	sprite "ship/imperium gothic class admech"
+	thumbnail "thumbnail/imperium gothic class admech thumb"
+	"swizzle" 0
+	attributes
+		category "Medium Warship"
+		"cost" 12200000
+		"shields" 715000
+		"hull" 816000
+		"required crew" 750
+		"bunks" 1350
+		"mass" 18900
+		"drag" 10
+		"heat dissipation" .5
+		"fuel capacity" 3000
+		"cargo space" 680
+		"outfit space" 7542
+		"weapon capacity" 3850
+		"engine capacity" 920
+		"force protection" 5
+		"hull protection" .5
+		"shield protection" .5
+		"ramscoop" 12
+		"hull repair rate" 50
+		"shield generation multiplier" .1
+		"shield energy multiplier" -.2
+		"energy capacity" 22000
+		"imperium ram" -2
+		weapon
+			"blast radius" 1520
+			"shield damage" 94000
+			"hull damage" 42000
+			"hit force" 1260
+	outfits
+		"Imperium Ram" 2
+		"Shortburn Torpedo Tube" 4
+		"Imperium Shortburn Torpedo" 32
+		"Triple Hev Lance Turret"
+		"Imperium CIWS Turret" 4
+		"Imperium Flak Turret" 4
+		"Triple Med Lance Turret" 8
+
+		"Medium Plasma Core" 4
+		"Small Plasma Storage" 4
+		"Medium Void Shield" 4
+		"Las Rifle" 1000
+		"Imperium Plasma Gun" 500
+		"Plasma Cooler" 3
+
+		"Medium Plasma Drive" 2
+		"Warp-Drive"
+		
+	gun -76 -909.5
+	gun 76 -909.5
+	gun -76 -893.5
+	gun 76 -893.5
+	turret -129.5 -504
+	turret 129.5 -504
+	turret -132 -413.5
+	turret 132 -413.5
+	turret -134.5 -13.5
+	turret 134.5 -13.5
+	turret -134.5 72
+	turret 134.5 72
+	gun -76 -936 "Imperium Ram"
+	gun 76 -936 "Imperium Ram"
+	turret 0 -221.5 "Triple Hev Lance Turret"
+	turret -76 -688 "Imperium Flak Turret"
+	turret 76 -688 "Imperium Flak Turret"
+	turret -41.5 72 "Imperium CIWS Turret"
+	turret 41.5 72 "Imperium CIWS Turret"
+	turret -81.5 234.5 "Imperium CIWS Turret"
+	turret 81.5 234.5 "Imperium CIWS Turret"
+	turret -305.5 378.5 "Imperium Flak Turret"
+	turret 305.5 378.5 "Imperium Flak Turret"
+	engine -1.5 965.5
+		zoom 2
+		angle 0
+		under
+	engine 121.5 928
+		zoom 2
+		angle 0
+		under
+	engine -121.5 928
+		zoom 2
+		angle 0
+		under
+	explode "tiny explosion" 18
+	explode "small explosion" 46
+	explode "medium explosion" 64
+	explode "large explosion" 60
+	"final explode" "final explosion large" 2
+	description "Mechanicus Gothic-Class Cruiser is a heavily modified version of Gothic-Class Cruiser with extra roof turret and better shielding as well as ability to repair itself. These vessels also have more fuel capacity and fuel ramscoop for long range expeditions as well as slightly more cargo space to recover ancient techs."
+	
 ship "Dictator-Class"
 	sprite "ship/imperium dictator class"
 	thumbnail "thumbnail/imperium dictator class thumb"

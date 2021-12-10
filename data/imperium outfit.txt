@@ -1248,7 +1248,7 @@ outfit "Triple Hev Lance Turret"
 	"turret mounts" -1
 	"required crew" 22
 	weapon
-		sprite "projectile/triple hev lance"
+		sprite "projectile/triple med lance"
 			#"start frame" 0
 			"frame rate" 1
 		sound "fire-lance"
@@ -2282,7 +2282,7 @@ outfit "Small Plasma Drive"
 	"flare sprite" "effect/imperium flare/medium"
 		"frame rate" 3
 	"flare sound" "atomic medium"
-	"turn" 2592
+	"turn" 2992
 	"turning energy" 2.5
 	"turning heat" 6.3
 	"steering flare sprite" "effect/imperium flare/medium"
@@ -2306,7 +2306,7 @@ outfit "Medium Plasma Drive"
 	"flare sprite" "effect/imperium flare/large"
 		"frame rate" 2
 	"flare sound" "atomic large"
-	"turn" 5282
+	"turn" 6128.5
 	"turning energy" 5.6
 	"turning heat" 8.3
 	"steering flare sprite" "effect/imperium flare/large"
@@ -2324,13 +2324,13 @@ outfit "Large Plasma Drive"
 	"mass" 723
 	"outfit space" -723
 	"engine capacity" -723
-	"thrust" 354.3
+	"thrust" 765.6
 	"thrusting energy" 20.2
 	"thrusting heat" 40.3
 	"flare sprite" "effect/imperium flare/huge"
 		"frame rate" 1
 	"flare sound" "atomic huge"
-	"turn" 12561
+	"turn" 14570
 	"turning energy" 11.1
 	"turning heat" 15.6
 	"steering flare sprite" "effect/imperium flare/huge"

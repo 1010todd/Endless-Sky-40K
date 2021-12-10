@@ -7,7 +7,7 @@ ship "Cairn-Class"
 		"cost" 8800000
 		#"shields" 1558000
 		"hull" 8858000
-		"hull repair rate" 100
+		"hull repair rate" 600
 		"required crew" 1200
 		"bunks" 2400
 		"mass" 45000
