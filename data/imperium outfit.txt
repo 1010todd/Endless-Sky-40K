@@ -715,6 +715,56 @@ outfit "Ryza-Pattern Nova Cannon"
 		"hit force" 3200
 	description "Ryza-Pattern Nova Cannon fires massive shell filled with unstable plasma-based marco-bomb. A direct hit will cripple even battleships with full shield."
 
+outfit "Psychic Cannon"
+	category "Guns"
+	cost 99630000
+	thumbnail "outfit/mars patt nova cannon"
+	"mass" 280
+	"outfit space" -268
+	"weapon capacity" -268
+	"gun ports" -1
+	"spinal mount" -1
+	"required crew" 14
+	"operating costs" 1000
+	weapon
+		sprite "projectile/heavy mac shot"
+		sound "jump in red"
+		icon "icon/nuke"
+		"hit effect" "huge explosion" 3
+		"hit effect" "nuke explosion" 1
+		"hit effect" "warp explosion" 1
+		"fire effect" "nova cannon fire" 3
+		"inaccuracy" .1
+		"velocity" 300
+		"lifetime" 5
+		"reload" 650
+		"firing energy" 580
+		"firing heat" 660
+		"firing force" 1000
+		"blast radius" 1350
+		"shield damage" 45000
+		"hull damage" 49000
+		"heat damage" 5000
+		"fuel damage" 500
+		"relative energy damage" .5
+		"slowing damage" 2000
+		"ion damage"  500
+		"disruption damage" 5000
+		"piercing" .1
+		"hit force" -3200
+	description "A mysterious weapon found on Daemon Slayer class cruiser, while the weapon itself deals very little damage to armor, it'll bandish entire legion of daemons back into the warp, disrupt any psychic-related powers, and generally make a huge mess with targeted ship systems."
+
+effect "warp explosion"
+	sprite "projectile/immaterium vortex rift"
+		"frame rate" 30
+	sound "jump out red"
+	"lifetime" 36
+	#"random angle" 360
+	"random frame rate" 8
+	"random spin" 5
+	"random velocity" 12
+	"velocity scale" 0
+
 #=========================================Ram
 
 outfit "Imperium Ram"
@@ -1768,7 +1818,7 @@ outfit "boarding torpedo energy"
 		
 outfit "Atmospheric Incinerator Torpedo"
 	category "Ammunition"
-	cost 100000
+	cost 1000000
 	thumbnail "outfit/imperium plasma torpedo"
 	license
 		"Exterminatus Authority"
@@ -1795,9 +1845,9 @@ outfit "Atmospheric Incinerator Tube"
 		"hit effect" "large explosion"
 		"live effect" "afterburner" 100
 		"die effect" "missile death"
-		"hit effect" "atmoinc die"
-		"hit effect" "atmoinc hit"
-		"hit effect" "atmoinc hit2"
+		"hit effect" "atmoinc die" 12
+		"hit effect" "atmoinc hit" 5
+		"hit effect" "atmoinc hit2" 5
 		"inaccuracy" 1
 		"velocity" 12
 		"lifetime" 2000
@@ -1815,7 +1865,7 @@ outfit "Atmospheric Incinerator Tube"
 		"stream"
 	description "Atmospheric Incinerator Torpedo launcher. Only to be used in extreme case with approval from an Inquisitor or a Chapter Master."
 	description "Buying this outfit will allow you to get Exterminatus missions from Inquisitors, be careful."
-	description "[Warning: blowing up planets will certainly make a mess with vanilla storylines and lock you out of it permanently.]
+	description "[Warning: blowing up planets will certainly make a mess with vanilla storylines and lock you out of it permanently.]"
 
 effect "atmoinc die"
 	sprite "effect/explosion/small"
@@ -1851,6 +1901,133 @@ effect "atmoinc hit2"
 	"random spin" 3
 	"random velocity" .6
 	"velocity scale" .4
+	
+outfit "Mortalis Atmospheric Missile"
+	category "Ammunition"
+	cost 1300000
+	thumbnail "outfit/imperium plasma torpedo"
+	license
+		"Exterminatus Authority"
+	"mass" 6
+	"imperium mortalis torpedo capacity" -1
+	description "Mortalis Atmospheric Missile is an exterminatus-grade phosphex weapon capable of burning entire planet in a salvo with little to no oxygen needed."
+
+outfit "Mortalis Atmospheric Launcher"
+	category "Secondary Weapons"
+	cost 980000
+	thumbnail "outfit/imperium plasma torpedo"
+	"mass" 20
+	"outfit space" -60
+	"weapon capacity" -60
+	"gun ports" -1
+	"imperium mortalis torpedo capacity" 24
+	weapon
+		sprite "projectile/imperium plasma torpedo projectile"
+			"no repeat"
+			"frame rate" .25
+		sound "nuke"
+		ammo "Mortalis Atmospheric Missile"
+		icon "icon/exterminatus"
+		"hit effect" "large explosion"
+		"live effect" "afterburner" 100
+		"die effect" "missile death"
+		"hit effect" "atmoinc die"
+		"hit effect" "atmoinc hit"
+		"hit effect" "atmoinc hit2"
+		"inaccuracy" 1.2
+		"velocity" 15
+		"lifetime" 1500
+		"reload" 90
+		"burst count" 12
+		"burst reload" 10
+		"firing energy" 10
+		"firing heat" 100
+		"acceleration" 1.8
+		"drag" .1
+		"blast radius" 190
+		"shield damage" 4000
+		"hull damage" 120000
+		"heat damage" 5500000
+		"turn" 12
+		"homing" 4
+		"optical tracking" .9
+		"piecing" .1
+		"missile strength" 800
+		"stream"
+	description "Mortalis Atmospheric Launcher. Only to be used in extreme case with approval from an Inquisitor or a Chapter Master."
+	#description "Buying this outfit will allow you to get Exterminatus missions from Inquisitors, be careful."
+	description "[Warning: blowing up planets will certainly make a mess with vanilla storylines and lock you out of it permanently.]"
+
+	
+outfit "Two-stage Cyclonic Torpedo"
+	category "Ammunition"
+	cost 2500000
+	thumbnail "outfit/imperium plasma torpedo"
+	license
+		"Exterminatus Authority"
+	"mass" 18
+	"imperium 2stgCyc torpedo capacity" -1
+	description "A type of cyclonic torpedo which upon impact, fires a second stage which can penetrate deep into the planet's core and destabilize cracking the planet and make it explode."
+
+outfit "Two-stage Cyclonic Tube"
+	category "Secondary Weapons"
+	cost 1800000
+	thumbnail "outfit/imperium plasma torpedo"
+	"mass" 20
+	"outfit space" -90
+	"weapon capacity" -90
+	"gun ports" -1
+	"imperium 2stgCyc torpedo capacity" 4
+	weapon
+		sprite "projectile/imperium plasma torpedo projectile"
+			"no repeat"
+			"frame rate" .25
+		sound "nuke"
+		ammo "Two-stage Cyclonic Torpedo"
+		icon "icon/exterminatus"
+		"hit effect" "large explosion"
+		"live effect" "afterburner" 50
+		"die effect" "large explosion"
+		"hit effect" "atmoinc die"
+		"hit effect" "atmoinc hit"
+		"hit effect" "atmoinc hit2"
+		submunition "Two-stage Cyclonic second stage"
+		"inaccuracy" 1
+		"velocity" 12
+		"lifetime" 2000
+		"reload" 360
+		"firing energy" 20
+		"firing heat" 400
+		"acceleration" 1.2
+		"drag" .1
+		"blast radius" 190
+		"shield damage" 8000
+		"hull damage" 500000
+		"heat damage" 5000000
+		"piecing" .5
+		"missile strength" 1800
+		"stream"
+	description "Two-stage Cyclonic Torpedo launcher. Only to be used in extreme case with approval from an Inquisitor or a Chapter Master."
+	#description "Buying this outfit will allow you to get Exterminatus missions from Inquisitors, be careful."
+	description "[Warning: blowing up planets will certainly make a mess with vanilla storylines and lock you out of it permanently.]"
+	
+outfit "Two-stage Cyclonic second stage"
+	weapon
+		"hit effect" "atmoinc die"
+		"hit effect" "atmoinc hit"
+		"hit effect" "atmoinc hit2"
+		"velocity" 80
+		"lifetime" 1000
+		"reload" 360
+		"acceleration" 1.2
+		"drag" .1
+		"blast radius" 12000
+		"shield damage" 800000000
+		"hull damage" 800000000
+		"heat damage" 50000000
+		"phasing"
+		"piecing" 1
+		"missile strength" 1800
 	
 outfit "Imperium CIWS Turret"
 	category "Turrets"
@@ -2273,3 +2450,9 @@ outfit "Letters of Marque"
 	category "Special"
 	thumbnail "outfit/city-ship license"
 	description "Similar to Warrant of Trade, this grant the holder to travel freely but with more restriction than Warrant of Trade, such as sectors one can travel in. Some Letters of Marque is also not hereditary which means its heir must reapply with the Administratum."
+	
+outfit "Cult Mechanicus"
+	category "Special"
+	thumbnail "outfit/city-ship license"
+	description "An implant to verify that you're a member of the adeptus mechanicus and are allowed to purchase and use their ships and outfits."
+	

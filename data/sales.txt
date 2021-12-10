@@ -82,6 +82,11 @@ outfitter developer
 	"Necron Gauss PD Turret"
 	"Dolmen Gate"
 	"Large Necron Inertialess Drive"
+	"Psychic Cannon"
+	"Two-stage Cyclonic Tube"
+	"Two-stage Cyclonic Torpedo"
+	"Mortalis Atmospheric Missile"
+	"Mortalis Atmospheric Launcher"
 
 shipyard developer
 	Dauntless-Class
