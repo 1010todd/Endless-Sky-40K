@@ -451,6 +451,104 @@ ship "Lunar-Class"
 	"final explode" "final explosion large" 2
 	description "Lunar-Class Cruiser. Lunar-class is one of the most common cruiser in the Imperial Navy fleet due to its ease of manufacturing allowing even worlds normally unable to construct a cruiser to build one. Also due to its popularity the Lunar class hull have become the base for other common class of cruisers such as the formidable Dominator class."
 	
+ship "Lunar-Class" "Lunar-Class (Nova)"
+	sprite "ship/imperium lunar class nova"
+	thumbnail "thumbnail/imperium lunar class nova thumb"
+	"swizzle" 0
+	attributes
+		category "Medium Warship"
+		"cost" 9600000
+		"shields" 629000
+		"hull" 753600
+		"required crew" 980
+		"bunks" 1280
+		"mass" 18100
+		"drag" 10.2
+		"heat dissipation" .5
+		"fuel capacity" 2400
+		"cargo space" 500
+		"outfit space" 6876
+		"weapon capacity" 3250
+		"engine capacity" 880
+		"force protection" 5
+		"imperium ram" -4
+		"spinal mount" 1
+		weapon
+			"blast radius" 1520
+			"shield damage" 94000
+			"hull damage" 42000
+			"hit force" 1260
+	outfits
+		"Imperium Ram" 4
+		"Mars-Pattern Nova Cannon"
+		"Mac Cannon" 8
+		"Lance Cannon" 2
+		"Medium Lance Cannon" 2
+		"Imperium CIWS Turret" 4
+		"Triple Med Lance Turret" 4
+
+		"Medium Plasma Core" 4
+		"Small Plasma Storage" 4
+		"Medium Void Shield" 4
+		"Las Rifle" 900
+		"Plasma Cooler"
+
+		"Medium Plasma Drive"
+		"Warp-Drive"
+		
+	gun 0 -979.5 "Mars-Pattern Nova Cannon"
+	gun -265.5 165.5 "Medium Lance Cannon"
+	gun 265.5 165.5 "Medium Lance Cannon"
+	gun -212 242.5
+	gun 212 242.5 
+	turret -132 61.5 "Triple Med Lance Turret"
+	turret 132 61.5 "Triple Med Lance Turret"
+	turret -134.5 146.5 "Triple Med Lance Turret"
+	turret 134.5 146.5 "Triple Med Lance Turret"
+	gun -118.5 -325.5 "Mac Cannon"
+		"angle" -90
+	gun 118.5 -325.5 "Mac Cannon"
+		"angle" 90
+	gun -118.5 -242.5 "Mac Cannon"
+		"angle" -90
+	gun 118.5 -242.5 "Mac Cannon"
+		"angle" 90
+	gun -118.5 -168 "Mac Cannon"
+		"angle" -90
+	gun 118.5 -168 "Mac Cannon"
+		"angle" 90
+	gun -124 -90.5 "Mac Cannon"
+		"angle" -90
+	gun 124 -90.5 "Mac Cannon"
+		"angle" 90
+	turret -62.5 -421.5 
+	turret 62.5 -421.5
+	turret -44 269.5 
+	turret 44 269.5 
+	gun -41.5 -698.5 "Imperium Ram"
+	gun 41.5 -698.5 "Imperium Ram"
+	gun -89.5 -602.5 "Imperium Ram"
+	gun 89.5 -602.5 "Imperium Ram"
+	engine -1.5 930.5
+		zoom 1.8
+		angle 0
+		under
+	engine 100 904
+		zoom 1.3
+		angle 0
+		under
+	engine -100 904
+		zoom 1.3
+		angle 0
+		under
+	engine 57.5 888
+		zoom 1.2
+		angle 0
+		over
+	engine -57.5 888
+		zoom 1.2
+		angle 0
+		over
 	
 ship "Dominator-Class"
 	sprite "ship/imperium dominator class"

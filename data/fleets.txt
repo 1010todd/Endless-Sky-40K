@@ -130,10 +130,24 @@ fleet "Imperium Heavy Patrol"
 		"Lunar-Class" 4
 	variant 1
 		"Retribution-Class"
+		"Victory-Class"
+		"Storm-Class" 4
+		"Imperium Fury" 12
+		"Lunar-Class" 3
+		"Lunar-Class (Nova)"
+	variant 1
+		"Retribution-Class"
 		"Emperor-Class"
 		"Storm-Class" 4
 		"Imperium Fury" 92
 		"Lunar-Class" 4
+	variant 1
+		"Retribution-Class"
+		"Emperor-Class"
+		"Storm-Class" 4
+		"Imperium Fury" 92
+		"Lunar-Class" 3
+		"Lunar-Class (Nova)"
 	variant 1
 		"Retribution-Class"
 		"Emperor-Class"

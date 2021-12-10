@@ -92,6 +92,7 @@ shipyard developer
 	"Imperium Fury"
 	"Kir'shasvre Class"
 	Lunar-Class
+	"Lunar-Class (Nova)"
 	Retribution-Class
 	Storm-Class
 	"Victory-Class"
@@ -111,6 +112,9 @@ shipyard "Imperium Basic"
 	Lunar-Class
 	Storm-Class
 	"Cobra-Class"
+
+shipyard "Forge World Basic"
+	"Lunar-Class (Nova)"
 
 shipyard "Forge World Advanced"
 	Retribution-Class
