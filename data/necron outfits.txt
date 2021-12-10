@@ -145,7 +145,7 @@ outfit "nec lighting arc shot4"
 outfit "Necron Particle Whip"
 	category "Turrets"
 	cost 28700000
-	thumbnail "outfit/unknown"
+	thumbnail "outfit/necron particle whip"
 	"mass" 120
 	"outfit space" -120
 	"weapon capacity" -120
@@ -173,7 +173,7 @@ outfit "Necron Particle Whip"
 		"cluster"
 	description "Necron weapon that fires a powerful arc of anti-matter decimating anything in its path regardless of their armor and shields."
 
-outfit "Star pwavecannon Generator"
+outfit "Star Pulse Generator"
 	category "Turrets"
 	cost 9870000
 	thumbnail "outfit/unknown"
