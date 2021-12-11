@@ -459,22 +459,17 @@ outfit "Heavy Mac Duo-Deck R"
 		"velocity" 0
 		"lifetime" 1
 		"reload" 65
-		"firing energy" 300
-		"firing heat" 567
-		"firing force" 300
+		"burst count" 2
+		"burst reload" 10
+		"firing energy" 160
+		"firing heat" 264
+		"firing force" 160
 		"blast radius" 80
 		"shield damage" 8500
 		"hull damage" 12500
 		"hit force" 500
 	description "Array of 4 heavy mac cannons, starts from the front to back. For right side of the ship"
 	
-outfit "heavy mac spawner turn 1a r"
-	weapon
-		turn 45
-		lifetime 3
-		submunition "heavy mac spawner 1 r"
-		submunition "heavy mac spawner 2 r"
-		submunition "heavy mac spawner 3 r"
 	
 outfit "Heavy Mac Duo-Deck L"
 	category "Guns"
@@ -498,22 +493,16 @@ outfit "Heavy Mac Duo-Deck L"
 		"velocity" 0
 		"lifetime" 1
 		"reload" 65
-		"firing energy" 300
-		"firing heat" 567
-		"firing force" 300
+		"burst count" 2
+		"burst reload" 10
+		"firing energy" 160
+		"firing heat" 264
+		"firing force" 160
 		"blast radius" 80
 		"shield damage" 8500
 		"hull damage" 12500
 		"hit force" 500
 	description "Array of 4 heavy mac cannons, starts from the front to back. For right side of the ship"
-		
-outfit "heavy mac spawner turn 1a l"
-	weapon
-		turn 45
-		lifetime 3
-		submunition "heavy mac spawner 1 l"
-		submunition "heavy mac spawner 2 l"
-		submunition "heavy mac spawner 3 l"
 		
 outfit "Heavy Pyros Melta Array R"
 	category "Guns"
