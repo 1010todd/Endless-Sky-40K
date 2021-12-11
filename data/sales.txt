@@ -87,6 +87,7 @@ outfitter developer
 	"Two-stage Cyclonic Torpedo"
 	"Mortalis Atmospheric Missile"
 	"Mortalis Atmospheric Launcher"
+	"Hex Med Lance Turret"
 
 shipyard developer
 	Dauntless-Class
@@ -110,6 +111,7 @@ shipyard developer
 	"Cairn-Class"
 	"Vengeance-Class"
 	"Imperium Transport"
+	"Gloriana-Class"
 
 shipyard "Imperium Basic"
 	Dauntless-Class

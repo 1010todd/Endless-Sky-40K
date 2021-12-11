@@ -437,6 +437,84 @@ outfit "heavy mac spawned turn 3 l"
 		"velocity" -135
 		submunition "heavy mac delay 4 r"
 		
+outfit "Heavy Mac Duo-Deck R"
+	category "Guns"
+	cost 6830000
+	thumbnail "outfit/heavy mac cannon"
+	"mass" 10088
+	"outfit space" -976
+	"weapon capacity" -976
+	"gun ports" -1
+	"4port double deck array" -1
+	"required crew" 48
+	weapon
+		#sprite "projectile/heavy mac shot"
+		sound "heavy rocket hit"
+		"hit effect" "huge explosion" 3
+		"hit effect" "nuke explosion" 2
+		"fire effect" "large explosion"
+		submunition "heavy mac delay 1 r"
+		submunition "heavy mac spawner turn 1 r"
+		submunition "heavy mac spawner turn 1a r"
+		"velocity" 0
+		"lifetime" 1
+		"reload" 65
+		"firing energy" 300
+		"firing heat" 567
+		"firing force" 300
+		"blast radius" 80
+		"shield damage" 8500
+		"hull damage" 12500
+		"hit force" 500
+	description "Array of 4 heavy mac cannons, starts from the front to back. For right side of the ship"
+	
+outfit "heavy mac spawner turn 1a r"
+	weapon
+		turn 45
+		lifetime 3
+		submunition "heavy mac spawner 1 r"
+		submunition "heavy mac spawner 2 r"
+		submunition "heavy mac spawner 3 r"
+	
+outfit "Heavy Mac Duo-Deck L"
+	category "Guns"
+	cost 6830000
+	thumbnail "outfit/heavy mac cannon"
+	"mass" 544
+	"outfit space" -976
+	"weapon capacity" -976
+	"gun ports" -1
+	"4port double deck array" -1
+	"required crew" 48
+	weapon
+		#sprite "projectile/heavy mac shot"
+		sound "heavy rocket hit"
+		"hit effect" "huge explosion" 3
+		"hit effect" "nuke explosion" 2
+		"fire effect" "large explosion"
+		submunition "heavy mac delay 1 r"
+		submunition "heavy mac spawner turn 1 l"
+		submunition "heavy mac spawner turn 1a l"
+		"velocity" 0
+		"lifetime" 1
+		"reload" 65
+		"firing energy" 300
+		"firing heat" 567
+		"firing force" 300
+		"blast radius" 80
+		"shield damage" 8500
+		"hull damage" 12500
+		"hit force" 500
+	description "Array of 4 heavy mac cannons, starts from the front to back. For right side of the ship"
+		
+outfit "heavy mac spawner turn 1a l"
+	weapon
+		turn 45
+		lifetime 3
+		submunition "heavy mac spawner 1 l"
+		submunition "heavy mac spawner 2 l"
+		submunition "heavy mac spawner 3 l"
+		
 outfit "Heavy Pyros Melta Array R"
 	category "Guns"
 	cost 3630000
@@ -2078,6 +2156,28 @@ outfit "Imperium Flak Turret"
 		"firing energy" 14
 		"firing heat" 60
 	description "Heavier, longer ranged Imperium anti missile"
+	
+outfit "Imperium Flak Batteries"
+	category "Turrets"
+	cost 1250000
+	thumbnail "outfit/flakcannon turret"
+	"mass" 500
+	"outfit space" -500
+	"weapon capacity" -500
+	"turret mounts" -1
+	"required crew" 12
+	weapon
+		"hardpoint sprite" "hardpoint/cannon turret hp"
+		"hardpoint offset" 5.
+		"die effect" "small explosion"
+		"fire effect" "tiny explosion"
+		"anti-missile" 62
+		"velocity" 1650
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 14
+		"firing heat" 65
+	description "Represents array of multiple flak turrets across entire ship."
 
 outfit "Light Field Braces"
 	category "Systems"
