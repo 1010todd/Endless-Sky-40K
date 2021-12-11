@@ -21,6 +21,7 @@ system Pyherrus
 	minables copper 9 5.2353775
 	fleet "Imperium Light Patrol" 1200
 	fleet "Imperium Heavy Patrol" 4200
+	fleet "Imperium Merchant" 1000
 	habitable 2560
 	belt 1833
 	object

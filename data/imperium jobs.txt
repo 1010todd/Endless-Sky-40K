@@ -93,6 +93,7 @@ event "IoM control Gienah"
 		fleet "Large Core Pirates" 4200
 		fleet "Large Syndicate" 2800
 		fleet "Imperium Light Patrol" 1000
+		fleet "Imperium Merchant" 1000
 	system Persian
 		fleet "Small Syndicate" 800
 		fleet "Large Syndicate" 1200
@@ -108,6 +109,7 @@ event "IoM control Algenib"
 		fleet "Large Core Pirates" 4200
 		fleet "Large Syndicate" 2800
 		fleet "Imperium Light Patrol" 1000
+		fleet "Imperium Merchant" 1000
 	system Persian
 		fleet "Small Syndicate" 800
 		fleet "Large Syndicate" 1200
