@@ -763,7 +763,7 @@ ship "Gothic-Class"
 	explode "medium explosion" 64
 	explode "large explosion" 60
 	"final explode" "final explosion large" 2
-	description "Gothic-Class Cruiser."
+	description "Imperial Navy Gothic-Class Cruiser. One of the more common cruiser found in many Imperial fleets."
 	
 ship "Gothic-Class" "Gothic-Class (Admech)"
 	sprite "ship/imperium gothic class admech"
@@ -1066,6 +1066,132 @@ ship "Dictator-Class"
 	explode "large explosion" 50
 	"final explode" "final explosion large" 2
 	description "Dictator-Class Cruiser. Based on the Lunar-Class, Dictator-Class cruiser have its lance batteries exchanged for fighter bays for deploying squadrons of fighters and bombers to engage enemy warship from range."
+
+ship "Vengeance-Class"
+	sprite "ship/imperium vengeance class"
+	thumbnail "thumbnail/imperium vengeance class thumb"
+	"swizzle" 0
+	attributes
+		category "Medium Warship"
+		"cost" 16200000
+		"shields" 985000
+		"hull" 1285000
+		"required crew" 1250
+		"bunks" 1856
+		"mass" 26700
+		"drag" 13.8
+		"heat dissipation" .5
+		"fuel capacity" 2500
+		"cargo space" 450
+		"outfit space" 7876
+		"weapon capacity" 4560
+		"engine capacity" 960
+		"force protection" 8
+		"imperium ram" -4
+		weapon
+			"blast radius" 1520
+			"shield damage" 94000
+			"hull damage" 42000
+			"hit force" 1260
+	outfits
+		"Imperium Ram" 4
+		"Imperium CIWS Turret" 2
+		"Imperium Flak Turret" 2
+		"Triple Med Lance Turret" 8
+		"Mac Cannon" 16
+
+		"Medium Plasma Core" 6
+		"Small Plasma Storage" 4
+		"Medium Void Shield" 5
+		"Las Rifle" 1200
+		"Plasma Cooler" 2
+
+		"Medium Plasma Drive"
+		"Small Plasma Drive"
+		"Warp-Drive"
+		
+	gun -85.5 -1472 "Imperium Ram"
+	gun 85.5 -1472 "Imperium Ram"
+	gun -200.5 -1229 "Imperium Ram"
+	gun 200.5 -1229 "Imperium Ram"
+	turret -170.5 -482
+	turret 170.5 -482
+	turret -170.5 -243
+	turret 170.5 -243
+	turret -170.5 -4.5
+	turret 170.5 -4.5
+	turret -170.5 234.5
+	turret 170.5 234.5
+	gun -315.5 -563
+		angle -90
+	gun 315.5 -563
+		angle 90
+	gun -315.5 -439.5
+		angle -90
+	gun 315.5 -439.5
+		angle 90
+	gun -320 -320
+		angle -90
+	gun 320 -320
+		angle 90
+	gun -320 -192
+		angle -90
+	gun 320 -192
+		angle 90
+	gun -320 -55.5
+		angle -90
+	gun 320 -55.5
+		angle 90
+	gun -320 59.5
+		angle -90
+	gun 320 59.5
+		angle 90
+	gun -320 187.5
+		angle -90
+	gun 320 187.5
+		angle 90
+	gun -315.5 315.5
+		angle -90
+	gun 315.5 315.5
+		angle 90
+	turret -175 -798 "Imperium Flak Turret"
+	turret 175 -798 "Imperium CIWS Turret"
+	turret -213.5 495 "Imperium CIWS Turret"
+	turret 213.5 495 "Imperium Flak Turret"
+	engine -196.5 1506
+		zoom 2.5
+		angle 0
+		under
+	engine 196.5 1506
+		zoom 2.5
+		angle 0
+		under
+	engine 0 1570
+		zoom 2.5
+		angle 0
+		under
+	bay "Fighter" -362.5 516.5
+		angle -90
+	bay "Fighter" 362.5 516.5
+		angle 90
+	bay "Fighter" -354 678.5
+		angle -90
+	bay "Fighter" 354 678.5
+		angle 90
+	bay "Fighter" -362.5 516.5
+		angle -90
+	bay "Fighter" 362.5 516.5
+		angle 90
+	bay "Fighter" -354 678.5
+		angle -90
+	bay "Fighter" 354 678.5
+		angle 90
+	explode "tiny explosion" 18
+	explode "small explosion" 46
+	explode "medium explosion" 64
+	explode "large explosion" 60
+	"final explode" "final explosion large" 2
+	description "Vengeance-Class Grand Cruiser is a dated design first used almost 10 thousands years ago now rarely seen in battles as they're outclassed by newer battlecruiser designs. More often these ships will be found escorting transports and patrolling trade routes."
 	
 ship "Retribution-Class"
 	sprite "ship/imperium retribution class"

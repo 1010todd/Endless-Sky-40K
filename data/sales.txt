@@ -108,6 +108,7 @@ shipyard developer
 	"Judicator-Class"
 	"Cobra-Class"
 	"Cairn-Class"
+	"Vengeance-Class"
 
 shipyard "Imperium Basic"
 	Dauntless-Class
@@ -131,6 +132,7 @@ shipyard "Forge World Advanced"
 	"Apocalypse-Class"
 	"Judicator-Class"
 	"Gothic-Class (Admech)"
+	"Vengeance-Class"
 
 outfitter "Imperium Basic"
 	"Fighter Plasma Core"
