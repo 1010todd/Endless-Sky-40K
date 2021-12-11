@@ -109,6 +109,7 @@ shipyard developer
 	"Cobra-Class"
 	"Cairn-Class"
 	"Vengeance-Class"
+	"Imperium Transport"
 
 shipyard "Imperium Basic"
 	Dauntless-Class
@@ -119,6 +120,7 @@ shipyard "Imperium Basic"
 	Lunar-Class
 	Storm-Class
 	"Cobra-Class"
+	"Imperium Transport"
 
 shipyard "Forge World Basic"
 	"Lunar-Class (Nova)"

@@ -143,6 +143,73 @@ ship "Storm-Class"
 	"final explode" "final explosion large"
 	description "A recent frigate design loosely based on Tempest-class frigate specifically made to combat exceptionally agile crafts of this alternate Milky Way and spread the Emperor's Blessing to the galaxy. While sporting smaller array of broadside macro cannons than most of other frigates, it have two pair of lances mounted to the side of the prow to engage as they approach and compensate for exceptionally incompetent captains(Endless Sky AI) who are unable to bring their broadside to the enemy."
 	
+ship "Imperium Transport"
+	sprite "ship/imperium transport"
+	thumbnail "thumbnail/imperium transport thumb"
+	"swizzle" 0
+	attributes
+		category "Light Freighter"
+		"cost" 8200000
+		"shields" 105000
+		"hull" 190000
+		"required crew" 128
+		"bunks" 250
+		"mass" 3500
+		"drag" 8.8
+		"heat dissipation" .7
+		"fuel capacity" 1500
+		"cargo space" 3600
+		"outfit space" 1562
+		"weapon capacity" 450
+		"engine capacity" 350
+		"force protection" 3
+		"imperium ram" -2
+		weapon
+			"blast radius" 260
+			"shield damage" 8840
+			"hull damage" 6420
+			"hit force" 1260
+	outfits
+		"Imperium Ram" 2
+		"Lascannon Turret" 2
+		"Triple Las-burner Turret"
+		"Imperium CIWS Turret" 4
+
+		"Small Plasma Core" 2
+		"Small Plasma Storage"
+		"Light Void Shield"
+		"Las Rifle" 300
+		"Plasma Cooler"
+
+		"Small Plasma Drive"
+		"Warp-Drive"
+		
+	turret 0 -125 "Triple Las-burner Turret"
+	turret -16 -99 "Imperium CIWS Turret"
+	turret 16 -99 "Imperium CIWS Turret"
+	turret -15.5 7
+	turret 15.5 7
+	turret -27 175 "Imperium CIWS Turret"
+	turret 27 175 "Imperium CIWS Turret"
+	gun -21 -213
+	gun 21 -213
+	engine -29 212
+		zoom 1
+		angle 0
+		under
+	engine 29 212
+		zoom 1
+		angle 0
+		under
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 12
+	"final explode" "final explosion large"
+	description `Among the countless stories of heroic stories of Astartes and Imperial Guards, in the background there's always these humble Imperial Transport supplying them with equipments, rations, ammo, and more. Hundred thousands of these small vessels form the backbone of Imperium logistic, transporting rations and supplies between Imperial worlds, delivering raw materials to Mechanicus forge worlds, resupplying battleships of the Imperial Navy and more. Without them it would be impossible for the Humanity to thrive among the stars like they are today.`
+	description `Although described as small, it is by 41st Millennium standard, these ships are still more than a kilometer long.`
+		
+	
 ship "Cobra-Class"
 	sprite "ship/imperium cobra class"
 	#thumbnail "thumbnail/imperium cobra class thumb"

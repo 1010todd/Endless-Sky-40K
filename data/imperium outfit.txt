@@ -933,7 +933,7 @@ outfit "Las-burner Turret"
 	weapon
 		sprite "projectile/single lasburner"
 			#"start frame" 0
-			"frame rate" .5
+			"frame rate" 1
 		sound "fire-lance"
 		"hardpoint sprite" "hardpoint/single lance turret hp"
 		"hardpoint offset" 22.
@@ -965,7 +965,7 @@ outfit "Triple Las-burner Turret"
 	weapon
 		sprite "projectile/triple lasburner"
 			#"start frame" 0
-			"frame rate" .5
+			"frame rate" 1
 		sound "fire-lance"
 		"hardpoint sprite" "hardpoint/triple lance turret hp"
 		"hardpoint offset" 22.
