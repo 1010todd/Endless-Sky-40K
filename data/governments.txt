@@ -14,7 +14,7 @@ government "Imperium of Man"
 
 government "Adeptus Mechanicus"
 	color 0.92156863 0.0 0
-	"crew attack" 20
+	"crew attack" 19
 	"crew defense" 28
 	"attitude toward"
 		"Pug (Hostile)" -0.1
@@ -28,7 +28,7 @@ government "Adeptus Mechanicus"
 		
 government "Emperor's Inquisition"
 	color 0.5 0.3 0
-	"crew attack" 19
+	"crew attack" 21
 	"crew defense" 23
 	"attitude toward"
 		"Pug (Hostile)" -0.1
