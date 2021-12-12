@@ -27,18 +27,18 @@ outfit "Tau Burst Cannon"
 outfit "Tau Railgun Battery"
 	category Turrets
 	cost 1500000
-	mass 44
+	mass 144
 	thumbnail "outfit/tau railgun turret"
-	"outfit space" -54
+	"outfit space" -154
 	"turret mounts" -1
-	"weapon capacity" -54
+	"weapon capacity" -154
 	weapon
 		sprite "projectile/rail slug"
 			"frame rate" 30
 		"hardpoint sprite" "hardpoint/tau railgun turret hp"
 		sound "ion impact"
 		"fire effect" "rail sparks"
-		"hit effect" "small explosion"
+		"hit effect" "medium explosion"
 		lifetime 56
 		reload 18
 		velocity 44
@@ -48,25 +48,25 @@ outfit "Tau Railgun Battery"
 		"firing energy" 230
 		"firing force" 10
 		"firing heat" 72
-		"shield damage" 86.8
-		"hull damage" 146
+		"shield damage" 1068
+		"hull damage" 1660
 		"hit force" 100
 		"range override" 2100
 
 outfit "Tau Railgun"
 	category Guns
 	cost 730000
-	mass 32
+	mass 132
 	thumbnail outfit/railgun
 	"gun ports" -1
-	"outfit space" -36
-	"weapon capacity" -36
+	"outfit space" -136
+	"weapon capacity" -136
 	weapon
 		sprite "projectile/rail slug"
 			"frame rate" 30
 		sound "ion impact"
 		"fire effect" "rail sparks"
-		"hit effect" "small explosion"
+		"hit effect" "medium explosion"
 		lifetime 56
 		reload 36
 		velocity 44
@@ -74,19 +74,19 @@ outfit "Tau Railgun"
 		"firing energy" 230
 		"firing force" 10
 		"firing heat" 72
-		"shield damage" 86.8
-		"hull damage" 146
+		"shield damage" 1068
+		"hull damage" 1660
 		"hit force" 100
 		"range override" 2100
 
 outfit "Tau Gravetic Launcher"
 	category Guns
 	cost 2800000
-	mass 45
+	mass 250
 	thumbnail outfit/railgun
 	"gun ports" -1
-	"outfit space" -56
-	"weapon capacity" -56
+	"outfit space" -260
+	"weapon capacity" -260
 	weapon
 		sprite "projectile/rail slug"
 			"frame rate" 30
@@ -105,19 +105,20 @@ outfit "Tau Gravetic Launcher"
 		"firing energy" 350
 		"firing force" 20
 		"firing heat" 92
-		"shield damage" 128
-		"hull damage" 180
+		"shield damage" 5280
+		"hull damage" 5800
 		"hit force" 155
 		"range override" 2100
+	description "Fires drone-guided shells."
 
 outfit "Tau Ion Battery"
 	category Turrets
 	cost 890000
-	mass 68
+	mass 168
 	thumbnail "outfit/ion cannon"
-	"outfit space" -68
+	"outfit space" -168
 	"turret mounts" -1
-	"weapon capacity" -68
+	"weapon capacity" -168
 	weapon
 		sprite "projectile/tau ion cannon beam"
 			"frame rate" 5.0000001
@@ -134,8 +135,8 @@ outfit "Tau Ion Battery"
 		"turret turn" 2.8
 		"firing energy" 6
 		"firing heat" 1.5
-		"shield damage" 35.3
-		"hull damage" 22
+		"shield damage" 150.3
+		"hull damage" 120
 		"ion damage" 0.05
 		"cluster"
 	description "This is a beam weapon."
@@ -149,6 +150,7 @@ outfit "Tau Small Deflector Shield"
 	"shield energy" 3
 	"shield generation" 3
 	"shield heat" 6
+	"shield depleted delay" 15
 
 outfit "Tau Medium Deflector Shield"
 	category Systems
@@ -159,6 +161,18 @@ outfit "Tau Medium Deflector Shield"
 	"shield energy" 7
 	"shield generation" 7
 	"shield heat" 9
+	"shield depleted delay" 30
+
+outfit "Tau Large Deflector Shield"
+	category Systems
+	cost 5050000
+	mass 110
+	thumbnail "outfit/large regenerator hai"
+	"outfit space" -110
+	"shield energy" 15
+	"shield generation" 15
+	"shield heat" 17.5
+	"shield depleted delay" 60
 
 outfit "Gravitic Drive"
 	category Systems
@@ -170,5 +184,5 @@ outfit "Gravitic Drive"
 	"jump range" 100
 	"jump speed" 1
 	"outfit space" -30
-	description "Requires 1 navigator to operate."
+	description "Tau Gravetic drive allows them to travel faster than light but are still slower than other FTL technologies used by other factions."
 

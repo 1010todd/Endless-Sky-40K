@@ -1,4 +1,68 @@
 
+ship "Kir'shasvre Class"
+	sprite "ship/tau castellan"
+	thumbnail "thumbnail/tau castellan thumb"
+	attributes
+		category "Light Warship"
+		"cost" 17900000
+		"shields" 82000
+		"hull" 15000
+		"required crew" 170
+		"bunks" 250
+		"mass" 350
+		"drag" 4.8
+		"heat dissipation" .83
+		"fuel capacity" 600
+		"cargo space" 142
+		"outfit space" 1898
+		"weapon capacity" 1133
+		"engine capacity" 550
+		weapon
+			"blast radius" 400
+			"shield damage" 4000
+			"hull damage" 2000
+			"hit force" 3000
+	outfits
+		"Tau Burst Cannon" 2
+		"Tau Gravetic Launcher" 2
+		"Tau Railgun" 2
+		"Tau Railgun Battery" 2
+
+		"Small Plasma Core" 2
+		`"Bondir" Atomic Thruster`
+		`"Bufaer" Atomic Steering`
+		"Liquid Helium Cooler"
+		
+		"Tau Small Deflector Shield"
+		"Gravitic Drive"
+	
+	gun -39.5 -94.5 
+	gun 39.5 -94.5
+	gun -52.5 -93.5 "Tau Gravetic Launcher"
+	gun 52.5 -93.5 "Tau Gravetic Launcher"
+	turret -22.5 -54.5 "Tau Railgun Battery"
+	turret 22.5 -54.5 "Tau Railgun Battery"
+	turret -75 -37
+	turret 75 -37
+	engine -39.5 84
+		zoom 1
+		angle 0
+		under
+	engine 39.5 84
+		zoom 1
+		angle 0
+		under
+	leak "leak" 40 50
+	leak "flame" 50 80
+	leak "big leak" 60 50
+	explode "tiny explosion" 50
+	explode "small explosion" 50
+	explode "medium explosion" 50
+	explode "large explosion" 50
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "Tau Kirshavre(Castellan) Class Escort."
+	
 ship "Il'Porrui Class"
 	sprite "ship/tau emissary"
 	thumbnail "thumbnail/tau emissary thumb"
@@ -90,60 +154,108 @@ ship "Il'Porrui Class"
 	"final explode" "final explosion large"
 	description "Tau Il'Porrui(Emissary) Class Cruiser."
 	
-	
-ship "Kir'shasvre Class"
-	sprite "ship/tau castellan"
-	thumbnail "thumbnail/tau castellan thumb"
+ship "O'Res El'leath Class"
+	sprite "ship/tau custodian"
+	thumbnail "thumbnail/tau custodian thumb"
 	attributes
-		category "Light Warship"
+		category "Heavy Warship"
 		"cost" 17900000
-		"shields" 82000
-		"hull" 15000
-		"required crew" 170
-		"bunks" 250
-		"mass" 350
-		"drag" 4.8
-		"heat dissipation" .83
-		"fuel capacity" 600
-		"cargo space" 142
-		"outfit space" 1898
-		"weapon capacity" 1133
-		"engine capacity" 550
+		"shields" 625000
+		"hull" 539000
+		"required crew" 780
+		"bunks" 1550
+		"mass" 5450
+		"drag" 11.8
+		"heat dissipation" .6
+		"fuel capacity" 800
+		"cargo space" 200
+		"outfit space" 5200
+		"weapon capacity" 3233
+		"engine capacity" 750
 		weapon
 			"blast radius" 400
 			"shield damage" 4000
 			"hull damage" 2000
 			"hit force" 3000
 	outfits
-		"Tau Burst Cannon" 2
-		"Tau Gravetic Launcher" 2
-		"Tau Railgun" 2
-		"Tau Railgun Battery" 2
-
-		"Small Plasma Core" 2
-		`"Bondir" Atomic Thruster`
-		`"Bufaer" Atomic Steering`
-		"Liquid Helium Cooler"
+		"Tau Ion Battery" 2
+		"Tau Gravetic Launcher" 4
+		"Tau Railgun Battery" 9
+		"Tau Burst Cannon" 6
 		
-		"Tau Small Deflector Shield"
+		"Medium Plasma Core" 4
+		"Tau Large Deflector Shield" 2
+		"Liquid Helium Cooler" 8
+		
+		`"Bondir" Atomic Thruster` 2
+		`"Bufaer" Atomic Steering` 2
 		"Gravitic Drive"
-	
-	gun -39.5 -94.5 
-	gun 39.5 -94.5
-	gun -52.5 -93.5 "Tau Gravetic Launcher"
-	gun 52.5 -93.5 "Tau Gravetic Launcher"
-	turret -22.5 -54.5 "Tau Railgun Battery"
-	turret 22.5 -54.5 "Tau Railgun Battery"
-	turret -75 -37
-	turret 75 -37
-	engine -39.5 84
-		zoom 1
+		
+	gun -392.5 -1064
+	gun 392.5 -1064
+	gun -487.5 -1036.5
+	gun 487.5 -1036.5
+	turret 0 -86 "Tau Railgun Battery"
+	turret -187 319 "Tau Railgun Battery"
+	turret 187 319 "Tau Railgun Battery"
+	turret -659.5 233 "Tau Railgun Battery"
+	turret 659.5 233 "Tau Railgun Battery"
+	turret -779 595 "Tau Ion Battery"
+	turret 779 595 "Tau Ion Battery"
+	turret -779 -21.5 "Tau Railgun Battery"
+	turret 779 -21.5 "Tau Railgun Battery"
+	turret -950.5 355.5 "Tau Railgun Battery"
+	turret 950.5 355.5 "Tau Railgun Battery"
+	engine 414 969
+		zoom 3
 		angle 0
 		under
-	engine 39.5 84
-		zoom 1
+	engine -414 969
+		zoom 3
 		angle 0
 		under
+	engine 0 1058
+		zoom 3
+		angle 0
+		under
+	turret -423 -717.5
+	turret 423 -717.5
+	turret -414 -92
+	turret 414 -92
+	turret -604 -438.5
+	turret 604 -438.5
+	bay "Fighter" -214.5 -288.5
+	bay "Fighter" 214.5 -288.5
+	bay "Fighter" -214.5 -288.5
+	bay "Fighter" 214.5 -288.5
+	bay "Fighter" -214.5 -288.5
+	bay "Fighter" 214.5 -288.5
+	bay "Fighter" -214.5 -288.5
+	bay "Fighter" 214.5 -288.5
+	bay "Fighter" -214.5 -288.5
+	bay "Fighter" 214.5 -288.5
+	bay "Fighter" -214.5 -288.5
+	bay "Fighter" 214.5 -288.5
+	bay "Fighter" -214.5 -288.5
+	bay "Fighter" 214.5 -288.5
+	bay "Fighter" -214.5 -288.5
+	bay "Fighter" 214.5 -288.5
+	bay "Fighter" -214.5 -288.5
+	bay "Fighter" 214.5 -288.5
+	bay "Fighter" -214.5 -288.5
+	bay "Fighter" 214.5 -288.5
+	bay "Fighter" -214.5 -288.5
+	bay "Fighter" 214.5 -288.5
+	bay "Fighter" -214.5 -288.5
+	bay "Fighter" 214.5 -288.5
+	bay "Fighter" -214.5 -288.5
+	bay "Fighter" 214.5 -288.5
+	bay "Fighter" -214.5 -288.5
+	bay "Fighter" 214.5 -288.5
+	bay "Fighter" -214.5 -288.5
+	bay "Fighter" 214.5 -288.5
+	bay "Fighter" -214.5 -288.5
+	bay "Fighter" 214.5 -288.5
 	leak "leak" 40 50
 	leak "flame" 50 80
 	leak "big leak" 60 50
@@ -153,4 +265,4 @@ ship "Kir'shasvre Class"
 	explode "large explosion" 50
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "Tau Il'Porrui(Emissary) Class Cruiser."
+	description "Tau O'Res El'leath(Custodian) Class Battleship."

@@ -2780,3 +2780,240 @@ ship "Gloriana-Class"
 	explode "large explosion" 60
 	"final explode" "final explosion large" 2
 	description "A massive battleship built in the days before the Heresy, these vessels were custom built to be the flagship of each spacemarine legion and their primarch."
+	
+ship "Gloriana-Class" "Gloriana-Class (Swordstorm)"
+	sprite "ship/imperium gloriana swordstorm"
+	thumbnail "thumbnail/imperium gloriana swordstorm thumb"
+	"swizzle" 0
+	attributes
+		category "Heavy Warship"
+		"cost" 19089200000
+		"shields" 5000000
+		"hull" 6852000
+		"required crew" 3500
+		"bunks" 5000
+		"mass" 85800
+		"drag" 12.1
+		"heat dissipation" .55
+		"fuel capacity" 2000
+		"cargo space" 1200
+		"outfit space" 25876
+		"weapon capacity" 18850
+		"engine capacity" 4680
+		"force protection" 80
+		"imperium ram" -4
+		"spinal mount" 1
+		"4port array" 12
+		"4port double deck array" 6
+		weapon
+			"blast radius" 15200
+			"shield damage" 940000
+			"hull damage" 420000
+			"hit force" 12600
+	outfits
+		"Imperium Ram" 4
+		"Ryza-Pattern Nova Cannon"
+		"Heavy Mac Duo-Deck R" 3
+		"Heavy Mac Duo-Deck L" 3
+		"Heavy Lance Cannon" 4
+		"Imperium Flak Batteries" 4
+		"Triple Hev Lance Turret" 6
+		"Hex Med Lance Turret" 8
+
+		"Large Plasma Core" 8
+		"Small Plasma Storage" 8
+		"Heavy Void Shield" 12
+		"Heavy Field Braces" 2
+		"Las Rifle" 3800
+		"Imperium Plasma Gun" 380
+		"Plasma Cooler" 5
+
+		"Large Plasma Drive" 5
+		"Warp-Drive"
+		
+	gun 0 -3425.5 "Ryza-Pattern Nova Cannon"
+	turret 0 -2445.5 "Triple Hev Lance Turret"
+	turret 0 -2090.5 "Triple Hev Lance Turret"
+	turret 0 -1344 "Triple Hev Lance Turret"
+	turret 0 -970.5 "Triple Hev Lance Turret"
+	turret 0 -298.5 "Triple Hev Lance Turret"
+	turret 0 56 "Triple Hev Lance Turret"
+	gun -102.5 -3276 "Imperium Ram"
+	gun 102.5 -3276 "Imperium Ram"
+	gun -252 -2977.5 "Imperium Ram"
+	gun 252 -2977.5 "Imperium Ram"
+	turret -382.5 56 "Hex Med Lance Turret"
+	turret 382.5 56 "Hex Med Lance Turret"
+	turret -392 168 "Hex Med Lance Turret"
+	turret 392 168 "Hex Med Lance Turret"
+	turret -392 597.5 "Hex Med Lance Turret"
+	turret 392 597.5 "Hex Med Lance Turret"
+	turret -401.5 690.5 "Hex Med Lance Turret"
+	turret 401.5 690.5 "Hex Med Lance Turret"
+	gun -429.5 -1633.5 "Heavy Mac Duo-Deck L"
+		angle -90
+	gun 429.5 -1633.5 "Heavy Mac Duo-Deck R"
+		angle 90
+	gun -429.5 -1101.5 "Heavy Mac Duo-Deck L"
+		angle -90
+	gun 429.5 -1101.5 "Heavy Mac Duo-Deck R"
+		angle 90
+	gun -429.5 -569.5 "Heavy Mac Duo-Deck L"
+		angle -90
+	gun 429.5 -569.5 "Heavy Mac Duo-Deck R"
+		angle 90
+	gun -765.5 326.5 "Heavy Lance Cannon"
+	gun 765.5 326.5 "Heavy Lance Cannon"
+	gun -672 569.5 "Heavy Lance Cannon"
+	gun 672 569.5 "Heavy Lance Cannon"
+	turret -513.5 1456 "Imperium Flak Batteries"
+	turret 513.5 1456 "Imperium Flak Batteries"
+	turret -205.5 -2436 "Imperium Flak Batteries"
+	turret 205.5 -2436 "Imperium Flak Batteries"
+	bay "Fighter" -392 46.5
+		left
+	bay "Fighter" 392 46.5
+		right
+	bay "Fighter" -373.5 186.5
+		left
+	bay "Fighter" 373.5 186.5
+		right
+	bay "Fighter" -373.5 569.5
+		left
+	bay "Fighter" 373.5 569.5
+		right
+	bay "Fighter" -382.5 718.5
+		left
+	bay "Fighter" 382.5 718.5
+		right
+	bay "Fighter" 0 802.5
+	bay "Fighter" -392 46.5
+		left
+	bay "Fighter" 392 46.5
+		right
+	bay "Fighter" -373.5 186.5
+		left
+	bay "Fighter" 373.5 186.5
+		right
+	bay "Fighter" -373.5 569.5
+		left
+	bay "Fighter" 373.5 569.5
+		right
+	bay "Fighter" -382.5 718.5
+		left
+	bay "Fighter" 382.5 718.5
+		right
+	bay "Fighter" 0 802.5
+	bay "Fighter" -392 46.5
+		left
+	bay "Fighter" 392 46.5
+		right
+	bay "Fighter" -373.5 186.5
+		left
+	bay "Fighter" 373.5 186.5
+		right
+	bay "Fighter" -373.5 569.5
+		left
+	bay "Fighter" 373.5 569.5
+		right
+	bay "Fighter" -382.5 718.5
+		left
+	bay "Fighter" 382.5 718.5
+		right
+	bay "Fighter" 0 802.5
+	bay "Fighter" -392 46.5
+		left
+	bay "Fighter" 392 46.5
+		right
+	bay "Fighter" -373.5 186.5
+		left
+	bay "Fighter" 373.5 186.5
+		right
+	bay "Fighter" -373.5 569.5
+		left
+	bay "Fighter" 373.5 569.5
+		right
+	bay "Fighter" -382.5 718.5
+		left
+	bay "Fighter" 382.5 718.5
+		right
+	bay "Fighter" 0 802.5
+	bay "Fighter" -392 46.5
+		left
+	bay "Fighter" 392 46.5
+		right
+	bay "Fighter" -373.5 186.5
+		left
+	bay "Fighter" 373.5 186.5
+		right
+	bay "Fighter" -373.5 569.5
+		left
+	bay "Fighter" 373.5 569.5
+		right
+	bay "Fighter" -382.5 718.5
+		left
+	bay "Fighter" 382.5 718.5
+		right
+	bay "Fighter" 0 802.5
+	bay "Fighter" -392 46.5
+		left
+	bay "Fighter" 392 46.5
+		right
+	bay "Fighter" -373.5 186.5
+		left
+	bay "Fighter" 373.5 186.5
+		right
+	bay "Fighter" -373.5 569.5
+		left
+	bay "Fighter" 373.5 569.5
+		right
+	bay "Fighter" -382.5 718.5
+		left
+	bay "Fighter" 382.5 718.5
+		right
+	bay "Fighter" 0 802.5
+	engine 0 3434.5
+		zoom 5
+		angle 0
+		under
+	engine 280 3360
+		zoom 4
+		angle 0
+		under
+	engine -280 3360
+		zoom 4
+		angle 0
+		under
+	engine 308 3257.5
+		zoom 4
+		angle 0
+		over
+	engine -308 3257.5
+		zoom 4
+		angle 0
+		over
+	engine 578.5 3266.5
+		zoom 3
+		angle 0
+		under
+	engine -578.5 3266.5
+		zoom 3
+		angle 0
+		under
+	"steering engine" 392 -1866.5
+		zoom 3
+		angle -90
+		under
+		left
+	"steering engine" -392 -1866.5
+		zoom 3
+		angle 90
+		under
+		right
+	explode "tiny explosion" 18
+	explode "small explosion" 46
+	explode "medium explosion" 64
+	explode "large explosion" 60
+	"final explode" "final explosion large" 2
+	description "A massive battleship built in the days before the Heresy, these vessels were custom built to be the flagship of each spacemarine legion and their primarch."
+	description "Gloriana-class Swordstorm was the flagship of White Scar Legion."

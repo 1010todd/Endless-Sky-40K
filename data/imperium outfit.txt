@@ -913,7 +913,6 @@ outfit "Graviton Pulsar"
 		"piercing" 1
 	description "A beam weapon that fires beam of graviton increasing (or decreasing) mass of the target and crumple them from their own weight, or more often to immobilize them."
 	
-	
 outfit "Graviton Pulsar Turret"
 	category "Turrets"
 	cost 6870000
@@ -942,6 +941,32 @@ outfit "Graviton Pulsar Turret"
 		"slowing damage" 20
 		"piercing" 1
 	description "A beam weapon that fires beam of graviton increasing (or decreasing) mass of the target and crumple them from their own weight, or more often to immobilize them."
+
+outfit "Neutronium Lance"
+	category "Guns"
+	cost 2400000
+	thumbnail "outfit/graviton pulsar gun"
+	"mass" 67
+	"outfit space" -50
+	"weapon capacity" -50
+	"gun ports" -1
+	"required crew" 3
+	weapon
+		sprite "projectile/graviton pulsar beam"
+			"frame rate" 10
+		sound "electron beam"
+		"fire effect" "imperium graviton pulsar fire"
+		"hit effect" "electron impact"
+		"inaccuracy" .1
+		"velocity" 550
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 5
+		"firing heat" 6
+		"shield damage" 6
+		"hull damage" 12
+		"piercing" .1
+	description "Ancient weapon that destroys target at molecular level rendering most armour useless."
 
 effect "lance fire"
 	sprite "effect/imperium lance fire"

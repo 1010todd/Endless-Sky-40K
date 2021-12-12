@@ -112,6 +112,14 @@ shipyard developer
 	"Vengeance-Class"
 	"Imperium Transport"
 	"Gloriana-Class"
+	"Gloriana-Class (Swordstorm)"
+	"O'Res El'leath Class"
+
+shipyard "Tau Basic"
+	"Kir'shasvre Class"
+shipyard "Tau Advanced"
+	"Il'Porrui Class"
+	"O'Res El'leath Class"
 
 shipyard "Imperium Basic"
 	Dauntless-Class
