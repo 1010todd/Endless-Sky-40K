@@ -98,8 +98,8 @@ phrase "imperium small"
 		"imperium name 1"
 		"imperium name 2"
 
-pharse "imperium large"
-	pharse
+phrase "imperium large"
+	phrase
 		"imperium name 3"
 		
 phrase "imperium pname"
