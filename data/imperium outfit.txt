@@ -57,6 +57,45 @@ outfit "Mac Cannon Turret"
 		"hit force" 200
 	description "Small single macro cannon turret."
 	
+outfit "N'dai Plasma Cannon"
+	category "Guns"
+	cost 2090000
+	thumbnail "outfit/mac cannon"
+	"mass" 68
+	"outfit space" -60
+	"weapon capacity" -60
+	"gun ports" -1
+	"required crew" 3
+	weapon
+		sprite "projectile/imperium plasma shot"
+		sound "torpedo hit"
+		"hit effect" "huge explosion"
+		"hit effect" "nuke explosion"
+		"fire effect" "imperium plasma fire"
+		"fire effect" "ion impact"
+		"inaccuracy" .5
+		"velocity" 30
+		"lifetime" 66
+		"reload" 45
+		"firing energy" 20
+		"firing heat" 36
+		"firing force" 10
+		"blast radius" 30
+		"shield damage" 2800
+		"hull damage" 4400
+		"heat damage" 500
+		"damage dropoff" 1320
+		"dropoff modifier" .6
+		"hit force" 100
+	description "A superfired plasma Macro cannon developed by Magos Hyus N'dai allowing these cannons longer range but also deals less damage at range."
+	
+effect "imperium plasma fire"
+	sprite "effect/imperium plasma fire"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 7
+	"velocity scale" 1
+	
 outfit "Pyros Melta Cannon"
 	category "Guns"
 	cost 2190000

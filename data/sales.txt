@@ -88,6 +88,7 @@ outfitter developer
 	"Mortalis Atmospheric Missile"
 	"Mortalis Atmospheric Launcher"
 	"Hex Med Lance Turret"
+	"N'dai Plasma Cannon"
 
 shipyard developer
 	Dauntless-Class
@@ -295,4 +296,5 @@ outfitter "Forge World Advanced"
 	"Atmospheric Incinerator Torpedo"
 	"Hex Med Lance Turret"
 	"Las-burner Turret"
+	"N'dai Plasma Cannon"
 
