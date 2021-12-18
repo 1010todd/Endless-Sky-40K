@@ -7,6 +7,13 @@ system Pyherrus
 	asteroids "small metal" 27 2.945
 	asteroids "medium metal" 35 3.1825
 	asteroids "large metal" 6 4.7025
+	minables lead 8 4.7339611
+	minables copper 9 5.2353775
+	fleet "Imperium Light Patrol" 1200
+	fleet "Imperium Heavy Patrol" 4200
+	fleet "Imperium Merchant" 1000
+	habitable 2560
+	belt 1833
 	trade Clothing 372
 	trade Electronics 737
 	trade Equipment 876
@@ -17,13 +24,6 @@ system Pyherrus
 	trade Medical 704
 	trade Metal 568
 	trade Plastic 467
-	minables lead 8 4.7339611
-	minables copper 9 5.2353775
-	fleet "Imperium Light Patrol" 1200
-	fleet "Imperium Heavy Patrol" 4200
-	fleet "Imperium Merchant" 1000
-	habitable 2560
-	belt 1833
 	object
 		sprite star/a-giant
 		distance 203
@@ -45,9 +45,13 @@ system Pyherrus
 		sprite planet/rock10-fw
 		distance 2383.7711
 		period 1530.4222
-	object
-		sprite planet/gas2
-		distance 2798.1309
+		object "Pifitus II"
+			sprite planet/luna-b
+			distance 199.30619
+			period 52
+	object Agcelli
+		sprite planet/earth-b
+		distance 3156.0901
 		period 2181.9249
 	object
 		sprite planet/gas3
@@ -62,4 +66,18 @@ planet Pifitus
 	description "Pifitus is a massive forge world with half of its surface covered in metal. It is home to one of the largest shipyard known to man and equipped with the very best and latest technologies avaliable to the mechanicus."
 	spaceport "The spaceport is built atop of a massive building that also serves as one of the shipyard of the planet, crowded with tech-priests, servitors, and slaves working day and night. "
 	"required reputation" 1
+	security 0.5
+
+planet "Pifitus II"
+	attributes mining
+	landscape land/loc3
+	description "A large moon orbiting the forge world Pifitus. Dotted with gargantuan mining equipment this moon provides the forge world below with nearly endless stream of resources."
+	spaceport "The spaceport contains only the most basic facilities as it is mostly visited only by small system ships transporting mined minerals to the forge world below. "
+
+planet Agcelli
+	attributes agri-world farming
+	outfitter "Imperium Basic"
+	landscape land/fields3
+	description "Agcelli is a temperate Earth-like planet consist of a single megacontinent streching from pole to pole covering a fourth of the planet surface, countless rivers large and small running from mountians deep within the land kept most of the continent green with farmlands mostly dedicated to farming and food production for exporting to local forge world, Pifitus. With forge world nearby this planet possess only the most basic manufacturing and repair facilities as it have most of its technology provided by the forge world."
+	spaceport "The planet-side spaceport is located at the center of the vast farmland that cover the continent. Here also lies the only city on the planet, the city itself covers about 4 kilometers in diameter mostly dedicated to housing of over million souls and food-processing factories."
 
