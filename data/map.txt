@@ -59,6 +59,7 @@ system Pyherrus
 		period 3396.9673
 
 planet Pifitus
+	government "Adeptus Mechanicus"
 	shipyard "Forge World Advanced"
 	shipyard "Imperium Basic"
 	outfitter "Forge World Advanced"
@@ -69,6 +70,7 @@ planet Pifitus
 	security 0.5
 
 planet "Pifitus II"
+	government "Adeptus Mechanicus"
 	attributes mining
 	landscape land/loc3
 	description "A large moon orbiting the forge world Pifitus. Dotted with gargantuan mining equipment this moon provides the forge world below with nearly endless stream of resources."
