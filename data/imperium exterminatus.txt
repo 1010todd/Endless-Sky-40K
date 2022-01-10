@@ -5,7 +5,7 @@ mission "Imperium: Exterminatus (Vara Pug)"
 	destination "Vara Pug"
 	clearance
 	infiltrating
-	passenger 1
+	passengers 1
 	to offer
 		"random" < 30
 		"reputation: Emperor's Inquisition" >= 10
