@@ -1681,163 +1681,163 @@ ship "Emperor-Class"
 	bay "Fighter" -226.5 -312.5
 		"left"
 	bay "Fighter" 226.5 -312.5
-		"right
+		"right"
 	bay "Fighter" -231 -224
 		"left"
 	bay "Fighter" 231 -224
-		"right
+		"right"
 	bay "Fighter" -235.5 -144.5
 		"left"
 	bay "Fighter" 235.5 -144.5
-		"right
+		"right"
 	bay "Fighter" -235.5 -60.5
 		"left"
 	bay "Fighter" 235.5 -60.5
-		"right
+		"right"
 	bay "Fighter" -226.5 74.5
 		"left"
 	bay "Fighter" 226.5 74.5
-		"right
+		"right"
 	bay "Fighter" -235.5 163.5
 		"left"
 	bay "Fighter" 235.5 163.5
-		"right
+		"right"
 	bay "Fighter" -235.5 242.5
 		"left"
 	bay "Fighter" 235.5 242.5
-		"right
+		"right"
 	bay "Fighter" -235.5 322
 		"left"
 	bay "Fighter" 235.5 322
-		"right
+		"right"
 	bay "Fighter" -226.5 -312.5
 		"left"
 	bay "Fighter" 226.5 -312.5
-		"right
+		"right"
 	bay "Fighter" -231 -224
 		"left"
 	bay "Fighter" 231 -224
-		"right
+		"right"
 	bay "Fighter" -235.5 -144.5
 		"left"
 	bay "Fighter" 235.5 -144.5
-		"right
+		"right"
 	bay "Fighter" -235.5 -60.5
 		"left"
 	bay "Fighter" 235.5 -60.5
-		"right
+		"right"
 	bay "Fighter" -226.5 74.5
 		"left"
 	bay "Fighter" 226.5 74.5
-		"right
+		"right"
 	bay "Fighter" -235.5 163.5
 		"left"
 	bay "Fighter" 235.5 163.5
-		"right
+		"right"
 	bay "Fighter" -235.5 242.5
 		"left"
 	bay "Fighter" 235.5 242.5
-		"right
+		"right"
 	bay "Fighter" -235.5 322
 		"left"
 	bay "Fighter" 235.5 322
-		"right
+		"right"
 	bay "Fighter" -226.5 -312.5
 		"left"
 	bay "Fighter" 226.5 -312.5
-		"right
+		"right"
 	bay "Fighter" -231 -224
 		"left"
 	bay "Fighter" 231 -224
-		"right
+		"right"
 	bay "Fighter" -235.5 -144.5
 		"left"
 	bay "Fighter" 235.5 -144.5
-		"right
+		"right"
 	bay "Fighter" -235.5 -60.5
 		"left"
 	bay "Fighter" 235.5 -60.5
-		"right
+		"right"
 	bay "Fighter" -226.5 74.5
 		"left"
 	bay "Fighter" 226.5 74.5
-		"right
+		"right"
 	bay "Fighter" -235.5 163.5
 		"left"
 	bay "Fighter" 235.5 163.5
-		"right
+		"right"
 	bay "Fighter" -235.5 242.5
 		"left"
 	bay "Fighter" 235.5 242.5
-		"right
+		"right"
 	bay "Fighter" -235.5 322
 		"left"
 	bay "Fighter" 235.5 322
-		"right
+		"right"
 	bay "Fighter" -226.5 -312.5
 		"left"
 	bay "Fighter" 226.5 -312.5
-		"right
+		"right"
 	bay "Fighter" -231 -224
 		"left"
 	bay "Fighter" 231 -224
-		"right
+		"right"
 	bay "Fighter" -235.5 -144.5
 		"left"
 	bay "Fighter" 235.5 -144.5
-		"right
+		"right"
 	bay "Fighter" -235.5 -60.5
 		"left"
 	bay "Fighter" 235.5 -60.5
-		"right
+		"right"
 	bay "Fighter" -226.5 74.5
 		"left"
 	bay "Fighter" 226.5 74.5
-		"right
+		"right"
 	bay "Fighter" -235.5 163.5
 		"left"
 	bay "Fighter" 235.5 163.5
-		"right
+		"right"
 	bay "Fighter" -235.5 242.5
 		"left"
 	bay "Fighter" 235.5 242.5
-		"right
+		"right"
 	bay "Fighter" -235.5 322
 		"left"
 	bay "Fighter" 235.5 322
-		"right
+		"right"
 	bay "Fighter" -226.5 -312.5
 		"left"
 	bay "Fighter" 226.5 -312.5
-		"right
+		"right"
 	bay "Fighter" -231 -224
 		"left"
 	bay "Fighter" 231 -224
-		"right
+		"right"
 	bay "Fighter" -235.5 -144.5
 		"left"
 	bay "Fighter" 235.5 -144.5
-		"right
+		"right"
 	bay "Fighter" -235.5 -60.5
 		"left"
 	bay "Fighter" 235.5 -60.5
-		"right
+		"right"
 	bay "Fighter" -226.5 74.5
 		"left"
 	bay "Fighter" 226.5 74.5
-		"right
+		"right"
 	bay "Fighter" -235.5 163.5
 		"left"
 	bay "Fighter" 235.5 163.5
-		"right
+		"right"
 	bay "Fighter" -235.5 242.5
 		"left"
 	bay "Fighter" 235.5 242.5
-		"right
+		"right"
 	bay "Fighter" -235.5 322
 		"left"
 	bay "Fighter" 235.5 322
-		"right
+		"right"
 	engine 2.5 1647.5
 		zoom 3
 		angle 0
@@ -2013,163 +2013,163 @@ ship "Nemesis-Class"
 	bay "Fighter" -226.5 -312.5
 		"left"
 	bay "Fighter" 226.5 -312.5
-		"right
+		"right"
 	bay "Fighter" -231 -224
 		"left"
 	bay "Fighter" 231 -224
-		"right
+		"right"
 	bay "Fighter" -235.5 -144.5
 		"left"
 	bay "Fighter" 235.5 -144.5
-		"right
+		"right"
 	bay "Fighter" -235.5 -60.5
 		"left"
 	bay "Fighter" 235.5 -60.5
-		"right
+		"right"
 	bay "Fighter" -226.5 74.5
 		"left"
 	bay "Fighter" 226.5 74.5
-		"right
+		"right"
 	bay "Fighter" -235.5 163.5
 		"left"
 	bay "Fighter" 235.5 163.5
-		"right
+		"right"
 	bay "Fighter" -235.5 242.5
 		"left"
 	bay "Fighter" 235.5 242.5
-		"right
+		"right"
 	bay "Fighter" -235.5 322
 		"left"
 	bay "Fighter" 235.5 322
-		"right
+		"right"
 	bay "Fighter" -226.5 -312.5
 		"left"
 	bay "Fighter" 226.5 -312.5
-		"right
+		"right"
 	bay "Fighter" -231 -224
 		"left"
 	bay "Fighter" 231 -224
-		"right
+		"right"
 	bay "Fighter" -235.5 -144.5
 		"left"
 	bay "Fighter" 235.5 -144.5
-		"right
+		"right"
 	bay "Fighter" -235.5 -60.5
 		"left"
 	bay "Fighter" 235.5 -60.5
-		"right
+		"right"
 	bay "Fighter" -226.5 74.5
 		"left"
 	bay "Fighter" 226.5 74.5
-		"right
+		"right"
 	bay "Fighter" -235.5 163.5
 		"left"
 	bay "Fighter" 235.5 163.5
-		"right
+		"right"
 	bay "Fighter" -235.5 242.5
 		"left"
 	bay "Fighter" 235.5 242.5
-		"right
+		"right"
 	bay "Fighter" -235.5 322
 		"left"
 	bay "Fighter" 235.5 322
-		"right
+		"right"
 	bay "Fighter" -226.5 -312.5
 		"left"
 	bay "Fighter" 226.5 -312.5
-		"right
+		"right"
 	bay "Fighter" -231 -224
 		"left"
 	bay "Fighter" 231 -224
-		"right
+		"right"
 	bay "Fighter" -235.5 -144.5
 		"left"
 	bay "Fighter" 235.5 -144.5
-		"right
+		"right"
 	bay "Fighter" -235.5 -60.5
 		"left"
 	bay "Fighter" 235.5 -60.5
-		"right
+		"right"
 	bay "Fighter" -226.5 74.5
 		"left"
 	bay "Fighter" 226.5 74.5
-		"right
+		"right"
 	bay "Fighter" -235.5 163.5
 		"left"
 	bay "Fighter" 235.5 163.5
-		"right
+		"right"
 	bay "Fighter" -235.5 242.5
 		"left"
 	bay "Fighter" 235.5 242.5
-		"right
+		"right"
 	bay "Fighter" -235.5 322
 		"left"
 	bay "Fighter" 235.5 322
-		"right
+		"right"
 	bay "Fighter" -226.5 -312.5
 		"left"
 	bay "Fighter" 226.5 -312.5
-		"right
+		"right"
 	bay "Fighter" -231 -224
 		"left"
 	bay "Fighter" 231 -224
-		"right
+		"right"
 	bay "Fighter" -235.5 -144.5
 		"left"
 	bay "Fighter" 235.5 -144.5
-		"right
+		"right"
 	bay "Fighter" -235.5 -60.5
 		"left"
 	bay "Fighter" 235.5 -60.5
-		"right
+		"right"
 	bay "Fighter" -226.5 74.5
 		"left"
 	bay "Fighter" 226.5 74.5
-		"right
+		"right"
 	bay "Fighter" -235.5 163.5
 		"left"
 	bay "Fighter" 235.5 163.5
-		"right
+		"right"
 	bay "Fighter" -235.5 242.5
 		"left"
 	bay "Fighter" 235.5 242.5
-		"right
+		"right"
 	bay "Fighter" -235.5 322
 		"left"
 	bay "Fighter" 235.5 322
-		"right
+		"right"
 	bay "Fighter" -226.5 -312.5
 		"left"
 	bay "Fighter" 226.5 -312.5
-		"right
+		"right"
 	bay "Fighter" -231 -224
 		"left"
 	bay "Fighter" 231 -224
-		"right
+		"right"
 	bay "Fighter" -235.5 -144.5
 		"left"
 	bay "Fighter" 235.5 -144.5
-		"right
+		"right"
 	bay "Fighter" -235.5 -60.5
 		"left"
 	bay "Fighter" 235.5 -60.5
-		"right
+		"right"
 	bay "Fighter" -226.5 74.5
 		"left"
 	bay "Fighter" 226.5 74.5
-		"right
+		"right"
 	bay "Fighter" -235.5 163.5
 		"left"
 	bay "Fighter" 235.5 163.5
-		"right
+		"right"
 	bay "Fighter" -235.5 242.5
 		"left"
 	bay "Fighter" 235.5 242.5
-		"right
+		"right"
 	bay "Fighter" -235.5 322
 		"left"
 	bay "Fighter" 235.5 322
-		"right
+		"right"
 	engine 2.5 1647.5
 		zoom 3
 		angle 0
