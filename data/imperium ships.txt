@@ -2546,234 +2546,333 @@ ship "Judicator-Class"
 	description "Experimental Judicator-class Battlecarrier is heavily modified Emperor-class that delivers both raw firepower and swarm of fighters. It is armed with a pair of lance batteries for long ranged support and double-decked fighter bays to deliver large number of fighters. This however results in a very heavy ship making it less manoeuvrable than most other battleships."
 	
 ship "Gloriana-Class"
-	sprite "ship/imperium gloriana swordstorm"
-	thumbnail "thumbnail/imperium gloriana swordstorm thumb"
+	sprite "ship/imperium gloriana class amphion"
+	thumbnail "thumbnail/imperium gloriana class amphion thumb"
 	"swizzle" 0
 	attributes
 		category "Heavy Warship"
 		"cost" 19089200000
-		"shields" 5000000
-		"hull" 6852000
+		"shields" 6800000
+		"hull" 7252000
 		"required crew" 3500
 		"bunks" 5000
-		"mass" 85800
-		"drag" 12.1
+		"mass" 95800
+		"drag" 16.1
 		"heat dissipation" .55
 		"fuel capacity" 2000
 		"cargo space" 1200
 		"outfit space" 25876
 		"weapon capacity" 18850
 		"engine capacity" 4680
-		"force protection" 80
-		"imperium ram" -4
+		"force protection" 85
+		"imperium ram" -6
 		"spinal mount" 1
-		"4port array" 12
-		"4port double deck array" 6
+		"4port array" 6
 		weapon
 			"blast radius" 15200
 			"shield damage" 940000
 			"hull damage" 420000
 			"hit force" 12600
 	outfits
-		"Imperium Ram" 4
+		"Imperium Ram" 6
 		"Ryza-Pattern Nova Cannon"
-		"Heavy Mac Duo-Deck R" 3
-		"Heavy Mac Duo-Deck L" 3
-		"Heavy Lance Cannon" 4
-		"Imperium Flak Batteries" 4
+		"Heavy Mac Cannon" 24
+		"Heavy Lance Cannon" 2
+		"Imperium Flak Batteries" 32
+		"Multi-Las Turret" 12
 		"Triple Hev Lance Turret" 6
-		"Hex Med Lance Turret" 8
+		"Hex Med Lance Turret" 12
 
 		"Large Plasma Core" 8
 		"Small Plasma Storage" 8
 		"Heavy Void Shield" 12
 		"Heavy Field Braces" 2
 		"Las Rifle" 3800
-		"Imperium Plasma Gun" 380
+		"Imperium Plasma Gun" 680
 		"Plasma Cooler" 5
 
-		"Large Plasma Drive" 5
+		"Large Plasma Drive" 3
 		"Warp-Drive"
 		
-	gun 0 -3425.5 "Ryza-Pattern Nova Cannon"
-	turret 0 -2445.5 "Triple Hev Lance Turret"
-	turret 0 -2090.5 "Triple Hev Lance Turret"
-	turret 0 -1344 "Triple Hev Lance Turret"
-	turret 0 -970.5 "Triple Hev Lance Turret"
-	turret 0 -298.5 "Triple Hev Lance Turret"
-	turret 0 56 "Triple Hev Lance Turret"
-	gun -102.5 -3276 "Imperium Ram"
-	gun 102.5 -3276 "Imperium Ram"
-	gun -252 -2977.5 "Imperium Ram"
-	gun 252 -2977.5 "Imperium Ram"
-	turret -382.5 56 "Hex Med Lance Turret"
-	turret 382.5 56 "Hex Med Lance Turret"
-	turret -392 168 "Hex Med Lance Turret"
-	turret 392 168 "Hex Med Lance Turret"
-	turret -392 597.5 "Hex Med Lance Turret"
-	turret 392 597.5 "Hex Med Lance Turret"
-	turret -401.5 690.5 "Hex Med Lance Turret"
-	turret 401.5 690.5 "Hex Med Lance Turret"
-	gun -429.5 -1633.5 "Heavy Mac Duo-Deck L"
+	gun 0 -3369.5 "Ryza-Pattern Nova Cannon"
+	gun -121.5 -2501.5 "Imperium Ram"
+	gun 121.5 -2501.5 "Imperium Ram"
+	gun -121.5 -2501.5 "Imperium Ram"
+	gun 121.5 -2501.5 "Imperium Ram"
+	gun -242.5 -2221.5 "Imperium Ram"
+	gun 242.5 -2221.5 "Imperium Ram"
+	turret 0 -1973 "Triple Hev Lance Turret"
+	turret 0 -1624 "Triple Hev Lance Turret"
+	turret 0 -961.5 "Triple Hev Lance Turret"
+	turret 0 -569.5 "Triple Hev Lance Turret"
+	turret 0 74.5 "Triple Hev Lance Turret"
+	turret 0 476
+	gun -400.5 -1258 
 		angle -90
-	gun 429.5 -1633.5 "Heavy Mac Duo-Deck R"
+	gun 400.5 -1258
 		angle 90
-	gun -429.5 -1101.5 "Heavy Mac Duo-Deck L"
+	gun -400.5 -1138.5
 		angle -90
-	gun 429.5 -1101.5 "Heavy Mac Duo-Deck R"
+	gun 400.5 -1138.5
 		angle 90
-	gun -429.5 -569.5 "Heavy Mac Duo-Deck L"
+	gun -400.5 -1017.5
 		angle -90
-	gun 429.5 -569.5 "Heavy Mac Duo-Deck R"
+	gun 400.5 -1017.5
 		angle 90
-	gun -765.5 326.5 "Heavy Lance Cannon"
-	gun 765.5 326.5 "Heavy Lance Cannon"
-	gun -672 569.5 "Heavy Lance Cannon"
-	gun 672 569.5 "Heavy Lance Cannon"
-	turret -513.5 1456 "Imperium Flak Batteries"
-	turret 513.5 1456 "Imperium Flak Batteries"
-	turret -205.5 -2436 "Imperium Flak Batteries"
-	turret 205.5 -2436 "Imperium Flak Batteries"
-	bay "Fighter" -392 46.5
-		left
-	bay "Fighter" 392 46.5
-		right
-	bay "Fighter" -373.5 186.5
-		left
-	bay "Fighter" 373.5 186.5
-		right
-	bay "Fighter" -373.5 569.5
-		left
-	bay "Fighter" 373.5 569.5
-		right
-	bay "Fighter" -382.5 718.5
-		left
-	bay "Fighter" 382.5 718.5
-		right
-	bay "Fighter" 0 802.5
-	bay "Fighter" -392 46.5
-		left
-	bay "Fighter" 392 46.5
-		right
-	bay "Fighter" -373.5 186.5
-		left
-	bay "Fighter" 373.5 186.5
-		right
-	bay "Fighter" -373.5 569.5
-		left
-	bay "Fighter" 373.5 569.5
-		right
-	bay "Fighter" -382.5 718.5
-		left
-	bay "Fighter" 382.5 718.5
-		right
-	bay "Fighter" 0 802.5
-	bay "Fighter" -392 46.5
-		left
-	bay "Fighter" 392 46.5
-		right
-	bay "Fighter" -373.5 186.5
-		left
-	bay "Fighter" 373.5 186.5
-		right
-	bay "Fighter" -373.5 569.5
-		left
-	bay "Fighter" 373.5 569.5
-		right
-	bay "Fighter" -382.5 718.5
-		left
-	bay "Fighter" 382.5 718.5
-		right
-	bay "Fighter" 0 802.5
-	bay "Fighter" -392 46.5
-		left
-	bay "Fighter" 392 46.5
-		right
-	bay "Fighter" -373.5 186.5
-		left
-	bay "Fighter" 373.5 186.5
-		right
-	bay "Fighter" -373.5 569.5
-		left
-	bay "Fighter" 373.5 569.5
-		right
-	bay "Fighter" -382.5 718.5
-		left
-	bay "Fighter" 382.5 718.5
-		right
-	bay "Fighter" 0 802.5
-	bay "Fighter" -392 46.5
-		left
-	bay "Fighter" 392 46.5
-		right
-	bay "Fighter" -373.5 186.5
-		left
-	bay "Fighter" 373.5 186.5
-		right
-	bay "Fighter" -373.5 569.5
-		left
-	bay "Fighter" 373.5 569.5
-		right
-	bay "Fighter" -382.5 718.5
-		left
-	bay "Fighter" 382.5 718.5
-		right
-	bay "Fighter" 0 802.5
-	bay "Fighter" -392 46.5
-		left
-	bay "Fighter" 392 46.5
-		right
-	bay "Fighter" -373.5 186.5
-		left
-	bay "Fighter" 373.5 186.5
-		right
-	bay "Fighter" -373.5 569.5
-		left
-	bay "Fighter" 373.5 569.5
-		right
-	bay "Fighter" -382.5 718.5
-		left
-	bay "Fighter" 382.5 718.5
-		right
-	bay "Fighter" 0 802.5
-	engine 0 3434.5
-		zoom 5
-		angle 0
-		under
-	engine 280 3360
-		zoom 4
-		angle 0
-		under
-	engine -280 3360
-		zoom 4
-		angle 0
-		under
-	engine 308 3257.5
-		zoom 4
-		angle 0
-		over
-	engine -308 3257.5
-		zoom 4
-		angle 0
-		over
-	engine 578.5 3266.5
-		zoom 3
-		angle 0
-		under
-	engine -578.5 3266.5
-		zoom 3
-		angle 0
-		under
-	"steering engine" 392 -1866.5
-		zoom 3
+	gun -400.5 -896
 		angle -90
-		under
-		left
-	"steering engine" -392 -1866.5
-		zoom 3
+	gun 400.5 -896
 		angle 90
+	gun -400.5 -718.5
+		angle -90
+	gun 400.5 -718.5
+		angle 90
+	gun -400.5 -597.5
+		angle -90
+	gun 400.5 -597.5
+		angle 90
+	gun -400.5 -485.5
+		angle -90
+	gun 400.5 -485.5
+		angle 90
+	gun -400.5 -373.5
+		angle -90
+	gun 400.5 -373.5
+		angle 90
+	gun -400.5 -196
+		angle -90
+	gun 400.5 -196
+		angle 90
+	gun -400.5 -74.5
+		angle -90
+	gun 400.5 -74.5
+		angle 90
+	gun -400.5 46.5
+		angle -90
+	gun 400.5 46.5
+		angle 90
+	gun -400.5 158.5
+		angle -90
+	gun 400.5 158.5
+		angle 90
+	turret -261.5 -1148 "Hex Med Lance Turret"
+	turret 261.5 -1148 "Hex Med Lance Turret"
+	turret -261.5 -1008 "Hex Med Lance Turret"
+	turret 261.5 -1008 "Hex Med Lance Turret"
+	turret -261.5 -625.5 "Hex Med Lance Turret"
+	turret 261.5 -625.5 "Hex Med Lance Turret"
+	turret -261.5 -448 "Hex Med Lance Turret"
+	turret 261.5 -448 "Hex Med Lance Turret"
+	turret -261.5 -74.5 "Hex Med Lance Turret"
+	turret 261.5 -74.5 "Hex Med Lance Turret"
+	turret -261.5 74.5 "Hex Med Lance Turret"
+	turret 261.5 74.5 "Hex Med Lance Turret"
+	gun -774.5 634.5 "Heavy Lance Cannon"
+	gun 774.5 634.5 "Heavy Lance Cannon"
+	turret -158.5 -2090.5
+	turret 158.5 -2090.5
+	turret -270.5 -1941.5 "Multi-Las Turret"
+	turret 270.5 -1941.5 "Multi-Las Turret"
+	turret -326.5 -1717.5 "Multi-Las Turret"
+	turret 326.5 -1717.5 "Multi-Las Turret"
+	turret -336 -1446.5
+	turret 336 -1446.5
+	turret -382.5 1754.5
+	turret 382.5 1754.5
+	turret -382.5 1866.5
+	turret 382.5 1866.5
+	turret -392 1969.5
+	turret 392 1969.5
+	turret -840 1502.5
+	turret 840 1502.5
+	turret -840 1624
+	turret 840 1624
+	turret -840 1726.5
+	turret 840 1726.5
+	turret -149.5 -1185.5 "Multi-Las Turret"
+	turret 149.5 -1185.5 "Multi-Las Turret"
+	turret -177.5 -774.5 "Multi-Las Turret"
+	turret 177.5 -774.5 "Multi-Las Turret"
+	turret -177.5 -326.5
+	turret 177.5 -326.5
+	turret -177.5 -102.5
+	turret 177.5 -102.5
+	turret -168 149.5
+	turret 168 149.5
+	turret -177.5 392
+	turret 177.5 392
+	turret -158.5 606.5
+	turret 158.5 606.5
+	turret -177.5 914.5
+	turret 177.5 914.5
+	turret -177.5 1754.5 "Multi-Las Turret"
+	turret 177.5 1754.5 "Multi-Las Turret"
+	turret -177.5 1885.5 "Multi-Las Turret"
+	turret 177.5 1885.5 "Multi-Las Turret"
+	turret -177.5 2053.5
+	turret 177.5 2053.5
+	turret -448 2548
+	turret 448 2548
+	engine 345.5 3257.5
+		zoom 1
+		angle 0
 		under
+	engine -345.5 3257.5
+		zoom 1
+		angle 0
+		under
+	engine 149.5 3397.5
+		zoom 1
+		angle 0
+		under
+	engine -149.5 3397.5
+		zoom 1
+		angle 0
+		under
+	bay "Fighter" -373.5 401.5
 		right
+	bay "Fighter" 373.5 401.5
+		left
+	bay "Fighter" -373.5 625.5
+		right
+	bay "Fighter" 373.5 625.5
+		left
+	bay "Fighter" -354.5 933.5
+		right
+	bay "Fighter" 354.5 933.5
+		left
+	bay "Fighter" -373.5 1176
+		right
+	bay "Fighter" 373.5 1176
+		left
+	bay "Fighter" -373.5 401.5
+		right
+	bay "Fighter" 373.5 401.5
+		left
+	bay "Fighter" -373.5 625.5
+		right
+	bay "Fighter" 373.5 625.5
+		left
+	bay "Fighter" -354.5 933.5
+		right
+	bay "Fighter" 354.5 933.5
+		left
+	bay "Fighter" -373.5 1176
+		right
+	bay "Fighter" 373.5 1176
+		left
+	bay "Fighter" -373.5 401.5
+		right
+	bay "Fighter" 373.5 401.5
+		left
+	bay "Fighter" -373.5 625.5
+		right
+	bay "Fighter" 373.5 625.5
+		left
+	bay "Fighter" -354.5 933.5
+		right
+	bay "Fighter" 354.5 933.5
+		left
+	bay "Fighter" -373.5 1176
+		right
+	bay "Fighter" 373.5 1176
+		left
+	bay "Fighter" -373.5 401.5
+		right
+	bay "Fighter" 373.5 401.5
+		left
+	bay "Fighter" -373.5 625.5
+		right
+	bay "Fighter" 373.5 625.5
+		left
+	bay "Fighter" -354.5 933.5
+		right
+	bay "Fighter" 354.5 933.5
+		left
+	bay "Fighter" -373.5 1176
+		right
+	bay "Fighter" 373.5 1176
+		left
+	bay "Fighter" -373.5 401.5
+		right
+	bay "Fighter" 373.5 401.5
+		left
+	bay "Fighter" -373.5 625.5
+		right
+	bay "Fighter" 373.5 625.5
+		left
+	bay "Fighter" -354.5 933.5
+		right
+	bay "Fighter" 354.5 933.5
+		left
+	bay "Fighter" -373.5 1176
+		right
+	bay "Fighter" 373.5 1176
+		left
+	bay "Fighter" -373.5 401.5
+		right
+	bay "Fighter" 373.5 401.5
+		left
+	bay "Fighter" -373.5 625.5
+		right
+	bay "Fighter" 373.5 625.5
+		left
+	bay "Fighter" -354.5 933.5
+		right
+	bay "Fighter" 354.5 933.5
+		left
+	bay "Fighter" -373.5 1176
+		right
+	bay "Fighter" 373.5 1176
+		left
+	bay "Fighter" -373.5 401.5
+		right
+	bay "Fighter" 373.5 401.5
+		left
+	bay "Fighter" -373.5 625.5
+		right
+	bay "Fighter" 373.5 625.5
+		left
+	bay "Fighter" -354.5 933.5
+		right
+	bay "Fighter" 354.5 933.5
+		left
+	bay "Fighter" -373.5 1176
+		right
+	bay "Fighter" 373.5 1176
+		left
+	bay "Fighter" -373.5 401.5
+		right
+	bay "Fighter" 373.5 401.5
+		left
+	bay "Fighter" -373.5 625.5
+		right
+	bay "Fighter" 373.5 625.5
+		left
+	bay "Fighter" -354.5 933.5
+		right
+	bay "Fighter" 354.5 933.5
+		left
+	bay "Fighter" -373.5 1176
+		right
+	bay "Fighter" 373.5 1176
+		left
+	bay "Fighter" -373.5 401.5
+		right
+	bay "Fighter" 373.5 401.5
+		left
+	bay "Fighter" -373.5 625.5
+		right
+	bay "Fighter" 373.5 625.5
+		left
+	bay "Fighter" -354.5 933.5
+		right
+	bay "Fighter" 354.5 933.5
+		left
+	bay "Fighter" -373.5 1176
+		right
+	bay "Fighter" 373.5 1176
+		left
 	explode "tiny explosion" 18
 	explode "small explosion" 46
 	explode "medium explosion" 64
