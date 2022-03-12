@@ -1,6 +1,8 @@
 # Endless-Sky-40K
  Warhammer 40k mod for Endless Sky
  
+ REQUIRES: Endless Sky continuous version after 27 Feb 2022 to work. (Specifically commit dd7c20314c4a35d4017583bf1654891d06f11377)
+ 
 ![retribution](https://user-images.githubusercontent.com/19187937/140309820-abd6123c-cb61-4b81-9495-9ece214b55fa.PNG)
 
 Currently have:
