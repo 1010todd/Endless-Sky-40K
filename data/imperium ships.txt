@@ -1293,6 +1293,188 @@ ship "Retribution-Class"
 		"Plasma Torpedo Tube" 8
 		"Imperium Plasma Torpedo" 64
 		"Ryza-Pattern Nova Cannon"
+		"Heavy Mac Cannon" 24
+		"Heavy Lance Cannon" 4
+		"Imperium CIWS Turret" 2
+		"Imperium Flak Turret" 20
+		"Triple Med Lance Turret" 5
+
+		"Large Plasma Core" 4
+		"Small Plasma Storage" 4
+		"Heavy Void Shield" 4
+		"Heavy Field Braces"
+		"Las Rifle" 1800
+		"Imperium Plasma Gun" 80
+		"Plasma Cooler"
+
+		"Large Plasma Drive"
+		"Warp-Drive"
+		
+	gun 0 -1689.5 "Ryza-Pattern Nova Cannon"
+	gun -105 -1236.5 "Imperium Ram"
+	gun 105 -1236.5 "Imperium Ram"
+	gun -170.5 -1073.5 "Imperium Ram"
+	gun 170.5 -1073.5 "Imperium Ram"
+	gun -329 9.5 "Heavy Lance Cannon"
+	gun 329 9.5 "Heavy Lance Cannon"
+	gun -445.5 88.5 "Heavy Lance Cannon"
+	gun 445.5 88.5 "Heavy Lance Cannon"
+	gun -235.5 -924 "Plasma Torpedo Tube"
+	gun 235.5 -924 "Plasma Torpedo Tube"
+	gun -231 -914.5 "Plasma Torpedo Tube"
+	gun 231 -914.5 "Plasma Torpedo Tube"
+	gun -231 -905.5 "Plasma Torpedo Tube"
+	gun 231 -905.5 "Plasma Torpedo Tube"
+	gun -231 -900.5 "Plasma Torpedo Tube"
+	gun 231 -900.5 "Plasma Torpedo Tube"
+	gun -215 -701.5
+		right
+	gun 215 -701.5
+		left
+	gun -215 -612.5
+		right
+	gun 215 -612.5
+		left
+	gun -215 -527.5
+		right
+	gun 215 -527.5
+		left
+	gun -215 -438.5
+		right
+	gun 215 -438.5
+		left
+	gun -215 -298.5
+		right
+	gun 215 -298.5
+		left
+	gun -215 -210
+		right
+	gun 215 -210
+		left
+	gun -215 -128.5
+		right
+	gun 215 -128.5
+		left
+	gun -215 -32.5
+		right
+	gun 215 -32.5
+		left
+	gun -215 102.5
+		right
+	gun 215 102.5
+		left
+	gun -215 182
+		right
+	gun 215 182
+		left
+	gun -215 275.5
+		right
+	gun 215 275.5
+		left
+	gun -215 364
+		right
+	gun 215 364
+		left
+	turret -128.5 -639.5
+	turret 128.5 -639.5
+	turret -119 -476
+	turret 119 -476
+	turret -128.5 -238
+	turret 128.5 -238
+	turret -133 -84
+	turret 133 -84
+	turret -133 102.5
+	turret 133 102.5
+	turret -133 312.5
+	turret 133 312.5
+	turret -403.5 420.5
+	turret 403.5 420.5
+	turret -399 504
+	turret 399 504
+	turret -399 578.5
+	turret 399 578.5
+	turret 0 -872.5 "Triple Med Lance Turret"
+	turret 0 -672 "Triple Med Lance Turret"
+	turret 0 -252 "Triple Med Lance Turret"
+	turret 0 261.5 "Triple Med Lance Turret"
+	turret 0 480.5 "Triple Med Lance Turret"
+	turret -109.5 -905.5 "Imperium CIWS Turret"
+	turret 109.5 -905.5 "Imperium CIWS Turret"
+	turret -226.5 690.5 "Imperium Flak Turret"
+	turret 226.5 690.5 "Imperium Flak Turret"
+	bay "Fighter" -147 532
+	bay "Fighter" 147 532
+	bay "Fighter" -147 532
+	bay "Fighter" 147 532
+	bay "Fighter" -147 532
+	bay "Fighter" 147 532
+	bay "Fighter" -147 532
+	bay "Fighter" 147 532
+	bay "Fighter" -147 532
+	bay "Fighter" 147 532
+	bay "Fighter" -147 532
+	bay "Fighter" 147 532
+	bay "Fighter" -147 532
+	bay "Fighter" 147 532
+	bay "Fighter" -147 532
+	bay "Fighter" 147 532
+	bay "Fighter" -147 532
+	bay "Fighter" 147 532
+	bay "Fighter" -147 532
+	bay "Fighter" 147 532
+	engine 2.5 1647.5
+		zoom 3
+		angle 0
+		under
+	engine 119 1600.5
+		zoom 2
+		angle 0
+		under
+	engine -119 1600.5
+		zoom 2
+		angle 0
+		under
+	explode "tiny explosion" 18
+	explode "small explosion" 46
+	explode "medium explosion" 64
+	explode "large explosion" 60
+	"final explode" "final explosion large" 2
+	description "Retribution-Class Battleship. The Retribution-class battleship is notable for its array of broadside cannons."
+	description "Note: due to game engine limitation ships are unable to have more than 32 weapon hardpoint, hacky workaround was used to give it the proper amount of armaments and thus the macro cannon arrays cannot be replaced with other weapons, that'll also be heretical."
+	
+ship "Retribution-Class" "Retribution-Class (Old Hardpoint)"
+	sprite "ship/imperium retribution class"
+	thumbnail "thumbnail/imperium retribution class thumb"
+	"swizzle" 0
+	attributes
+		category "Heavy Warship"
+		"cost" 8200000
+		"shields" 1635000
+		"hull" 2264700
+		"required crew" 1890
+		"bunks" 2400
+		"mass" 45800
+		"drag" 18.1
+		"heat dissipation" .5
+		"fuel capacity" 2800
+		"cargo space" 1200
+		"outfit space" 9876
+		"weapon capacity" 6850
+		"engine capacity" 880
+		"force protection" 12
+		"imperium ram" -4
+		"spinal mount" 1
+		"4port array" 6
+		weapon
+			"blast radius" 1520
+			"shield damage" 94000
+			"hull damage" 42000
+			"hit force" 1260
+	outfits
+		"Imperium Ram" 4
+		"Plasma Torpedo Tube" 8
+		"Imperium Plasma Torpedo" 64
+		"Ryza-Pattern Nova Cannon"
 		"Heavy Mac Array R" 3
 		"Heavy Mac Array L" 3
 		"Heavy Lance Cannon" 4
@@ -1388,6 +1570,8 @@ ship "Retribution-Class"
 	"final explode" "final explosion large" 2
 	description "Retribution-Class Battleship. The Retribution-class battleship is notable for its array of broadside cannons."
 	description "Note: due to game engine limitation ships are unable to have more than 32 weapon hardpoint, hacky workaround was used to give it the proper amount of armaments and thus the macro cannon arrays cannot be replaced with other weapons, that'll also be heretical."
+	description "This is the old version of Retribution-Class for when the game have limited hardpoint."
+	
 	
 ship "Victory-Class"
 	sprite "ship/imperium victory class"
