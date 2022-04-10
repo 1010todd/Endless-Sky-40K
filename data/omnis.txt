@@ -1,0 +1,239 @@
+#	Systems followed by planets held within
+
+system "ES 40K"
+	pos 130 -10030
+	government "cheat"
+	object "ES 40K"
+		sprite planet/ringworld
+		distance 812
+		offset 20
+	object "ES 40K"
+		sprite planet/ringworld
+		distance 812
+		offset 40
+	object "ES 40K"
+		sprite planet/ringworld
+		distance 812
+		offset 60
+	object "ES 40K"
+		sprite planet/ringworld
+		distance 812
+		offset 80
+	object "ES 40K"
+		sprite planet/ringworld
+		distance 812
+		offset 100
+	object "ES 40K"
+		sprite planet/ringworld
+		distance 812
+		offset 120
+	object "ES 40K"
+		sprite planet/ringworld
+		distance 812
+		offset 140
+	object "ES 40K"
+		sprite planet/ringworld
+		distance 812
+		offset 160
+	object "ES 40K"
+		sprite planet/ringworld
+		distance 812
+		offset 180
+	object "ES 40K"
+		sprite planet/ringworld
+		distance 812
+		offset 200
+	object "ES 40K"
+		sprite planet/ringworld
+		distance 812
+		offset 220
+	object "ES 40K"
+		sprite planet/ringworld
+		distance 812
+		offset 240
+	object "ES 40K"
+		sprite planet/ringworld
+		distance 812
+		offset 260
+	object "ES 40K"
+		sprite planet/ringworld
+		distance 812
+		offset 280
+	object "ES 40K"
+		sprite planet/ringworld
+		distance 812
+		offset 300
+	object "ES 40K"
+		sprite planet/ringworld
+		distance 812
+		offset 320
+	object "ES 40K"
+		sprite planet/ringworld
+		distance 812
+		offset 340
+	object "ES 40K"
+		sprite planet/ringworld
+		distance 812
+		offset 360
+
+planet "ES 40K"
+	description ``
+	landscape landscape/station6
+	spaceport ``
+	outfitter "ES 40K"
+	shipyard "ES 40K"
+	bribe 0
+
+planet "Plugins"
+	add outfitter "ES 40K"
+	add shipyard "ES 40K"
+
+#	Reveal missions
+
+mission "reveal omnis-40k"
+	invisible
+	landing
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "reveal omnis-40k"
+
+event "reveal omnis-40k"
+	visit "ES 40K"
+
+#	Sales
+
+outfitter "ES 40K"
+	"Apocalypse-Class Lance Turret"
+	"Apocalypse-Class-B Lance Turret"
+	"Atmospheric Incinerator Torpedo"
+	"Atmospheric Incinerator Tube"
+	"Boarding Torpedo Launcher"
+	"Boarding Torpedo"
+	"Cult Mechanicus"
+	"Disruption Mac Cannon"
+	"Dolmen Gate"
+	"Fighter Plasma Core"
+	"Fighter Plasma Drive"
+	"Fighter Void Shield"
+	"Gravitic Drive"
+	"Graviton Pulsar Turret"
+	"Graviton Pulsar"
+	"Guided Torpedo Tube"
+	"Heavy Field Braces"
+	"Heavy Lance Cannon"
+	"Heavy Mac Array L"
+	"Heavy Mac Array R"
+	"Heavy Mac Cannon"
+	"Heavy Mac Duo-Deck L"
+	"Heavy Mac Duo-Deck R"
+	"Heavy Pyros Melta Array L"
+	"Heavy Pyros Melta Array R"
+	"Heavy Void Shield"
+	"Hex Med Lance Turret"
+	"Imperium CIWS Turret"
+	"Imperium Flak Batteries"
+	"Imperium Flak Turret"
+	"Imperium Guided Torpedo"
+	"Imperium Melta Torpedo"
+	"Imperium Plasma Gun"
+	"Imperium Plasma Torpedo"
+	"Imperium Power Ram"
+	"Imperium Ram"
+	"Imperium Seeking Torpedo"
+	"Imperium Shortburn Torpedo"
+	"Imperium Vortex Torpedo"
+	"Lance Cannon"
+	"Large Necron Inertialess Drive"
+	"Large Plasma Core"
+	"Large Plasma Drive"
+	"Las Rifle"
+	"Las-burner Turret"
+	"Lascannon Turret"
+	"Lascannon"
+	"Lathe Pattern Grav-culverin"
+	"Letters of Marque"
+	"Light Field Braces"
+	"Light Void Shield"
+	"Mac Cannon Turret"
+	"Mac Cannon"
+	"Mars-Pattern Nova Cannon"
+	"Medium Field Braces"
+	"Medium Lance Cannon"
+	"Medium Plasma Core"
+	"Medium Plasma Drive"
+	"Medium Void Shield"
+	"Melta Torpedo Tube"
+	"Mortalis Atmospheric Launcher"
+	"Mortalis Atmospheric Missile"
+	"Multi-Las Turret"
+	"Multi-Las"
+	"N'dai Plasma Cannon"
+	"Necron Gauss PD Turret"
+	"Necron Lighting Arc"
+	"Necron Particle Whip"
+	"Neutronium Lance"
+	"Plasma Cooler"
+	"Plasma Torpedo Tube"
+	"Psychic Cannon"
+	"Pyros Melta Cannon"
+	"Quad Med Lance Turret"
+	"Reflex Shield"
+	"Ryza-Pattern Nova Cannon"
+	"Seeking Torpedo Tube"
+	"Sepulchre"
+	"Shortburn Torpedo Tube"
+	"Small Plasma Core"
+	"Small Plasma Drive"
+	"Small Plasma Storage"
+	"Star Pulse Generator"
+	"Super Heavy Field Braces"
+	"Super Heavy Void Shield"
+	"Tau Burst Cannon"
+	"Tau Gravetic Launcher"
+	"Tau Ion Battery"
+	"Tau Large Deflector Shield"
+	"Tau Medium Deflector Shield"
+	"Tau Railgun Battery"
+	"Tau Railgun"
+	"Tau Small Deflector Shield"
+	"Triple Heavy Mac Turret"
+	"Triple Hev Lance Turret"
+	"Triple Las-burner Turret"
+	"Triple Mac Turret"
+	"Triple Med Lance Turret"
+	"Two-stage Cyclonic second stage"
+	"Two-stage Cyclonic Torpedo"
+	"Two-stage Cyclonic Tube"
+	"Ultramarines"
+	"Victory-Class Lance Turret"
+	"Vortex Torpedo Tube"
+	"Warp-Drive"
+	"Warrant of Trade"
+
+shipyard "ES 40K"
+	"Apocalypse-Class"
+	"Cairn-Class"
+	"Cobra-Class"
+	"Dauntless-Class"
+	"Dictator-Class"
+	"Dominator-Class"
+	"Emperor-Class"
+	"Gloriana-Class"
+	"Gloriana-Class (Swordstorm)"
+	"Gothic-Class"
+	"Gothic-Class (Admech)"
+	"Il'Porrui Class"
+	"Imperium Fury"
+	"Imperium Transport"
+	"Judicator-Class"
+	"Kir'shasvre Class"
+	"Lunar-Class"
+	"Lunar-Class (Nova)"
+	"Nemesis-Class"
+	"O'Res El'leath Class"
+	"Retribution-Class"
+	"Storm-Class"
+	"Vengeance-Class"
+	"Victory-Class"
