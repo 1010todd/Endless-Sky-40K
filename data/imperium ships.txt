@@ -1328,53 +1328,53 @@ ship "Retribution-Class"
 	gun -231 -900.5 "Plasma Torpedo Tube"
 	gun 231 -900.5 "Plasma Torpedo Tube"
 	gun -215 -701.5
-		right
+		angle -90
 	gun 215 -701.5
-		left
+		angle 90
 	gun -215 -612.5
-		right
+		angle -90
 	gun 215 -612.5
-		left
+		angle 90
 	gun -215 -527.5
-		right
+		angle -90
 	gun 215 -527.5
-		left
+		angle 90
 	gun -215 -438.5
-		right
+		angle -90
 	gun 215 -438.5
-		left
+		angle 90
 	gun -215 -298.5
-		right
+		angle -90
 	gun 215 -298.5
-		left
+		angle 90
 	gun -215 -210
-		right
+		angle -90
 	gun 215 -210
-		left
+		angle 90
 	gun -215 -128.5
-		right
+		angle -90
 	gun 215 -128.5
-		left
+		angle 90
 	gun -215 -32.5
-		right
+		angle -90
 	gun 215 -32.5
-		left
+		angle 90
 	gun -215 102.5
-		right
+		angle -90
 	gun 215 102.5
-		left
+		angle 90
 	gun -215 182
-		right
+		angle -90
 	gun 215 182
-		left
+		angle 90
 	gun -215 275.5
-		right
+		angle -90
 	gun 215 275.5
-		left
+		angle 90
 	gun -215 364
-		right
+		angle -90
 	gun 215 364
-		left
+		angle 90
 	turret -128.5 -639.5
 	turret 128.5 -639.5
 	turret -119 -476
