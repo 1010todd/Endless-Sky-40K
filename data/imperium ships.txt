@@ -1316,9 +1316,13 @@ ship "Retribution-Class"
 	gun -170.5 -1073.5 "Imperium Ram"
 	gun 170.5 -1073.5 "Imperium Ram"
 	gun -329 9.5 "Heavy Lance Cannon"
+		parallel
 	gun 329 9.5 "Heavy Lance Cannon"
+		parallel
 	gun -445.5 88.5 "Heavy Lance Cannon"
+		parallel
 	gun 445.5 88.5 "Heavy Lance Cannon"
+		parallel
 	gun -235.5 -924 "Plasma Torpedo Tube"
 	gun 235.5 -924 "Plasma Torpedo Tube"
 	gun -231 -914.5 "Plasma Torpedo Tube"
@@ -1499,9 +1503,13 @@ ship "Retribution-Class" "Retribution-Class (Old Hardpoint)"
 	gun -170.5 -1073.5 "Imperium Ram"
 	gun 170.5 -1073.5 "Imperium Ram"
 	gun -329 9.5 "Heavy Lance Cannon"
+		parallel
 	gun 329 9.5 "Heavy Lance Cannon"
+		parallel
 	gun -445.5 88.5 "Heavy Lance Cannon"
+		parallel
 	gun 445.5 88.5 "Heavy Lance Cannon"
+		parallel
 	gun -235.5 -924 "Plasma Torpedo Tube"
 	gun 235.5 -924 "Plasma Torpedo Tube"
 	gun -231 -914.5 "Plasma Torpedo Tube"
@@ -1632,9 +1640,13 @@ ship "Victory-Class"
 	turret -2.5 247.5 "Quad Med Lance Turret"
 	turret -2.5 471.5 "Quad Med Lance Turret"
 	gun -329 9.5
+		parallel
 	gun 329 9.5
+		parallel
 	gun -450.5 4.5
+		parallel
 	gun 450.5 4.5
+		parallel
 	turret -212.5 -644
 	turret 212.5 -644
 	turret -217 -541.5
@@ -1742,9 +1754,13 @@ ship "Apocalypse-Class"
 	turret -224 256
 	turret 224 256
 	gun -389.5 -218.5
+		parallel
 	gun 389.5 -218.5
+		parallel
 	gun -528 -266.5
+		parallel
 	gun 528 -266.5
+		parallel
 	turret -106.5 -1301.5 "Imperium CIWS Turret"
 	turret 106.5 -1301.5 "Imperium CIWS Turret"
 	turret -122.5 -1184 "Imperium Flak Turret"
@@ -1849,7 +1865,9 @@ ship "Emperor-Class"
 	gun 217 -457.5 "Heavy Mac Cannon"
 		"angle" 90
 	gun -455 112 "Heavy Lance Cannon"
+		parallel
 	gun 455 112 "Heavy Lance Cannon"
+		parallel
 	turret -53.5 -980
 	turret 53.5 -980
 	turret -114.5 -919.5
@@ -2101,7 +2119,9 @@ ship "Nemesis-Class"
 	turret -2.5 270.5 "Quad Med Lance Turret"
 	turret -2.5 476 "Quad Med Lance Turret"
 	gun -455 112 "Heavy Lance Cannon"
+		parallel
 	gun 455 112 "Heavy Lance Cannon"
+		parallel
 	turret -53.5 -980
 	turret 53.5 -980
 	turret -114.5 -919.5
@@ -2438,7 +2458,9 @@ ship "Judicator-Class"
 	turret -2.5 191.5
 	turret -2.5 387.5
 	gun -441 -14 "Heavy Lance Cannon"
+		parallel
 	gun 441 -14 "Heavy Lance Cannon"
+		parallel
 	turret -198.5 93.5 "Triple Med Lance Turret"
 	turret 198.5 93.5 "Triple Med Lance Turret"
 	turret -203 200.5 "Triple Med Lance Turret"
@@ -2852,7 +2874,9 @@ ship "Gloriana-Class"
 	turret -261.5 74.5 "Hex Med Lance Turret"
 	turret 261.5 74.5 "Hex Med Lance Turret"
 	gun -774.5 634.5 "Heavy Lance Cannon"
+		parallel
 	gun 774.5 634.5 "Heavy Lance Cannon"
+		parallel
 	turret -158.5 -2090.5
 	turret 158.5 -2090.5
 	turret -270.5 -1941.5 "Multi-Las Turret"
@@ -3146,9 +3170,13 @@ ship "Gloriana-Class" "Gloriana-Class (Swordstorm)"
 	gun 429.5 -569.5 "Heavy Mac Duo-Deck R"
 		angle 90
 	gun -765.5 326.5 "Heavy Lance Cannon"
+		parallel
 	gun 765.5 326.5 "Heavy Lance Cannon"
+		parallel
 	gun -672 569.5 "Heavy Lance Cannon"
+		parallel
 	gun 672 569.5 "Heavy Lance Cannon"
+		parallel
 	turret -513.5 1456 "Imperium Flak Batteries"
 	turret 513.5 1456 "Imperium Flak Batteries"
 	turret -205.5 -2436 "Imperium Flak Batteries"
